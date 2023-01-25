@@ -9372,7 +9372,7 @@ const buttonMessage = {
 ╠ ${prefix}truth
 ╠ ${prefix}dare
 ╠ ${prefix}tictactoe
-╠ ${prefix}delttt
+╠ ${prefix}deltttyyyyyrt
 ╠ ${prefix}guess [option]
 ╠ ${prefix}math [mode]
 ╠ ${prefix}suitpvp [tag]
@@ -9447,7 +9447,7 @@ const buttonMessage = {
     caption: `╔═══════✪ OTHER 	
 ╠ ${prefix}afk
 ╠ ${prefix}id
-╠ ${prefix}toqr [link]
+╠ ${prefix}toqr [li🎥🎶nk]
 ╠ ${prefix}repeat
 ╠ ${prefix}readmore [text]
 ╠ ${prefix}toviewonce
@@ -9477,14 +9477,13 @@ case 'warmenu':{
 var unicorn = await getBuffer(picak+'War Menu')
 
 const buttons = [
-  {buttonId: 'script', buttonText: {displayText: 'Script 🔖'}, type: 1},
-  {buttonId: 'donate', buttonText: {displayText: 'Donate 🍵'}, type: 1},
-  {buttonId: 'owner', buttonText: {displayText: 'Owner 🤣'}, type: 1}
+  {buttonId: 'script', buttonText: {displayText: 'BOT LINK 🔎'}, type: 1},
+  {buttonId: 'owner', buttonText: {displayText: 'OWNER🥷🏻'}, type: 1}
 ]
 const buttonMessage = {
     image: unicorn,
-    caption: `╔═══════✪「 BUG MENU 」	
-╠════☾pc attack☽
+    caption: `╔═══════ [ BUG MENU ]
+╠════😈pc attack🥶
 ╠${prefix}pcbut [number]
 ╠${prefix}pcvn [number]
 ╠${prefix}pcstick [number]
