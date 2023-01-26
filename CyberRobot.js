@@ -1,4 +1,3 @@
-
 require('./settings')
 const { BufferJSON, WA_DEFAULT_EPHEMERAL, generateWAMessageFromContent, proto, generateWAMessageContent, Mimetype, generateWAMessage, prepareWAMessageMedia, prepareMessageFromContent,  areJidsSameUser, getContentType } = require('@adiwajshing/baileys')
 const fs = require('fs')
@@ -7473,7 +7472,7 @@ case 'textshot': {
 case 'tqtt': 
 throw `Thanks to
 LORD BUDDHA
-Xeon (Me)
+Yuresh (Me)
 My family
 And all friends who helped assemble this sexy script !!!`
 break
