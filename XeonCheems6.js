@@ -7675,9 +7675,9 @@ break
 var unicorn = await getBuffer(picak+'All Menu')
 
 const buttons = [
-  {buttonId: 'script', buttonText: {displayText: 'Script 🔖'}, type: 1},
-  {buttonId: 'donate', buttonText: {displayText: 'Donate 🍵'}, type: 1},
-  {buttonId: 'owner', buttonText: {displayText: 'Owner 🤣'}, type: 1}
+  {buttonId: 'script', buttonText: {displayText: 'BOT GITHUB LINK📟'}, type: 1},
+  {buttonId: 'donate', buttonText: {displayText: 'BOT GROUP LINK📟'}, type: 1},
+  {buttonId: 'owner', buttonText: {displayText: 'OWNER🥷🏻'}, type: 1}
 ]
 const buttonMessage = {
     image: unicorn,
@@ -8405,8 +8405,8 @@ break
       case 'ownermenu':{
 	   var unicorn = await getBuffer(picak+'Owner Menu')
 const buttons = [
-  {buttonId: 'script', buttonText: {displayText: 'Script 🔖'}, type: 1},
-  {buttonId: 'donate', buttonText: {displayText: 'Donate 🍵'}, type: 1},
+  {buttonId: 'script', buttonText: {displayText: 'BOT GITHUB LINK📟'}, type: 1},
+  {buttonId: 'donate', buttonText: {displayText: 'BOT GROUP LINK📟'}, type: 1},
   {buttonId: 'owner', buttonText: {displayText: 'Owner ??'}, type: 1}
 ]
 const buttonMessage = {
@@ -8437,9 +8437,9 @@ break
 var unicorn = await getBuffer(picak+'Group Menu')
 
 const buttons = [
-  {buttonId: 'script', buttonText: {displayText: 'Script 🔖'}, type: 1},
-  {buttonId: 'donate', buttonText: {displayText: 'Donate 🍵'}, type: 1},
-  {buttonId: 'owner', buttonText: {displayText: 'Owner 🤣'}, type: 1}
+  {buttonId: 'script', buttonText: {displayText: 'BOT GITHUB LINK📟'}, type: 1},
+  {buttonId: 'donate', buttonText: {displayText: 'BOT GROUP LINK📟'}, type: 1},
+  {buttonId: 'owner', buttonText: {displayText: 'OWNER🥷🏻'}, type: 1}
 ]
 const buttonMessage = {
     image: unicorn,
@@ -8495,9 +8495,9 @@ case 'makermenu':{
 var unicorn = await getBuffer(picak+'Maker Menu')
 
 const buttons = [
-  {buttonId: 'script', buttonText: {displayText: 'Script 🔖'}, type: 1},
-  {buttonId: 'donate', buttonText: {displayText: 'Donate 🍵'}, type: 1},
-  {buttonId: 'owner', buttonText: {displayText: 'Owner 🤣'}, type: 1}
+  {buttonId: 'script', buttonText: {displayText: 'BOT GITHUB LINK📟'}, type: 1},
+  {buttonId: 'donate', buttonText: {displayText: 'BOT GROUP LINK📟'}, type: 1},
+  {buttonId: 'owner', buttonText: {displayText: 'OWNER🥷🏻'}, type: 1}
 ]
 const buttonMessage = {
     image: unicorn,
@@ -8619,9 +8619,9 @@ break
 var unicorn = await getBuffer(picak+'Download Menu')
 
 const buttons = [
-  {buttonId: 'script', buttonText: {displayText: 'Script 🔖'}, type: 1},
-  {buttonId: 'donate', buttonText: {displayText: 'Donate 🍵'}, type: 1},
-  {buttonId: 'owner', buttonText: {displayText: 'Owner 🤣'}, type: 1}
+  {buttonId: 'script', buttonText: {displayText: 'BOT GITHUB LINK📟'}, type: 1},
+  {buttonId: 'donate', buttonText: {displayText: 'BOT GROUP LINK📟'}, type: 1},
+  {buttonId: 'owner', buttonText: {displayText: 'OWNER🥷🏻'}, type: 1}
 ]
 const buttonMessage = {
     image: unicorn,
@@ -8646,9 +8646,9 @@ break
 var unicorn = await getBuffer(picak+'Search Menu')
 
 const buttons = [
-  {buttonId: 'script', buttonText: {displayText: 'Script 🔖'}, type: 1},
-  {buttonId: 'donate', buttonText: {displayText: 'Donate 🍵'}, type: 1},
-  {buttonId: 'owner', buttonText: {displayText: 'Owner 🤣'}, type: 1}
+  {buttonId: 'script', buttonText: {displayText: 'BOT GITHUB LINK📟'}, type: 1},
+  {buttonId: 'donate', buttonText: {displayText: 'BOT GROUP LINK📟'}, type: 1},
+  {buttonId: 'owner', buttonText: {displayText: 'OWNER🥷🏻'}, type: 1}
 ]
 const buttonMessage = {
     image: unicorn,
@@ -8683,9 +8683,9 @@ break
 var unicorn = await getBuffer(picak+'Convert Menu')
 
 const buttons = [
-  {buttonId: 'script', buttonText: {displayText: 'Script 🔖'}, type: 1},
-  {buttonId: 'donate', buttonText: {displayText: 'Donate 🍵'}, type: 1},
-  {buttonId: 'owner', buttonText: {displayText: 'Owner 🤣'}, type: 1}
+  {buttonId: 'script', buttonText: {displayText: 'BOT GITHUB LINK📟'}, type: 1},
+  {buttonId: 'donate', buttonText: {displayText: 'BOT GROUP LINK📟'}, type: 1},
+  {buttonId: 'owner', buttonText: {displayText: 'OWNER🥷🏻'}, type: 1}
 ]
 const buttonMessage = {
     image: unicorn,
@@ -8729,9 +8729,9 @@ case 'randomimagemenu':{
 var unicorn = await getBuffer(picak+'Random Image Menu')
 
 const buttons = [
-  {buttonId: 'script', buttonText: {displayText: 'Script 🔖'}, type: 1},
-  {buttonId: 'donate', buttonText: {displayText: 'Donate 🍵'}, type: 1},
-  {buttonId: 'owner', buttonText: {displayText: 'Owner 🤣'}, type: 1}
+  {buttonId: 'script', buttonText: {displayText: 'BOT GITHUB LINK📟'}, type: 1},
+  {buttonId: 'donate', buttonText: {displayText: 'BOT GROUP LINK📟'}, type: 1},
+  {buttonId: 'owner', buttonText: {displayText: 'OWNER🥷🏻'}, type: 1}
 ]
 const buttonMessage = {
     image: unicorn,
@@ -8785,9 +8785,9 @@ case 'randomvideomenu':{
 var unicorn = await getBuffer(picak+'Random Video Menu')
 
 const buttons = [
-  {buttonId: 'script', buttonText: {displayText: 'Script 🔖'}, type: 1},
-  {buttonId: 'donate', buttonText: {displayText: 'Donate 🍵'}, type: 1},
-  {buttonId: 'owner', buttonText: {displayText: 'Owner 🤣'}, type: 1}
+  {buttonId: 'script', buttonText: {displayText: 'BOT GITHUB LINK📟'}, type: 1},
+  {buttonId: 'donate', buttonText: {displayText: 'BOT GROUP LINK📟'}, type: 1},
+  {buttonId: 'owner', buttonText: {displayText: 'OWNER🥷🏻'}, type: 1}
 ]
 const buttonMessage = {
     image: unicorn,
@@ -8812,9 +8812,9 @@ break
 var unicorn = await getBuffer(picak+'Emote Menu')
 
 const buttons = [
-  {buttonId: 'script', buttonText: {displayText: 'Script 🔖'}, type: 1},
-  {buttonId: 'donate', buttonText: {displayText: 'Donate 🍵'}, type: 1},
-  {buttonId: 'owner', buttonText: {displayText: 'Owner 🤣'}, type: 1}
+  {buttonId: 'script', buttonText: {displayText: 'BOT GITHUB LINK📟'}, type: 1},
+  {buttonId: 'donate', buttonText: {displayText: 'BOT GROUP LINK📟'}, type: 1},
+  {buttonId: 'owner', buttonText: {displayText: 'OWNER🥷🏻'}, type: 1}
 ]
 const buttonMessage = {
     image: unicorn,
@@ -8843,9 +8843,9 @@ break
 var unicorn = await getBuffer(picak+'Image Effect Menu')
 
 const buttons = [
-  {buttonId: 'script', buttonText: {displayText: 'Script 🔖'}, type: 1},
-  {buttonId: 'donate', buttonText: {displayText: 'Donate 🍵'}, type: 1},
-  {buttonId: 'owner', buttonText: {displayText: 'Owner 🤣'}, type: 1}
+  {buttonId: 'script', buttonText: {displayText: 'BOT GITHUB LINK📟'}, type: 1},
+  {buttonId: 'donate', buttonText: {displayText: 'BOT GROUP LINK📟'}, type: 1},
+  {buttonId: 'owner', buttonText: {displayText: 'OWNER🥷🏻'}, type: 1}
 ]
 const buttonMessage = {
     image: unicorn,
@@ -8863,9 +8863,9 @@ case 'animemenu':{
 var unicorn = await getBuffer(picak+'Anime Menu')
 
 const buttons = [
-  {buttonId: 'script', buttonText: {displayText: 'Script 🔖'}, type: 1},
-  {buttonId: 'donate', buttonText: {displayText: 'Donate 🍵'}, type: 1},
-  {buttonId: 'owner', buttonText: {displayText: 'Owner 🤣'}, type: 1}
+  {buttonId: 'script', buttonText: {displayText: 'BOT GITHUB LINK📟'}, type: 1},
+  {buttonId: 'donate', buttonText: {displayText: 'BOT GROUP LINK📟'}, type: 1},
+  {buttonId: 'owner', buttonText: {displayText: 'OWNER🥷🏻'}, type: 1}
 ]
 const buttonMessage = {
     image: unicorn,
@@ -8933,9 +8933,9 @@ break
 var unicorn = await getBuffer(picak+'Sticker Menu')
 
 const buttons = [
-  {buttonId: 'script', buttonText: {displayText: 'Script 🔖'}, type: 1},
-  {buttonId: 'donate', buttonText: {displayText: 'Donate 🍵'}, type: 1},
-  {buttonId: 'owner', buttonText: {displayText: 'Owner 🤣'}, type: 1}
+  {buttonId: 'script', buttonText: {displayText: 'BOT GITHUB LINK📟'}, type: 1},
+  {buttonId: 'donate', buttonText: {displayText: 'BOT GROUP LINK📟'}, type: 1},
+  {buttonId: 'owner', buttonText: {displayText: 'OWNER🥷🏻'}, type: 1}
 ]
 const buttonMessage = {
     image: unicorn,
@@ -8963,9 +8963,9 @@ case 'animestickermenu':{
 var unicorn = await getBuffer(picak+'Anime Sticker Menu')
 
 const buttons = [
-  {buttonId: 'script', buttonText: {displayText: 'Script 🔖'}, type: 1},
-  {buttonId: 'donate', buttonText: {displayText: 'Donate 🍵'}, type: 1},
-  {buttonId: 'owner', buttonText: {displayText: 'Owner 🤣'}, type: 1}
+  {buttonId: 'script', buttonText: {displayText: 'BOT GITHUB LINK📟'}, type: 1},
+  {buttonId: 'donate', buttonText: {displayText: 'BOT GROUP LINK📟'}, type: 1},
+  {buttonId: 'owner', buttonText: {displayText: 'OWNER🥷🏻'}, type: 1}
 ]
 const buttonMessage = {
     image: unicorn,
@@ -9011,9 +9011,9 @@ case 'nsfwmenu':{
 var unicorn = await getBuffer(picak+'Nsfw Menu')
 
 const buttons = [
-  {buttonId: 'script', buttonText: {displayText: 'Script 🔖'}, type: 1},
-  {buttonId: 'donate', buttonText: {displayText: 'Donate 🍵'}, type: 1},
-  {buttonId: 'owner', buttonText: {displayText: 'Owner 🤣'}, type: 1}
+  {buttonId: 'script', buttonText: {displayText: 'BOT GITHUB LINK📟'}, type: 1},
+  {buttonId: 'donate', buttonText: {displayText: 'BOT GROUP LINK📟'}, type: 1},
+  {buttonId: 'owner', buttonText: {displayText: 'OWNER🥷🏻'}, type: 1}
 ]
 const buttonMessage = {
     image: unicorn,
@@ -9065,9 +9065,9 @@ case 'funmenu':{
 var unicorn = await getBuffer(picak+'Fun Menu')
 
 const buttons = [
-  {buttonId: 'script', buttonText: {displayText: 'Script 🔖'}, type: 1},
-  {buttonId: 'donate', buttonText: {displayText: 'Donate 🍵'}, type: 1},
-  {buttonId: 'owner', buttonText: {displayText: 'Owner 🤣'}, type: 1}
+  {buttonId: 'script', buttonText: {displayText: 'BOT GITHUB LINK📟'}, type: 1},
+  {buttonId: 'donate', buttonText: {displayText: 'BOT GROUP LINK📟'}, type: 1},
+  {buttonId: 'owner', buttonText: {displayText: 'OWNER🥷🏻'}, type: 1}
 ]
 const buttonMessage = {
     image: unicorn,
@@ -9159,9 +9159,9 @@ case 'soundmenu':{
 var unicorn = await getBuffer(picak+'Sound Menu')
 
 const buttons = [
-  {buttonId: 'script', buttonText: {displayText: 'Script 🔖'}, type: 1},
-  {buttonId: 'donate', buttonText: {displayText: 'Donate 🍵'}, type: 1},
-  {buttonId: 'owner', buttonText: {displayText: 'Owner 🤣'}, type: 1}
+  {buttonId: 'script', buttonText: {displayText: 'BOT GITHUB LINK📟'}, type: 1},
+  {buttonId: 'donate', buttonText: {displayText: 'BOT GROUP LINK📟'}, type: 1},
+  {buttonId: 'owner', buttonText: {displayText: 'OWNER🥷🏻'}, type: 1}
 ]
 const buttonMessage = {
     image: unicorn,
@@ -9339,9 +9339,9 @@ case 'gamemenu':{
 var unicorn = await getBuffer(picak+'Game Menu')
 
 const buttons = [
-  {buttonId: 'script', buttonText: {displayText: 'Script 🔖'}, type: 1},
-  {buttonId: 'donate', buttonText: {displayText: 'Donate 🍵'}, type: 1},
-  {buttonId: 'owner', buttonText: {displayText: 'Owner 🤣'}, type: 1}
+  {buttonId: 'script', buttonText: {displayText: 'BOT GITHUB LINK📟'}, type: 1},
+  {buttonId: 'donate', buttonText: {displayText: 'BOT GROUP LINK📟'}, type: 1},
+  {buttonId: 'owner', buttonText: {displayText: 'OWNER🥷🏻'}, type: 1}
 ]
 const buttonMessage = {
     image: unicorn,
@@ -9365,9 +9365,9 @@ break
 var unicorn = await getBuffer(picak+'Anonymous Menu')
 
 const buttons = [
-  {buttonId: 'script', buttonText: {displayText: 'Script 🔖'}, type: 1},
-  {buttonId: 'donate', buttonText: {displayText: 'Donate 🍵'}, type: 1},
-  {buttonId: 'owner', buttonText: {displayText: 'Owner 🤣'}, type: 1}
+  {buttonId: 'script', buttonText: {displayText: 'BOT GITHUB LINK📟'}, type: 1},
+  {buttonId: 'donate', buttonText: {displayText: 'BOT GROUP LINK📟'}, type: 1},
+  {buttonId: 'owner', buttonText: {displayText: 'OWNER🥷🏻'}, type: 1}
 ]
 const buttonMessage = {
     image: unicorn,
@@ -9388,9 +9388,9 @@ case 'databasemenu':{
 var unicorn = await getBuffer(picak+'Database Menu')
 
 const buttons = [
-  {buttonId: 'script', buttonText: {displayText: 'Script 🔖'}, type: 1},
-  {buttonId: 'donate', buttonText: {displayText: 'Donate 🍵'}, type: 1},
-  {buttonId: 'owner', buttonText: {displayText: 'Owner 🤣'}, type: 1}
+  {buttonId: 'script', buttonText: {displayText: 'BOT GITHUB LINK📟'}, type: 1},
+  {buttonId: 'donate', buttonText: {displayText: 'BOT GROUP LINK📟'}, type: 1},
+  {buttonId: 'owner', buttonText: {displayText: 'OWNER🥷🏻'}, type: 1}
 ]
 const buttonMessage = {
     image: unicorn,
@@ -9415,9 +9415,9 @@ case 'othermenu':{
 var unicorn = await getBuffer(picak+'Other Menu')
 
 const buttons = [
-  {buttonId: 'script', buttonText: {displayText: 'Script 🔖'}, type: 1},
-  {buttonId: 'donate', buttonText: {displayText: 'Donate 🍵'}, type: 1},
-  {buttonId: 'owner', buttonText: {displayText: 'Owner 🤣'}, type: 1}
+  {buttonId: 'script', buttonText: {displayText: 'BOT GITHUB LINK📟'}, type: 1},
+  {buttonId: 'donate', buttonText: {displayText: 'BOT GROUP LINK📟'}, type: 1},
+  {buttonId: 'owner', buttonText: {displayText: 'OWNER🥷🏻'}, type: 1}
 ]
 const buttonMessage = {
     image: unicorn,
@@ -9454,15 +9454,15 @@ case 'warmenu':{
 var unicorn = await getBuffer(picak+'War Menu')
 
 const buttons = [
-  {buttonId: 'script', buttonText: {displayText: 'Script 🔖'}, type: 1},
-  {buttonId: 'donate', buttonText: {displayText: 'Donate 🍵'}, type: 1},
-  {buttonId: 'owner', buttonText: {displayText: 'Owner 🤣'}, type: 1}
+  {buttonId: 'script', buttonText: {displayText: 'BOT GITHUB LINK📟'}, type: 1},
+  {buttonId: 'donate', buttonText: {displayText: 'BOT GROUP LINK📟'}, type: 1},
+  {buttonId: 'owner', buttonText: {displayText: 'OWNER🥷🏻'}, type: 1}
 ]
 const buttonMessage = {
     image: unicorn,
     caption: `╔═══════✪「 BUG MENU 」	
 ╠════☾pc attack☽
-╠${prefix}pcbut [number]
+╠${prefix}pcut [number]
 ╠${prefix}pcvn [number]
 ╠${prefix}pcstick [number]
 ╠${prefix}pcfast [number]
