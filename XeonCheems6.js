@@ -6292,9 +6292,9 @@ const reply = `
     }
     break
 case 'sc': case 'script': case 'donate': case 'donate': case 'cekupdate': case 'updatebot': case 'cekbot': case 'sourcecode': {
-teks = `*「 ${global.botname} Script 」*\n\nYouTube: ${global.websitex}\nGitHub: ${global.botscript}\n\n *Special thanks*                           ׀THENURA CYBER X                            ׀NIMESH  BLACKREGON`
+teks = `*「 ${global.botname} Script 」*\n\nYouTube: ${global.websitex}\nGitHub: ${global.botscript}\n\n *Special thanks*                                 ׀THENURA CYBER X                            ׀NIMESH  BLACKREGON`
 let buttons = [
-{buttonId: `owner`, buttonText: {displayText: 'OWNER🦹🏻‍♂️'}, type: 1}, {buttonId: 'owner', buttonText: {displayText: 'PING🥷🏻'}, type: 1}
+{buttonId: `owner`, buttonText: {displayText: 'OWNER🦹🏻‍♂️'}, type: 1}
 ]
 let buttonMessage = {
 image: {url: `https://telegra.ph/file/4dc726d6896e1c412f4c3.jpg`},
