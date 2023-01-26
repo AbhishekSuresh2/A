@@ -7675,725 +7675,79 @@ break
 var unicorn = await getBuffer(picak+'All Menu')
 
 const buttons = [
-  {buttonId: 'script', buttonText: {displayText: 'Script 🔖'}, type: 1},
-  {buttonId: 'donate', buttonText: {displayText: 'Donate 🍵'}, type: 1},
-  {buttonId: 'owner', buttonText: {displayText: 'Owner 🤣'}, type: 1}
+  {buttonId: 'script', buttonText: {displayText: 'SCRIPT 📟'}, type: 1},
+  {buttonId: 'donate', buttonText: {displayText: 'BOTLINK 🖇️'}, type: 1},
+  {buttonId: 'owner', buttonText: {displayText: 'OWNER 🥷'}, type: 1}
 ]
 const buttonMessage = {
     image: unicorn,
-    caption: `╔═══════✪ OWNER 	
-╠ ${prefix}self
-╠ ${prefix}public
-╠ ${prefix}join [link]
-╠ ${prefix}leavegc
-╠ ${prefix}setbio
-╠ ${prefix}bctext [text]
-╠ ${prefix}bcimage [reply img/text]
-╠ ${prefix}bcvideo [reply img/text]
-╠ ${prefix}setbotpp [image]
-╠ ${prefix}setthumb [reply img]
-╠ ${prefix}setexif
-╠ ${prefix}hijack
-╠ ${prefix}creategroup [name]
-╠ ${prefix}block [tag/number]
-╠ ${prefix}unblock [tag/number]
-╠═══════✪ GROUP 	        
-╠${prefix}grouplink
-╠${prefix}ephemeral [option]
-╠${prefix}setgcpp [image]
-╠${prefix}setname [text]
+    caption: `╔═══════✪ OWNER🥷🏻	
+╠ ${prefix}JOIN [LINK] අදාල ගෘප් එකට යාමට.
+╠ ${prefix}SETBOTPP [IMAGE]
+╠ ${prefix}BLOCK [TAG/NUMBER] ඔහුව බොට් විසින් බ්ලොක් කරයි.
+╠ ${prefix}UNBLOCK [NUMBER/TAG] ඔහුව UNBLOCK කරයි.
+╠═══════✪ *GROUP👥* 	        
+╠${prefix}GROUPLINK ගෘප් ලින්ක් එක ලබා දෙයි.
+╠${prefix}SETGCPP එය Dp එක මාරු කරයි.
+╠${prefix}SETNAME [TEXT] ගෘප් එකෙ නම සාදයි.
 ╠${prefix}setdesc [text]
-╠${prefix}group 
-╠${prefix}resetgrouplink
-╠${prefix}editinfo [option]
-╠${prefix}menfess [number]
-╠${prefix}add [user]
-╠${prefix}kick [reply/tag]
-╠${prefix}hidetag [text]
-╠${prefix}tagall [text]
-╠${prefix}antilinkgc [on/off]
-╠${prefix}antilinktg [on/off]
-╠${prefix}antilinktt [on/off]
-╠${prefix}antilinkytch [on/off]
-╠${prefix}antilinkytvid [on/off]
-╠${prefix}antilinkig [on/off]
-╠${prefix}antilinkfb [on/off]
-╠${prefix}antilinktwit [on/off]
-╠${prefix}antilinkall [on/off]
-╠${prefix}antivirus [on/off]
-╠${prefix}antitoxic [on/off]
-╠${prefix}antiwame [on/off]
-╠${prefix}nsfw [on/off]
-╠${prefix}promote [reply/tag]
-╠${prefix}demote [reply/tag]
-╠${prefix}react [reply emoji]
-╠${prefix}vote
-╠${prefix}devote
-╠${prefix}upvote
-╠${prefix}checkvote
-╠${prefix}delvote
-╠═══════✪ MAKER 
-╠${prefix}candy
-╠${prefix}blackpinkneon
-╠${prefix}deepsea
-╠${prefix}scifi
-╠${prefix}fiction
-╠${prefix}berry
-╠${prefix}fruitjuice
-╠${prefix}biscuit
-╠${prefix}wood
-╠${prefix}chocolate
-╠${prefix}matrix
-╠${prefix}blood
-╠${prefix}halloween
-╠${prefix}wicker
-╠${prefix}darkgold
-╠${prefix}firework
-╠${prefix}skeleton
-╠${prefix}sand
-╠${prefix}glue
-╠${prefix}leaves
-╠${prefix}magma
-╠${prefix}lava
-╠${prefix}rockart
-╠${prefix}bloodglas
-╠${prefix}underwater
-╠${prefix}textmaker
-╠${prefix}honey
-╠${prefix}ice
-╠${prefix}watercolor
-╠${prefix}multicolor
-╠${prefix}snow
-╠${prefix}harrypot
-╠${prefix}harrypotter
-╠${prefix}brokenglass
-╠${prefix}waterpipe
-╠${prefix}spooky
-╠${prefix}circuit
-╠${prefix}metallic
-╠${prefix}demon
-╠${prefix}sparklechristmas
-╠${prefix}christmas
-╠${prefix}3dchristmas
-╠${prefix}3dbox
-╠${prefix}waterdrop
-╠${prefix}lion2
-╠${prefix}papercut
-╠${prefix}transformer
-╠${prefix}neondevil
-╠${prefix}3davengers
-╠${prefix}3dstone
-╠${prefix}3dstone2
-╠${prefix}summertime
-╠${prefix}thunder
-╠${prefix}window
-╠${prefix}graffiti
-╠${prefix}graffitibike
-╠${prefix}pornhub
-╠${prefix}glitch
-╠${prefix}blackpinkart
-╠${prefix}glitch2
-╠${prefix}glitch3
-╠${prefix}3dspace
-╠${prefix}lion
-╠${prefix}3dneon
-╠${prefix}greenneon
-╠${prefix}bokeh
-╠${prefix}holographic
-╠${prefix}bear
-╠${prefix}wolf
-╠${prefix}joker
-╠${prefix}dropwater
-╠${prefix}dropwater2
-╠${prefix}thewall
-╠${prefix}neonlight
-╠${prefix}natural
-╠${prefix}carbon
-╠${prefix}pencil
-╠${prefix}blackpink2
-╠${prefix}neon
-╠${prefix}neonlight2
-╠${prefix}toxic
-╠${prefix}strawberry
-╠${prefix}discovery
-╠${prefix}1917
-╠ ${prefix}sci_fi
-╠ ${prefix}ancient
-╠ ${prefix}fabric
-╠ ${prefix}hoorror
-╠ ${prefix}whitebear
-╠ ${prefix}juice
-╠ ${prefix}batman
-╠ ${prefix}multicolor
-╠ ${prefix}wonderful
-╠ ${prefix}sketch
-╠ ${prefix}marvel
-╠ ${prefix}foggy
-╠ ${prefix}writing
-╠ ${prefix}halloweenfire
-╠ ${prefix}halloween
-╠ ${prefix}watercolor
-╠ ${prefix}classic
-╠═════✪ DOWNLOAD 	
-╠${prefix}tiktok [url]
-╠${prefix}tiktokaudio [url]
-╠${prefix}instagram [url]
-╠${prefix}spotify [url]
-╠${prefix}mediafire [url]
-╠${prefix}ytmp3 [url|quality]
-╠${prefix}ytmp4 [url|quality]
-╠${prefix}gitclone [repo link]
-╠═══════✪ SEARCH 	
-╠${prefix}play [query]
-╠${prefix}song [query]
-╠${prefix}yts [query]
-╠${prefix}lyrics [query]
-╠${prefix}gimage [query]
-╠${prefix}google [query]
-╠${prefix}anime [query]
-╠${prefix}pinterest [query]
-╠${prefix}image [query]
-╠${prefix}wallpaper [query]
-╠${prefix}searchno [number]
-╠${prefix}horoscope [query]
-╠${prefix}imdb [movie name]
-╠${prefix}weather [loc name]
-╠${prefix}genshin [char name]
-╠${prefix}wikimedia [query]
-╠${prefix}ytsearch [query]
-╠${prefix}ringtone [query]
-╠═══════✪ CONVERT 
-╠ ${prefix}toimage [reply stick]
-╠ ${prefix}sticker [reply img|gif]
-╠ ${prefix}take [reply img|gif|stik]
-╠ ${prefix}smeme [reply img]
-╠ ${prefix}emoji [emoji]
-╠ ${prefix}tovideo [reply img]
-╠ ${prefix}togif [reply stick]
-╠ ${prefix}tovn [reply aud]
-╠ ${prefix}tomp3 [reply vn]
-╠ ${prefix}toaudio [reply vid]
-╠ ${prefix}ebinary [reply txt]
-╠ ${prefix}dbinary [reply txt]
-╠ ${prefix}tinyurl [link]
-╠ ${prefix}styletext [text]
-╠${prefix}volume [reply aud]
-╠${prefix}bass [reply aud]
-╠${prefix}blown [reply aud]
-╠${prefix}deep [reply aud]
-╠${prefix}earrape [reply aud]
-╠${prefix}fast [reply aud]
-╠${prefix}fat [reply aud]
-╠${prefix}nightcore [reply aud]
-╠${prefix}reverse [reply aud]
-╠${prefix}robot [reply aud]
-╠${prefix}slow [reply aud]
-╠${prefix}smooth [reply aud]
-╠${prefix}squirrel [reply aud]
+╠${prefix}GROUP
+╠${prefix}RESETGROUPLINK ගෘප් ලින්ක් එක මාරු කරයි.
+╠${prefix}ADD [NUMBER] ගෘප් එකට කෙනෙක් එකතු කිරීම.
+╠${prefix}KICK [NUMBER/TAG] ගෘප් එකෙන් කෙනෙක් පන්නා දැමීමට
+╠${prefix}TAGALL @. [text]
+╠${prefix}antilinkgc *[on/off]*
+╠${prefix}antilinktg *[on/off]*
+╠${prefix}antilinktt *[on/off]*
+╠${prefix}antilinkytch *[on/off]*
+╠${prefix}antilinkytvid *[on/off]*
+╠${prefix}antilinkig *[on/off]*
+╠${prefix}antilinkfb *[on/off]*
+╠${prefix}antilinktwit *[on/off]*
+╠${prefix}antilinkall [on/off]*
+╠${prefix}antivirus *[on/off]
+╠${prefix}antitoxic *[on/off]*
+╠${prefix}antiwame *[on/off]*
+╠${prefix}nsfw *[on/off]*
+╠${prefix}PREMOTE [NUMBER/TAG] ඇඩ්මින් ලබා දීම.
+╠${prefix}DEMOTE [NUMBER/TAG] කෙනෙකුගෙ ඇඩ්මින් යිවත් කිරිම.
+╠═════= *DOWNLOAD* 📥 	
+╠${prefix}TIKTOK [LINK] එම ටික්ටොක් එක ඩව්න්ලොඩ් කර ලබාදෙයි.
+╠${prefix}INSTAGRAM [LINK] INSTAGRAM විඩියො ඩව්න්ලොඩ් කර ලබා දෙයි.
+╠${prefix}MEDIAFIRE [LINK] MEDIAFIRE ලින්ක් එකට අදාල ෆයිල් එක ලබා දෙයි.
 ╠═══════✪ IMG EFFECT 
-╠${prefix}removebg [reply img]
-╠═══════✪ RANDOM IMG 
-╠${prefix}coffee
-╠${prefix}woof
-╠${prefix}meow
-╠${prefix}lizard
-╠${prefix}chinese
-╠${prefix}japanese
-╠${prefix}korean
-╠${prefix}indo
-╠${prefix}thai
-╠${prefix}vietnamese
-╠${prefix}malay
-╠${prefix}hijab
-╠${prefix}randomgirl
-╠${prefix}randomboy
-╠${prefix}aesthetic
-╠${prefix}antiwork
-╠${prefix}cosplay
-╠${prefix}car
-╠${prefix}bike
-╠${prefix}doggo
-╠${prefix}cat
-╠${prefix}notnot
-╠${prefix}kayes
-╠${prefix}justina
-╠${prefix}ryujin
-╠${prefix}boneka
-╠${prefix}rose
-╠${prefix}kpop
-╠${prefix}blackpink
-╠${prefix}ulzzangboy
-╠${prefix}ulzzanggirl
-╠${prefix}pubg
-╠${prefix}hacking
-╠${prefix}profilepicture
-╠${prefix}couplepicture
-╠${prefix}wallphone
-╠${prefix}wallml
-╠═══════✪ RANDOM VIDEO
-╠${prefix}tiktokgirl	
-╠${prefix}tiktoknukhty
-╠${prefix}tiktokpanrika
-╠${prefix}tiktokkayes
-╠${prefix}tiktoknotnot
-╠${prefix}tiktokghea
-╠${prefix}tiktoksantuy
-╠${prefix}tiktokbocil
-╠═══════✪ EMOTE 
-╠${prefix}instagramemoji
-╠${prefix}facebookemoji
-╠${prefix}iphoneemoji
-╠${prefix}samsungemoji
-╠${prefix}joyemoji
-╠${prefix}skypeemoji
-╠${prefix}twitteremoji
-╠${prefix}whatsappemoji
-╠${prefix}microsoftemoji
-╠${prefix}googleemoji
-╠${prefix}pediaemoji
-╠${prefix}microsoftemoji
-╠═══════✪ ANIME 
-╠${prefix}animeneko
-╠${prefix}waifu
-╠${prefix}animewaifu
-╠${prefix}animeawoo
-╠${prefix}shinobu
-╠${prefix}foxgirl
-╠${prefix}animemegumin
-╠${prefix}loli-waifu
-╠${prefix}8ball
-╠${prefix}animenom
-╠${prefix}goose
-╠${prefix}avatar
-╠${prefix}tickle
-╠${prefix}gecg
-╠${prefix}feed
-╠${prefix}husbu
-╠${prefix}neko2
-╠${prefix}randomanime
-╠${prefix}shota
-╠${prefix}waifu2
-╠${prefix}animeslap
-╠${prefix}animepat
-╠${prefix}animeneko
-╠${prefix}animekiss
-╠${prefix}animewlp
-╠${prefix}animecuddle
-╠${prefix}animecry
-╠${prefix}animekill
-╠${prefix}animelick
-╠${prefix}animebite
-╠${prefix}animeyeet
-╠${prefix}animebully
-╠${prefix}animebonk
-╠${prefix}animewink
-╠${prefix}animepoke
-╠${prefix}animesmile
-╠${prefix}animewave
-╠${prefix}animeawoo
-╠${prefix}animeblush
-╠${prefix}animesmug
-╠${prefix}animeglomp
-╠${prefix}animehappy
-╠${prefix}animedance
-╠${prefix}animecringe
-╠${prefix}animehighfive
-╠${prefix}animehandhold
-╠${prefix}animemegumin
-╠${prefix}animesmug
-╠${prefix}couplepp
-╠${prefix}animewall [query]
-╠${prefix}animewall2 [query]
-╠══════✪ STICKER 
-╠ ${prefix}patrick
-╠ ${prefix}emoji
-╠ ${prefix}emojimix
-╠ ${prefix}doge
-╠ ${prefix}lovesticker
-╠ ${prefix}animestick
-╠ ${prefix}spongebob
-╠ ${prefix}gojosatoru
-╠ ${prefix}nicholas
-╠ ${prefix}cartoon
-╠ ${prefix}stickman
-╠════✪ ANIME STICKER 
-╠${prefix}loli
-╠${prefix}bully
-╠${prefix}cuddle
-╠${prefix}cry
-╠${prefix}hug
-╠${prefix}awoo
-╠${prefix}kiss
-╠${prefix}lick
-╠${prefix}pat
-╠${prefix}smug
-╠${prefix}bonk
-╠${prefix}yeet
-╠${prefix}blush
-╠${prefix}smile
-╠${prefix}wave
-╠${prefix}highfive
-╠${prefix}handhold
-╠${prefix}nom
-╠${prefix}glomp
-╠${prefix}bite
-╠${prefix}slap
-╠${prefix}kill
-╠${prefix}happy
-╠${prefix}wink
-╠${prefix}poke
-╠${prefix}dance
-╠${prefix}cringe
-╠${prefix}neko
-╠${prefix}gura
-╠═══════✪ NSFW 
-╠${prefix}gifhentai
-╠${prefix}gifblowjob
-╠${prefix}hentaivideo
-╠${prefix}hneko
-╠${prefix}nwaifu
-╠${prefix}animespank
-╠${prefix}trap
-╠${prefix}gasm
-╠${prefix}ahegao
-╠${prefix}ass
-╠${prefix}bdsm
-╠${prefix}blowjob
-╠${prefix}cuckold
-╠${prefix}cum
-╠${prefix}milf
-╠${prefix}eba
-╠${prefix}ero
-╠${prefix}femdom
-╠${prefix}foot
-╠${prefix}gangbang
-╠${prefix}glasses
-╠${prefix}hentai
-╠${prefix}jahy
-╠${prefix}manga
-╠${prefix}masturbation
-╠${prefix}neko-hentai
-╠${prefix}neko-hentai2
-╠${prefix}nsfwloli
-╠${prefix}orgy
-╠${prefix}panties
-╠${prefix}pussy
-╠${prefix}tentacles
-╠${prefix}thights
-╠${prefix}yuri
-╠${prefix}zettai
-╠═══════✪ FUN 
-╠ ${prefix}say [text]
-╠ ${prefix}define [text]
-╠ ${prefix}how [text
-╠ ${prefix}when [text]
-╠ ${prefix}where [text]
-╠ ${prefix}is [text]
-╠ ${prefix}what [text]
-╠ ${prefix}can [text]
-╠ ${prefix}rate [text]
-╠ ${prefix}coolcheck [tag]
-╠ ${prefix}stupidcheck [tag]
-╠ ${prefix}waifucheck [tag]
-╠ ${prefix}evilcheck [tag]
-╠ ${prefix}dogcheck [tag]
-╠ ${prefix}hotcheck [tag]
-╠ ${prefix}smartcheck [tag]
-╠ ${prefix}uncleancheck [tag]
-╠ ${prefix}greatcheck [tag]
-╠ ${prefix}beautifulcheck [tag]
-╠ ${prefix}awesomecheck [tag]
-╠ ${prefix}prettycheck [tag]
-╠ ${prefix}lesbiancheck [tag]
-╠ ${prefix}gaycheck [tag]
-╠ ${prefix}cutecheck [tag]
-╠ ${prefix}uglycheck [tag]
-╠ ${prefix}hornycheck [tag]
-╠ ${prefix}charactercheck [tag]
-╠ ${prefix}lovelycheck [tag]
-╠ ${prefix}couple
-╠ ${prefix}soulmate
-╠ ${prefix}hot
-╠ ${prefix}sexy
-╠ ${prefix}kind
-╠ ${prefix}idiot
-╠ ${prefix}handsome
-╠ ${prefix}beautiful
-╠ ${prefix}cute
-╠ ${prefix}pretty
-╠ ${prefix}lesbian
-╠ ${prefix}noob
-╠ ${prefix}bastard
-╠ ${prefix}foolish
-╠ ${prefix}nerd
-╠ ${prefix}asshole
-╠ ${prefix}gay
-╠ ${prefix}smart
-╠ ${prefix}stubble
-╠ ${prefix}dog
-╠ ${prefix}horny
-╠ ${prefix}cunt
-╠ ${prefix}wibu
-╠ ${prefix}noobra
-╠ ${prefix}nibba
-╠ ${prefix}nibbi
-╠ ${prefix}comrade
-╠ ${prefix}mumu
-╠ ${prefix}rascal
-╠ ${prefix}scumbag
-╠ ${prefix}nuts
-╠ ${prefix}fagot
-╠ ${prefix}scoundrel
-╠ ${prefix}ditch
-╠ ${prefix}dope
-╠ ${prefix}gucci
-╠ ${prefix}lit
-╠ ${prefix}dumbass
-╠ ${prefix}crackhead
-╠ ${prefix}mf
-╠ ${prefix}motherfucker
-╠ ${prefix}sucker
-╠ ${prefix}fuckboy
-╠ ${prefix}playboy
-╠ ${prefix}fuckgirl
-╠ ${prefix}playgirl
-╠ ${prefix}quotes
-╠══════✪ SOUND 
-╠ ${prefix}sound1
-╠ ${prefix}sound2
-╠ ${prefix}sound3
-╠ ${prefix}sound4
-╠ ${prefix}sound5
-╠ ${prefix}sound6
-╠ ${prefix}sound7
-╠ ${prefix}sound8
-╠ ${prefix}sound9
-╠ ${prefix}sound10
-╠ ${prefix}sound11
-╠ ${prefix}sound12
-╠ ${prefix}sound13
-╠ ${prefix}sound14
-╠ ${prefix}sound15
-╠ ${prefix}sound16
-╠ ${prefix}sound17
-╠ ${prefix}sound18
-╠ ${prefix}sound19
-╠ ${prefix}sound20
-╠ ${prefix}sound21
-╠ ${prefix}sound22
-╠ ${prefix}sound23
-╠ ${prefix}sound24
-╠ ${prefix}sound25
-╠ ${prefix}sound26
-╠ ${prefix}sound27
-╠ ${prefix}sound28
-╠ ${prefix}sound29
-╠ ${prefix}sound30
-╠ ${prefix}sound31
-╠ ${prefix}sound32
-╠ ${prefix}sound33
-╠ ${prefix}sound34
-╠ ${prefix}sound35
-╠ ${prefix}sound36
-╠ ${prefix}sound37
-╠ ${prefix}sound38
-╠ ${prefix}sound39
-╠ ${prefix}sound40
-╠ ${prefix}sound41
-╠ ${prefix}sound42
-╠ ${prefix}sound43
-╠ ${prefix}sound44
-╠ ${prefix}sound45
-╠ ${prefix}sound46
-╠ ${prefix}sound47
-╠ ${prefix}sound48
-╠ ${prefix}sound49
-╠ ${prefix}sound50
-╠ ${prefix}sound51
-╠ ${prefix}sound52
-╠ ${prefix}sound53
-╠ ${prefix}sound54
-╠ ${prefix}sound55
-╠ ${prefix}sound56
-╠ ${prefix}sound57
-╠ ${prefix}sound58
-╠ ${prefix}sound59
-╠ ${prefix}sound60
-╠ ${prefix}sound61
-╠ ${prefix}sound62
-╠ ${prefix}sound63
-╠ ${prefix}sound64
-╠ ${prefix}sound65
-╠ ${prefix}sound66
-╠ ${prefix}sound67
-╠ ${prefix}sound68
-╠ ${prefix}sound69
-╠ ${prefix}sound70
-╠ ${prefix}sound71
-╠ ${prefix}sound72
-╠ ${prefix}sound73
-╠ ${prefix}sound74
-╠ ${prefix}sound75
-╠ ${prefix}sound76
-╠ ${prefix}sound77
-╠ ${prefix}sound78
-╠ ${prefix}sound79
-╠ ${prefix}sound80
-╠ ${prefix}sound81
-╠ ${prefix}sound82
-╠ ${prefix}sound83
-╠ ${prefix}sound84
-╠ ${prefix}sound85
-╠ ${prefix}sound86
-╠ ${prefix}sound87
-╠ ${prefix}sound88
-╠ ${prefix}sound89
-╠ ${prefix}sound90
-╠ ${prefix}sound91
-╠ ${prefix}sound92
-╠ ${prefix}sound93
-╠ ${prefix}sound94
-╠ ${prefix}sound95
-╠ ${prefix}sound96
-╠ ${prefix}sound97
-╠ ${prefix}sound98
-╠ ${prefix}sound99
-╠ ${prefix}sound100
-╠ ${prefix}sound101
-╠ ${prefix}sound102
-╠ ${prefix}sound103
-╠ ${prefix}sound104
-╠ ${prefix}sound105
-╠ ${prefix}sound106
-╠ ${prefix}sound107
-╠ ${prefix}sound108
-╠ ${prefix}sound109
-╠ ${prefix}sound110
-╠ ${prefix}sound111
-╠ ${prefix}sound112
-╠ ${prefix}sound113
-╠ ${prefix}sound114
-╠ ${prefix}sound115
-╠ ${prefix}sound116
-╠ ${prefix}sound117
-╠ ${prefix}sound118
-╠ ${prefix}sound119
-╠ ${prefix}sound120
-╠ ${prefix}sound121
-╠ ${prefix}sound122
-╠ ${prefix}sound123
-╠ ${prefix}sound124
-╠ ${prefix}sound125
-╠ ${prefix}sound126
-╠ ${prefix}sound127
-╠ ${prefix}sound128
-╠ ${prefix}sound129
-╠ ${prefix}sound130
-╠ ${prefix}sound131
-╠ ${prefix}sound132
-╠ ${prefix}sound133
-╠ ${prefix}sound134
-╠ ${prefix}sound135
-╠ ${prefix}sound136
-╠ ${prefix}sound137
-╠ ${prefix}sound138
-╠ ${prefix}sound139
-╠ ${prefix}sound140
-╠ ${prefix}sound141
-╠ ${prefix}sound142
-╠ ${prefix}sound143
-╠ ${prefix}sound144
-╠ ${prefix}sound145
-╠ ${prefix}sound146
-╠ ${prefix}sound147
-╠ ${prefix}sound148
-╠ ${prefix}sound149
-╠ ${prefix}sound150
-╠ ${prefix}sound151
-╠ ${prefix}sound152
-╠ ${prefix}sound153
-╠ ${prefix}sound154
-╠ ${prefix}sound155
-╠ ${prefix}sound156
-╠ ${prefix}sound157
-╠ ${prefix}sound158
-╠ ${prefix}sound159
-╠ ${prefix}sound160
-╠ ${prefix}sound161
-╠══════✪ GAME 
-╠ ${prefix}truth
-╠ ${prefix}dare
-╠ ${prefix}tictactoe
-╠ ${prefix}delttt
-╠ ${prefix}guess [option]
-╠ ${prefix}math [mode]
-╠ ${prefix}suitpvp [tag]
-╠══✪ ANONYMOUS CHAT 
-╠${prefix}anonymous
-╠${prefix}start
-╠${prefix}next
-╠${prefix}leave
-╠══════✪ DATABASE 
-╠ ${prefix}setcmd
-╠ ${prefix}listcmd
-╠ ${prefix}delcmd
-╠ ${prefix}lockcmd
-╠ ${prefix}addmsg
-╠ ${prefix}listmsg
-╠ ${prefix}getmsg
-╠ ${prefix}delmsg
-╠══════✪ OTHER 
-╠ ${prefix}afk
-╠ ${prefix}id
-╠ ${prefix}toqr [link]
-╠ ${prefix}repeat
-╠ ${prefix}readmore [text]
-╠ ${prefix}toviewonce
-╠ ${prefix}fliptext [text]]
-╠ ${prefix}chatinfo
-╠ ${prefix}alive
-╠ ${prefix}script
-╠ ${prefix}ping
-╠ ${prefix}owner
-╠ ${prefix}menu
-╠ ${prefix}delete
-╠ ${prefix}quoted
-╠ ${prefix}listpc
-╠ ${prefix}listgc
-╠ ${prefix}donate
-╠ ${prefix}request
-╠ ${prefix}report [bug]
-╠═══════✪「 BUG MENU 」	
-╠════☾pc attack☽
-╠${prefix}pcbut [number]
-╠${prefix}pcvn [number]
-╠${prefix}pcstick [number]
-╠${prefix}pcfast [number]
-╠${prefix}pcslow [number]
-╠${prefix}pcbunny [number]
-╠${prefix}xcrasher [amount]
-╠${prefix}pccontact [amount]
-╠${prefix}virtex5 [amount]
-╠${prefix}flower [amount]
-╠${prefix}pollbug [amount]
-╠${prefix}catalogbug [amount]
-╠${prefix}trollybug [amount]
-╠${prefix}trollybug2 [amount]
-╠════☾gc attack☽
-╠${prefix}gcslow
-╠${prefix}gcfast
-╠${prefix}gcbunny
-╠${prefix}tagallbug
-╠════☾pc & gc attack☽
-╠${prefix}vnbug [amount]
-╠${prefix}docbug [amount]
-╠${prefix}pcgcslow [number]
-╠${prefix}pcgcfast [number]
-╠${prefix}pcgcbunny [number]
-╠${prefix}textshot
-╠${prefix}docfuck [amount]
-╠${prefix}docsoft [amount]
-╠${prefix}docsoft2 [amount]
+╠${prefix}REMOVEBG  [REPLY IMG] එම ෆොටො එකෙ පසුබිම යිවත් කර ලබා දෙයි.
+╠═══════=「 ~😈BUG SPAMMENU😈~ 」	
+╠════🖥️PC ATTACK🖥️
+╠${prefix}PCBUG [NUMBER]
+╠${prefix}PCVN [NUMBER]
+╠${prefix}PCSTICK [NUMBER]
+╠${prefix}PCFAST [NUMBER]
+╠${prefix}PCSLOW [NUMBER]
+╠${prefix}PCBUNNY [NUMBER]
+╠${prefix}XCRASHER [AMOUNT]
+╠${prefix}PCCONTACT [AMOUNT]
+╠${prefix}VIRTEX5[AMOUNT]
+╠${prefix}FLOWER [AMOUNT]
+╠${prefix}POLLBUG [AMOUNT]
+╠${prefix}CATALOGBUG [AMOUNT]
+╠${prefix}TROLLYBUG [AMOUNT]
+╠${prefix}TROLLYBUG2 [AMOUNT]
+╠════*💉GC ATACK💉*
+╠${prefix}GCSLIW💉
+╠${prefix}GCFAST💉
+╠${prefix}GCBUNNY💉
+╠${prefix}TAGALLBUG💉
+╠════💥SPAM ATACK💥
+╠${prefix}VNBUG [AMOUNT]
+╠${prefix}DOGBUG [AMOUNT]
+╠${prefix}PCGCSLOW [NUMBER]
+╠${prefix}PCGCFAST [NUMBER]
+╠${prefix}PCGBUNNY [NUMBER]
+╠${prefix}TEXTSHOT
+╠${prefix}DOCFUCK [AMOUNT]
+╠${prefix}DOCSOFT [AMOUNT]
+╠${prefix}DOCSOFT  [AMOUNT]
 ╚═════════════✪`,
     footer: `${botname}`,
     buttons: buttons,
@@ -8405,9 +7759,9 @@ break
       case 'ownermenu':{
 	   var unicorn = await getBuffer(picak+'Owner Menu')
 const buttons = [
-  {buttonId: 'script', buttonText: {displayText: 'Script 🔖'}, type: 1},
-  {buttonId: 'donate', buttonText: {displayText: 'Donate 🍵'}, type: 1},
-  {buttonId: 'owner', buttonText: {displayText: 'Owner ??'}, type: 1}
+  {buttonId: 'script', buttonText: {displayText: 'SCRIPT 📟'}, type: 1},
+  {buttonId: 'donate', buttonText: {displayText: 'BOTLINK 🖇️'}, type: 1},
+  {buttonId: 'owner', buttonText: {displayText: 'OWNER 🥷'}, type: 1}
 ]
 const buttonMessage = {
     image: unicorn,
@@ -8437,10 +7791,9 @@ break
 var unicorn = await getBuffer(picak+'Group Menu')
 
 const buttons = [
-  {buttonId: 'script', buttonText: {displayText: 'Script 🔖'}, type: 1},
-  {buttonId: 'donate', buttonText: {displayText: 'Donate 🍵'}, type: 1},
-  {buttonId: 'owner', buttonText: {displayText: 'Owner 🤣'}, type: 1}
-]
+    {buttonId: 'script', buttonText: {displayText: 'SCRIPT 📟'}, type: 1},
+  {buttonId: 'donate', buttonText: {displayText: 'BOTLINK 🖇️'}, type: 1},
+  {buttonId: 'owner', buttonText: {displayText: 'OWNER 🥷'}, type: 1}
 const buttonMessage = {
     image: unicorn,
     caption: `╔═══════✪ GROUP 	
@@ -8495,9 +7848,9 @@ case 'makermenu':{
 var unicorn = await getBuffer(picak+'Maker Menu')
 
 const buttons = [
-  {buttonId: 'script', buttonText: {displayText: 'Script 🔖'}, type: 1},
-  {buttonId: 'donate', buttonText: {displayText: 'Donate 🍵'}, type: 1},
-  {buttonId: 'owner', buttonText: {displayText: 'Owner 🤣'}, type: 1}
+  {buttonId: 'script', buttonText: {displayText: 'SCRIPT 📟'}, type: 1},
+  {buttonId: 'donate', buttonText: {displayText: 'BOTLINK 🖇️'}, type: 1},
+  {buttonId: 'owner', buttonText: {displayText: 'OWNER 🥷'}, type: 1}
 ]
 const buttonMessage = {
     image: unicorn,
@@ -8619,9 +7972,9 @@ break
 var unicorn = await getBuffer(picak+'Download Menu')
 
 const buttons = [
-  {buttonId: 'script', buttonText: {displayText: 'Script 🔖'}, type: 1},
-  {buttonId: 'donate', buttonText: {displayText: 'Donate 🍵'}, type: 1},
-  {buttonId: 'owner', buttonText: {displayText: 'Owner 🤣'}, type: 1}
+    {buttonId: 'script', buttonText: {displayText: 'SCRIPT 📟'}, type: 1},
+  {buttonId: 'donate', buttonText: {displayText: 'BOTLINK 🖇️'}, type: 1},
+  {buttonId: 'owner', buttonText: {displayText: 'OWNER 🥷'}, type: 1}
 ]
 const buttonMessage = {
     image: unicorn,
@@ -8646,9 +7999,9 @@ break
 var unicorn = await getBuffer(picak+'Search Menu')
 
 const buttons = [
-  {buttonId: 'script', buttonText: {displayText: 'Script 🔖'}, type: 1},
-  {buttonId: 'donate', buttonText: {displayText: 'Donate 🍵'}, type: 1},
-  {buttonId: 'owner', buttonText: {displayText: 'Owner 🤣'}, type: 1}
+  {buttonId: 'script', buttonText: {displayText: 'SCRIPT 📟'}, type: 1},
+  {buttonId: 'donate', buttonText: {displayText: 'BOTLINK 🖇️'}, type: 1},
+  {buttonId: 'owner', buttonText: {displayText: 'OWNER 🥷'}, type: 1}
 ]
 const buttonMessage = {
     image: unicorn,
@@ -8683,9 +8036,9 @@ break
 var unicorn = await getBuffer(picak+'Convert Menu')
 
 const buttons = [
-  {buttonId: 'script', buttonText: {displayText: 'Script 🔖'}, type: 1},
-  {buttonId: 'donate', buttonText: {displayText: 'Donate 🍵'}, type: 1},
-  {buttonId: 'owner', buttonText: {displayText: 'Owner 🤣'}, type: 1}
+  {buttonId: 'script', buttonText: {displayText: 'SCRIPT 📟'}, type: 1},
+  {buttonId: 'donate', buttonText: {displayText: 'BOTLINK 🖇️'}, type: 1},
+  {buttonId: 'owner', buttonText: {displayText: 'OWNER 🥷'}, type: 1}
 ]
 const buttonMessage = {
     image: unicorn,
@@ -8729,9 +8082,9 @@ case 'randomimagemenu':{
 var unicorn = await getBuffer(picak+'Random Image Menu')
 
 const buttons = [
-  {buttonId: 'script', buttonText: {displayText: 'Script 🔖'}, type: 1},
-  {buttonId: 'donate', buttonText: {displayText: 'Donate 🍵'}, type: 1},
-  {buttonId: 'owner', buttonText: {displayText: 'Owner 🤣'}, type: 1}
+  {buttonId: 'script', buttonText: {displayText: 'SCRIPT 📟'}, type: 1},
+  {buttonId: 'donate', buttonText: {displayText: 'BOTLINK 🖇️'}, type: 1},
+  {buttonId: 'owner', buttonText: {displayText: 'OWNER 🥷'}, type: 1}
 ]
 const buttonMessage = {
     image: unicorn,
@@ -8785,9 +8138,9 @@ case 'randomvideomenu':{
 var unicorn = await getBuffer(picak+'Random Video Menu')
 
 const buttons = [
-  {buttonId: 'script', buttonText: {displayText: 'Script 🔖'}, type: 1},
-  {buttonId: 'donate', buttonText: {displayText: 'Donate 🍵'}, type: 1},
-  {buttonId: 'owner', buttonText: {displayText: 'Owner 🤣'}, type: 1}
+  {buttonId: 'script', buttonText: {displayText: 'SCRIPT 📟'}, type: 1},
+  {buttonId: 'donate', buttonText: {displayText: 'BOTLINK 🖇️'}, type: 1},
+  {buttonId: 'owner', buttonText: {displayText: 'OWNER 🥷'}, type: 1}
 ]
 const buttonMessage = {
     image: unicorn,
@@ -8812,9 +8165,9 @@ break
 var unicorn = await getBuffer(picak+'Emote Menu')
 
 const buttons = [
-  {buttonId: 'script', buttonText: {displayText: 'Script 🔖'}, type: 1},
-  {buttonId: 'donate', buttonText: {displayText: 'Donate 🍵'}, type: 1},
-  {buttonId: 'owner', buttonText: {displayText: 'Owner 🤣'}, type: 1}
+  {buttonId: 'script', buttonText: {displayText: 'SCRIPT 📟'}, type: 1},
+  {buttonId: 'donate', buttonText: {displayText: 'BOTLINK 🖇️'}, type: 1},
+  {buttonId: 'owner', buttonText: {displayText: 'OWNER 🥷'}, type: 1}
 ]
 const buttonMessage = {
     image: unicorn,
@@ -8843,9 +8196,9 @@ break
 var unicorn = await getBuffer(picak+'Image Effect Menu')
 
 const buttons = [
-  {buttonId: 'script', buttonText: {displayText: 'Script 🔖'}, type: 1},
-  {buttonId: 'donate', buttonText: {displayText: 'Donate 🍵'}, type: 1},
-  {buttonId: 'owner', buttonText: {displayText: 'Owner 🤣'}, type: 1}
+  {buttonId: 'script', buttonText: {displayText: 'SCRIPT 📟'}, type: 1},
+  {buttonId: 'donate', buttonText: {displayText: 'BOTLINK 🖇️'}, type: 1},
+  {buttonId: 'owner', buttonText: {displayText: 'OWNER 🥷'}, type: 1}
 ]
 const buttonMessage = {
     image: unicorn,
@@ -8863,9 +8216,9 @@ case 'animemenu':{
 var unicorn = await getBuffer(picak+'Anime Menu')
 
 const buttons = [
-  {buttonId: 'script', buttonText: {displayText: 'Script 🔖'}, type: 1},
-  {buttonId: 'donate', buttonText: {displayText: 'Donate 🍵'}, type: 1},
-  {buttonId: 'owner', buttonText: {displayText: 'Owner 🤣'}, type: 1}
+  {buttonId: 'script', buttonText: {displayText: 'SCRIPT 📟'}, type: 1},
+  {buttonId: 'donate', buttonText: {displayText: 'BOTLINK 🖇️'}, type: 1},
+  {buttonId: 'owner', buttonText: {displayText: 'OWNER 🥷'}, type: 1}
 ]
 const buttonMessage = {
     image: unicorn,
@@ -8933,9 +8286,9 @@ break
 var unicorn = await getBuffer(picak+'Sticker Menu')
 
 const buttons = [
-  {buttonId: 'script', buttonText: {displayText: 'Script 🔖'}, type: 1},
-  {buttonId: 'donate', buttonText: {displayText: 'Donate 🍵'}, type: 1},
-  {buttonId: 'owner', buttonText: {displayText: 'Owner 🤣'}, type: 1}
+  {buttonId: 'script', buttonText: {displayText: 'SCRIPT 📟'}, type: 1},
+  {buttonId: 'donate', buttonText: {displayText: 'BOTLINK 🖇️'}, type: 1},
+  {buttonId: 'owner', buttonText: {displayText: 'OWNER 🥷'}, type: 1}
 ]
 const buttonMessage = {
     image: unicorn,
@@ -8963,9 +8316,9 @@ case 'animestickermenu':{
 var unicorn = await getBuffer(picak+'Anime Sticker Menu')
 
 const buttons = [
-  {buttonId: 'script', buttonText: {displayText: 'Script 🔖'}, type: 1},
-  {buttonId: 'donate', buttonText: {displayText: 'Donate 🍵'}, type: 1},
-  {buttonId: 'owner', buttonText: {displayText: 'Owner 🤣'}, type: 1}
+  {buttonId: 'script', buttonText: {displayText: 'SCRIPT 📟'}, type: 1},
+  {buttonId: 'donate', buttonText: {displayText: 'BOTLINK 🖇️'}, type: 1},
+  {buttonId: 'owner', buttonText: {displayText: 'OWNER 🥷'}, type: 1}
 ]
 const buttonMessage = {
     image: unicorn,
@@ -9011,9 +8364,9 @@ case 'nsfwmenu':{
 var unicorn = await getBuffer(picak+'Nsfw Menu')
 
 const buttons = [
-  {buttonId: 'script', buttonText: {displayText: 'Script 🔖'}, type: 1},
-  {buttonId: 'donate', buttonText: {displayText: 'Donate 🍵'}, type: 1},
-  {buttonId: 'owner', buttonText: {displayText: 'Owner 🤣'}, type: 1}
+  {buttonId: 'script', buttonText: {displayText: 'SCRIPT 📟'}, type: 1},
+  {buttonId: 'donate', buttonText: {displayText: 'BOTLINK 🖇️'}, type: 1},
+  {buttonId: 'owner', buttonText: {displayText: 'OWNER 🥷'}, type: 1}
 ]
 const buttonMessage = {
     image: unicorn,
@@ -9065,9 +8418,9 @@ case 'funmenu':{
 var unicorn = await getBuffer(picak+'Fun Menu')
 
 const buttons = [
-  {buttonId: 'script', buttonText: {displayText: 'Script 🔖'}, type: 1},
-  {buttonId: 'donate', buttonText: {displayText: 'Donate 🍵'}, type: 1},
-  {buttonId: 'owner', buttonText: {displayText: 'Owner 🤣'}, type: 1}
+  {buttonId: 'script', buttonText: {displayText: 'SCRIPT 📟'}, type: 1},
+  {buttonId: 'donate', buttonText: {displayText: 'BOTLINK 🖇️'}, type: 1},
+  {buttonId: 'owner', buttonText: {displayText: 'OWNER 🥷'}, type: 1}
 ]
 const buttonMessage = {
     image: unicorn,
@@ -9159,9 +8512,9 @@ case 'soundmenu':{
 var unicorn = await getBuffer(picak+'Sound Menu')
 
 const buttons = [
-  {buttonId: 'script', buttonText: {displayText: 'Script 🔖'}, type: 1},
-  {buttonId: 'donate', buttonText: {displayText: 'Donate 🍵'}, type: 1},
-  {buttonId: 'owner', buttonText: {displayText: 'Owner 🤣'}, type: 1}
+  {buttonId: 'script', buttonText: {displayText: 'SCRIPT 📟'}, type: 1},
+  {buttonId: 'donate', buttonText: {displayText: 'BOTLINK 🖇️'}, type: 1},
+  {buttonId: 'owner', buttonText: {displayText: 'OWNER 🥷'}, type: 1}
 ]
 const buttonMessage = {
     image: unicorn,
@@ -9339,9 +8692,9 @@ case 'gamemenu':{
 var unicorn = await getBuffer(picak+'Game Menu')
 
 const buttons = [
-  {buttonId: 'script', buttonText: {displayText: 'Script 🔖'}, type: 1},
-  {buttonId: 'donate', buttonText: {displayText: 'Donate 🍵'}, type: 1},
-  {buttonId: 'owner', buttonText: {displayText: 'Owner 🤣'}, type: 1}
+  {buttonId: 'script', buttonText: {displayText: 'SCRIPT 📟'}, type: 1},
+  {buttonId: 'donate', buttonText: {displayText: 'BOTLINK 🖇️'}, type: 1},
+  {buttonId: 'owner', buttonText: {displayText: 'OWNER 🥷'}, type: 1}
 ]
 const buttonMessage = {
     image: unicorn,
@@ -9365,9 +8718,9 @@ break
 var unicorn = await getBuffer(picak+'Anonymous Menu')
 
 const buttons = [
-  {buttonId: 'script', buttonText: {displayText: 'Script 🔖'}, type: 1},
-  {buttonId: 'donate', buttonText: {displayText: 'Donate 🍵'}, type: 1},
-  {buttonId: 'owner', buttonText: {displayText: 'Owner 🤣'}, type: 1}
+  {buttonId: 'script', buttonText: {displayText: 'SCRIPT 📟'}, type: 1},
+  {buttonId: 'donate', buttonText: {displayText: 'BOTLINK 🖇️'}, type: 1},
+  {buttonId: 'owner', buttonText: {displayText: 'OWNER 🥷'}, type: 1}
 ]
 const buttonMessage = {
     image: unicorn,
@@ -9388,9 +8741,9 @@ case 'databasemenu':{
 var unicorn = await getBuffer(picak+'Database Menu')
 
 const buttons = [
-  {buttonId: 'script', buttonText: {displayText: 'Script 🔖'}, type: 1},
-  {buttonId: 'donate', buttonText: {displayText: 'Donate 🍵'}, type: 1},
-  {buttonId: 'owner', buttonText: {displayText: 'Owner 🤣'}, type: 1}
+  {buttonId: 'script', buttonText: {displayText: 'SCRIPT 📟'}, type: 1},
+  {buttonId: 'donate', buttonText: {displayText: 'BOTLINK 🖇️'}, type: 1},
+  {buttonId: 'owner', buttonText: {displayText: 'OWNER 🥷'}, type: 1}
 ]
 const buttonMessage = {
     image: unicorn,
@@ -9415,9 +8768,9 @@ case 'othermenu':{
 var unicorn = await getBuffer(picak+'Other Menu')
 
 const buttons = [
-  {buttonId: 'script', buttonText: {displayText: 'Script 🔖'}, type: 1},
-  {buttonId: 'donate', buttonText: {displayText: 'Donate 🍵'}, type: 1},
-  {buttonId: 'owner', buttonText: {displayText: 'Owner 🤣'}, type: 1}
+  {buttonId: 'script', buttonText: {displayText: 'SCRIPT 📟'}, type: 1},
+  {buttonId: 'donate', buttonText: {displayText: 'BOTLINK 🖇️'}, type: 1},
+  {buttonId: 'owner', buttonText: {displayText: 'OWNER 🥷'}, type: 1}
 ]
 const buttonMessage = {
     image: unicorn,
