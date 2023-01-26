@@ -15,23 +15,23 @@ global.doc5 = 'application/pdf'
 global.doc6 = 'application/vnd.android.package-archive'
 
 //owmner v card
-global.owner = ['916909137213'] //ur owner number
-global.ownername = "🦄Dream Guy Xeon" //ur owner name
-global.ytname = "YT: Xeon" //ur yt chanel name
+global.owner = ['94719225807'] //ur owner number
+global.ownername = "©ʏᴜʀᴇꜱʜ ᴋᴀᴠɪɴᴅᴜ ᴡᴀᴛꜱᴀᴘᴘ ʙᴏᴛ" //ur owner name
+global.ytname = "ʏᴜʀᴇꜱʜ" //ur yt chanel name
 global.socialm = "GitHub: DGXeon" //ur github or insta name
 global.location = "India, Mizoram, Aizawl" //ur location
 
 //bot bomdy 
-global.ownernomer = "916909137213" //ur number
-global.premium = ['916909137213'] //ur premium number
-global.botname = 'Cheems Bot MD V6' //ur bot name
-global.linkz = "https://chat.whatsapp.com/HYj9wu5Jrv6CROxyeQbHoS" //your theme url which will be displayed on whatsapp
+global.ownernomer = "94719225807" //ur number
+global.premium = ['94719225807'] //ur premium number
+global.botname = 'ʏᴜʀᴇꜱʜ ᴍᴅ ᴡᴀᴛꜱᴀᴘᴘ ʙᴏᴛ ɴᴇᴡ ᴜᴘᴅᴇᴛᴇ' //ur bot name
+global.linkz = "https://chat.whatsapp.com/Fd5MPEBn7NQ1aviL4V5fa7" //your theme url which will be displayed on whatsapp
 global.websitex = "https://youtu.be/WiIqCdiDjFo" //ur website to be displayed
 global.botscript = 'https://github.com/DGXeon/CheemsBot-MD6' //script link
 global.themeemoji = "🦄" //ur theme emoji
-global.packname = "Sticker By" //ur sticker watermark packname
-global.author = "Cheems Bot\n\n\nA whatsapp bot developed by\n🦄Dream Guy Xeon\n\n\n\n\n\n\n\n       --------______-------\n\n\n\n\n\n\n\nContact No. : +916909137213" //ur sticker watermark author
-global.wm = "Xeon Bot Inc." //ur watermark
+global.packname = "CYBORG ROBOT BOT" //ur sticker watermark packname
+global.author = "CYBORG ROBOT\n\n\nA whatsapp bot developed by\nCYBORG ROBOT\n\n\n\n\n\n\n\n       --------______-------\n\n\n\n\n\n\n\nContact No. : +94719225807" //ur sticker watermark author
+global.wm = "CYBORG ROBOT." //ur watermark
 
 // Other
 global.sessionName = 'session'
