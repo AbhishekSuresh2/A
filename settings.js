@@ -30,7 +30,7 @@ global.websitex = "https://youtu.be/WiIqCdiDjFo" //ur website to be displayed
 global.botscript = 'https://github.com/DGXeon/CheemsBot-MD6' //script link
 global.themeemoji = "🦄" //ur theme emoji
 global.packname = "CYBORG ROBOT BOT" //ur sticker watermark packname
-global.author = "CYBORG ROBOT\n\n\nA whatsapp bot developed by\nCYBORG ROBOT\n\n\n\n\n\n\n\n       --------______-------\n\n\n\n\n\n\n\nContact No. : +94719225807" //ur sticker watermark author
+global.author = "CYBORG ROBOT\n\n\nA whatsapp bot developed by\nCYBORG ROBOT" //ur sticker watermark author
 global.wm = "CYBORG ROBOT." //ur watermark
 
 // Other
@@ -48,7 +48,7 @@ global.mess = {
     group: 'Features Used Only For Groups!',
     private: 'Features Used Only For Private Chat!',
     bot: 'This feature could be used by bot only',
-    wait: 'In process...',
+    wait: 'Please wait...',
     linkm: 'Where is the link?',
     endLimit: 'Your Daily Limit Has Expired, The Limit Will Be Reset Every 12 Hours',
     nsfw: 'The nsfw feature has not been activated, please contact the admin to activate',
