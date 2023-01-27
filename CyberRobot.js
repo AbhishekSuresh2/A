@@ -7487,6 +7487,7 @@ case 'alive': {
     let buttonMessage = {
     image: { url: `https://telegra.ph/file/e4c0e7eb7441a534e735e.jpg` },
     caption: `
+    
    ┌❖🦹🏻‍♂️CYBORG ROBOT⸙🦹🏻‍♂️
    │I AM ALIVE 👋   ${pushname} 
    │BOT INFO 
@@ -7496,15 +7497,15 @@ case 'alive': {
    └─ TIME INFO
    │TIME⏱️ : ${xtime}
    │DATE 🗓️ : ${xdate}
-   └────────────────┈ ⳹`,
+   └────────────────┈ ⳹
+    `,
     footer: `CYBER ROBOT`,
     buttons: buttons,
     headerType: 4,
     }
     XeonBotInc.sendMessage(m.chat, buttonMessage, { quoted: m })
     }
-    break 
-            break
+    break    
            case 'menu': {
 	const sections = [{
 								"title": "Initial Features Of Bot 🦄",
@@ -7525,34 +7526,9 @@ case 'alive': {
 										"rowId": `${prefix}allmenu`
 									},
 									{
-										"title": "Owner Menu 💠",
-										"description": "Displays The List Of Owner Features",
-										"rowId": `${prefix}ownermenu`
-										},
-									{
-										"title": "Group Menu ✨",
-										"description": "Displays The List Of Main Features",
-										"rowId": `${prefix}groupmenu`
-										},
-										{
-										"title": "Maker Menu 🌈",
-										"description": "Displays The List Of Logo Making Features",
-										"rowId": `${prefix}makermenu`
-									},
-									{
-										"title": "Sound Menu 🎵",
-										"description": "Displays The List Of Sound Features",
-										"rowId": `${prefix}soundmenu`
-									},
-									{
 										"title": "Download Menu ↘️",
 										"description": "Displays The List Of Download Features",
 										"rowId": `${prefix}downloadmenu`
-									},
-									{
-										"title": "Sticker Menu 🃏",
-										"description": "Displays The List Of Sticker Features",
-										"rowId": `${prefix}stickermenu`
 									},
 									{
 										"title": "Search Menu 🔎",
@@ -7560,66 +7536,6 @@ case 'alive': {
 										"rowId": `${prefix}searchmenu`
 									},
 									{
-										"title": "Random Image Menu 🌆",
-										"description": "Displays The List Of Random Image Features",
-										"rowId": `${prefix}randomimagemenu`
-									},
-									{
-										"title": "Random Video Menu 🌆",
-										"description": "Displays The List Of Random Video Features",
-										"rowId": `${prefix}randomvideomenu`
-									},
-									{
-										"title": "Image Effect Menu 🖼️",
-										"description": "Displays The List Of Image Effect Features",
-										"rowId": `${prefix}imageeffectmenu`
-									},
-										{
-											"title": "Anime Menu 😘",
-										"description": "Displays The List Of Random Anime Features",
-										"rowId": `${prefix}animemenu`
-										},
-										{
-											"title": "Emote Menu 😀",
-										"description": "Displays The List Of Emote Features",
-										"rowId": `${prefix}emotemenu`
-										},
-										{
-										"title": "Anime Sticker Menu ☺️",
-										"description": "Displays The List Of Anime Sticker Features",
-										"rowId": `${prefix}animestickermenu`
-									     },
-									{
-										"title": "Nsfw Menu 🤓",
-										"description": "Displays The List Of Nsfe Features",
-										"rowId": `${prefix}nsfwmenu`
-									     },
-										{
-											"title": "Fun Menu 🕺",
-										"description": "Displays The List Of Fun Features",
-										"rowId": `${prefix}funmenu`
-										},
-										{
-										"title": "Game Menu 🎮",
-										"description": "Displays The List Of Game Features",
-										"rowId": `${prefix}gamemenu`
-									},
-										{
-											"title": "Convert Menu ⚒️",
-										"description": "Displays The List Of Convert Features",
-										"rowId": `${prefix}convertmenu`
-										},
-										{
-											"title": "Database Menu ♻️",
-										"description": "Displays The List Of Database Features",
-										"rowId": `${prefix}databasemenu`
-										},
-										{
-										"title": "Other Menu 🐸",
-										"description": "Displays The List Miscellaneous Features",
-										"rowId": `${prefix}othermenu`
-									     },
-										{
 										"title": "War Menu☣️",
 										"description": "Displays The List Of War Features",
 										"rowId": `${prefix}warmenu`
