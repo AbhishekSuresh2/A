@@ -1,5 +1,5 @@
 {
-  "name": "Cyber-robot",
+  "name": "Queen-X",
   "version": "6.0.0",
   "description": "Automated whatsapp md bot created using nodejs and baileys lib",
   "type": "commonjs",
@@ -15,7 +15,7 @@
     "bot",
     "bot-md",
     "multi-device",
-    "dragon-bot-inc"
+    "queen-x-bot-inc"
   ],
   "author": "Nimesh-official",
   "license": "AGPL-3",
@@ -82,10 +82,10 @@
     "src": "src"
   },
   "devDependencies": {},
-  "repository": "git+https://github.com/yureshkav/CYBER-ROBOT.git",
+  "repository": "git+https://github.com/yureshkav/Queen-X.git",
   "bugs": {
-    "url": "https://github.com/yureshkav/CYBER-ROBOT/issues"
+    "url": "https://github.com/yureshkav/Queen-X/issues"
   },
-  "homepage": "https://github.com/yureshkav/CYBER-ROBOT/#readme",
+  "homepage": "https://github.com/yureshkav/Queen-X/#readme",
   "main": "index.js"
 }
