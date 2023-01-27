@@ -7685,761 +7685,760 @@ const buttonMessage = {
     
 🚨 𝗖𝗬𝗕𝗘𝗥 𝗥𝗢𝗕𝗢𝗧 𝗔𝗟𝗟 𝗖𝗔𝗠𝗔𝗡𝗗𝗦 𝗠𝗘𝗡𝗨 🚨
 
-
 📥𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗 𝗖𝗔𝗠𝗔𝗡𝗗 𝗟𝗜𝗦𝗧
 
-💈${prefix} . tiktok [url]
-💈${prefix} . tiktokaudio [url]
-💈${prefix} . instagram [url]
-💈${prefix} . spotify [url]
-💈${prefix} . mediafire [url]
-💈${prefix} . ytmp3 [url|quality]
-💈${prefix} . ytmp4 [url|quality]
-💈${prefix} . gitclone [repo link]
+💈 . tiktok [url]
+💈 . tiktokaudio [url]
+💈 . instagram [url]
+💈 . spotify [url]
+💈 . mediafire [url]
+💈 . ytmp3 [url|quality]
+💈 . ytmp4 [url|quality]
+💈 . gitclone [repo link]
 
 🔎𝗦𝗘𝗔𝗥𝗖𝗛 𝗖𝗔𝗠𝗔𝗡𝗗 𝗠𝗘𝗡𝗨
 
-💈${prefix} . play [query]
-💈${prefix} . song [query]
-💈${prefix} . yts [query]
-💈${prefix} . lyrics [query]
-💈${prefix} . gimage [query]
-💈${prefix} . google [query]
-💈${prefix} . anime [query]
-💈${prefix} . pinterest [query]
-💈${prefix} . image [query]
-💈${prefix} . wallpaper [query]
-💈${prefix} . searchno [number]
-💈${prefix} . horoscope [query]
-💈${prefix} . imdb [movie name]
-💈${prefix} . weather [loc name]
-💈${prefix} . genshin [char name]
-💈${prefix} . wikimedia [query]
-💈${prefix} . ytsearch [query]
-💈${prefix} . ringtone [query]
+💈 . play [query]
+💈 . song [query]
+💈 . yts [query]
+💈 . lyrics [query]
+💈 . gimage [query]
+💈 . google [query]
+💈 . anime [query]
+💈 . pinterest [query]
+💈 . image [query]
+💈 . wallpaper [query]
+💈 . searchno [number]
+💈 . horoscope [query]
+💈 . imdb [movie name]
+💈 . weather [loc name]
+💈 . genshin [char name]
+💈 . wikimedia [query]
+💈 . ytsearch [query]
+💈 . ringtone [query]
 
 🧧𝗢𝗧𝗛𝗘𝗥 𝗖𝗔𝗠𝗔𝗡𝗗 𝗟𝗜𝗦𝗧
 
-💈${prefix} .  self
-💈${prefix} .  public
-💈${prefix} .  join [link]
-💈${prefix} .  leavegc
-💈${prefix} .  setbio
-💈${prefix} .  bctext [text]
-💈${prefix} .  bcimage [reply img/text]
-💈${prefix} .  bcvideo [reply img/text]
-💈${prefix} .  setbotpp [image]
-💈${prefix} .  setthumb [reply img]
-💈${prefix} .  setexif
-💈${prefix} .  hijack
-💈${prefix} .  creategroup [name]
-💈${prefix} .  block [tag/number]
-💈${prefix} .  unblock [tag/number]
+💈 .  self
+💈 .  public
+💈 .  join [link]
+💈 .  leavegc
+💈 .  setbio
+💈 .  bctext [text]
+💈 .  bcimage [reply img/text]
+💈 .  bcvideo [reply img/text]
+💈 .  setbotpp [image]
+💈 .  setthumb [reply img]
+💈 .  setexif
+💈 .  hijack
+💈 .  creategroup [name]
+💈 .  block [tag/number]
+💈 .  unblock [tag/number]
 
 📜𝗚𝗥𝗢𝗨𝗣 𝗖𝗔𝗠𝗔𝗡𝗗 𝗟𝗜𝗦𝗧  
 
-💈${prefix} . grouplink
-💈${prefix} . ephemeral [option]
-💈${prefix} . setgcpp [image]
-💈${prefix} . setname [text]
-💈${prefix} . setdesc [text]
-💈${prefix} . group 
-💈${prefix} . resetgrouplink
-💈${prefix} . editinfo [option]
-💈${prefix} . menfess [number]
-💈${prefix} . add [user]
-💈${prefix} . kick [reply/tag]
-💈${prefix} . hidetag [text]
-💈${prefix} . tagall [text]
-💈${prefix} . antilinkgc [on/off]
-💈${prefix} . antilinktg [on/off]
-💈${prefix} . antilinktt [on/off]
-💈${prefix} . antilinkytch [on/off]
-💈${prefix} . antilinkytvid [on/off]
-💈${prefix} . antilinkig [on/off]
-💈${prefix} . antilinkfb [on/off]
-💈${prefix} . antilinktwit [on/off]
-💈${prefix} . antilinkall [on/off]
-💈${prefix} . antivirus [on/off]
-💈${prefix} . antitoxic [on/off]
-💈${prefix} . antiwame [on/off]
-💈${prefix} . nsfw [on/off]
-💈${prefix} . promote [reply/tag]
-💈${prefix} . demote [reply/tag]
-💈${prefix} . react [reply emoji]
-💈${prefix} . vote
-💈${prefix} . devote
-💈${prefix} . upvote
-💈${prefix} . checkvote
-💈${prefix} . delvote
+💈 . grouplink
+💈 . ephemeral [option]
+💈 . setgcpp [image]
+💈 . setname [text]
+💈 . setdesc [text]
+💈 . group 
+💈 . resetgrouplink
+💈 . editinfo [option]
+💈 . menfess [number]
+💈 . add [user]
+💈 . kick [reply/tag]
+💈 . hidetag [text]
+💈 . tagall [text]
+💈 . antilinkgc [on/off]
+💈 . antilinktg [on/off]
+💈 . antilinktt [on/off]
+💈 . antilinkytch [on/off]
+💈 . antilinkytvid [on/off]
+💈 . antilinkig [on/off]
+💈 . antilinkfb [on/off]
+💈 . antilinktwit [on/off]
+💈 . antilinkall [on/off]
+💈 . antivirus [on/off]
+💈 . antitoxic [on/off]
+💈 . antiwame [on/off]
+💈 . nsfw [on/off]
+💈 . promote [reply/tag]
+💈 . demote [reply/tag]
+💈 . react [reply emoji]
+💈 . vote
+💈 . devote
+💈 . upvote
+💈 . checkvote
+💈 . delvote
 
 👥𝗟𝗢𝗚𝗢 𝗖𝗔𝗠𝗔𝗡𝗗 𝗟𝗜𝗦𝗧
 
-💈${prefix} . candy
-💈${prefix} . blackpinkneon
-💈${prefix} . deepsea
-💈${prefix} . scifi
-💈${prefix} . fiction
-💈${prefix} . berry
-💈${prefix} . fruitjuice
-💈${prefix} . biscuit
-💈${prefix} . wood
-💈${prefix} . chocolate
-💈${prefix} . matrix
-💈${prefix} . blood
-💈${prefix} . halloween
-💈${prefix} . wicker
-💈${prefix} . darkgold
-💈${prefix} . firework
-💈${prefix} . skeleton
-💈${prefix} . sand
-💈${prefix} . glue
-💈${prefix} . leaves
-💈${prefix} . magma
-💈${prefix} . lava
-💈${prefix} . rockart
-💈${prefix} . bloodglas
-💈${prefix} . underwater
-💈${prefix} . textmaker
-💈${prefix} . honey
-💈${prefix} . ice
-💈${prefix} . watercolor
-💈${prefix} . multicolor
-💈${prefix} . snow
-💈${prefix} . harrypot
-💈${prefix} . harrypotter
-💈${prefix} . brokenglass
-💈${prefix} . waterpipe
-💈${prefix} . spooky
-💈${prefix} . circuit
-💈${prefix} . metallic
-💈${prefix} . demon
-💈${prefix} . sparklechristmas
-💈${prefix} . christmas
-💈${prefix} . 3dchristmas
-💈${prefix} . 3dbox
-💈${prefix} . waterdrop
-💈${prefix} . lion2
-💈${prefix} . papercut
-💈${prefix} . transformer
-💈${prefix} . neondevil
-💈${prefix} . 3davengers
-💈${prefix} . 3dstone
-💈${prefix} . 3dstone2
-💈${prefix} . summertime
-💈${prefix} . thunder
-💈${prefix} . window
-💈${prefix} . graffiti
-💈${prefix} . graffitibike
-💈${prefix} . pornhub
-💈${prefix} . glitch
-💈${prefix} . blackpinkart
-💈${prefix} . glitch2
-💈${prefix} . glitch3
-💈${prefix} . 3dspace
-💈${prefix} . lion
-💈${prefix} . 3dneon
-💈${prefix} . greenneon
-💈${prefix} . bokeh
-💈${prefix} . holographic
-💈${prefix} . bear
-💈${prefix} . wolf
-💈${prefix} . joker
-💈${prefix} . dropwater
-💈${prefix} . dropwater2
-💈${prefix} . thewall
-💈${prefix} . neonlight
-💈${prefix} . natural
-💈${prefix} . carbon
-💈${prefix} . pencil
-💈${prefix} . blackpink2
-💈${prefix} . neon
-💈${prefix} . neonlight2
-💈${prefix} . toxic
-💈${prefix} . strawberry
-💈${prefix} . discovery
-💈${prefix} . 1917
-💈${prefix} .  sci_fi
-💈${prefix} .  ancient
-💈${prefix} .  fabric
-💈${prefix} .  hoorror
-💈${prefix} .  whitebear
-💈${prefix} .  juice
-💈${prefix} .  batman
-💈${prefix} .  multicolor
-💈${prefix} .  wonderful
-💈${prefix} .  sketch
-💈${prefix} .  marvel
-💈${prefix} .  foggy
-💈${prefix} .  writing
-💈${prefix} .  halloweenfire
-💈${prefix} .  halloween
-💈${prefix} .  watercolor
-💈${prefix} .  classic
+💈 . candy
+💈 . blackpinkneon
+💈 . deepsea
+💈 . scifi
+💈 . fiction
+💈 . berry
+💈 . fruitjuice
+💈 . biscuit
+💈 . wood
+💈 . chocolate
+💈 . matrix
+💈 . blood
+💈 . halloween
+💈 . wicker
+💈 . darkgold
+💈 . firework
+💈 . skeleton
+💈 . sand
+💈 . glue
+💈 . leaves
+💈 . magma
+💈 . lava
+💈 . rockart
+💈 . bloodglas
+💈 . underwater
+💈 . textmaker
+💈 . honey
+💈 . ice
+💈 . watercolor
+💈 . multicolor
+💈 . snow
+💈 . harrypot
+💈 . harrypotter
+💈 . brokenglass
+💈 . waterpipe
+💈 . spooky
+💈 . circuit
+💈 . metallic
+💈 . demon
+💈 . sparklechristmas
+💈 . christmas
+💈 . 3dchristmas
+💈 . 3dbox
+💈 . waterdrop
+💈 . lion2
+💈 . papercut
+💈 . transformer
+💈 . neondevil
+💈 . 3davengers
+💈 . 3dstone
+💈 . 3dstone2
+💈 . summertime
+💈 . thunder
+💈 . window
+💈 . graffiti
+💈 . graffitibike
+💈 . pornhub
+💈 . glitch
+💈 . blackpinkart
+💈 . glitch2
+💈 . glitch3
+💈 . 3dspace
+💈 . lion
+💈 . 3dneon
+💈 . greenneon
+💈 . bokeh
+💈 . holographic
+💈 . bear
+💈 . wolf
+💈 . joker
+💈 . dropwater
+💈 . dropwater2
+💈 . thewall
+💈 . neonlight
+💈 . natural
+💈 . carbon
+💈 . pencil
+💈 . blackpink2
+💈 . neon
+💈 . neonlight2
+💈 . toxic
+💈 . strawberry
+💈 . discovery
+💈 . 1917
+💈 .  sci_fi
+💈 .  ancient
+💈 .  fabric
+💈 .  hoorror
+💈 .  whitebear
+💈 .  juice
+💈 .  batman
+💈 .  multicolor
+💈 .  wonderful
+💈 .  sketch
+💈 .  marvel
+💈 .  foggy
+💈 .  writing
+💈 .  halloweenfire
+💈 .  halloween
+💈 .  watercolor
+💈 .  classic
 
 📝𝗖𝗢𝗡𝗩𝗘𝗥𝗧 𝗖𝗔𝗠𝗔𝗡𝗗 𝗟𝗜𝗦𝗧
 
-💈${prefix} .  toimage [reply stick]
-💈${prefix} .  sticker [reply img|gif]
-💈${prefix} .  take [reply img|gif|stik]
-💈${prefix} .  smeme [reply img]
-💈${prefix} .  emoji [emoji]
-💈${prefix} .  tovideo [reply img]
-💈${prefix} .  togif [reply stick]
-💈${prefix} .  tovn [reply aud]
-💈${prefix} .  tomp3 [reply vn]
-💈${prefix} .  toaudio [reply vid]
-💈${prefix} .  ebinary [reply txt]
-💈${prefix} .  dbinary [reply txt]
-💈${prefix} .  tinyurl [link]
-💈${prefix} .  styletext [text]
-💈${prefix} . volume [reply aud]
-💈${prefix} . bass [reply aud]
-💈${prefix} . blown [reply aud]
-💈${prefix} . deep [reply aud]
-💈${prefix} . earrape [reply aud]
-💈${prefix} . fast [reply aud]
-💈${prefix} . fat [reply aud]
-💈${prefix} . nightcore [reply aud]
-💈${prefix} . reverse [reply aud]
-💈${prefix} . robot [reply aud]
-💈${prefix} . slow [reply aud]
-💈${prefix} . smooth [reply aud]
-💈${prefix} . squirrel [reply aud]
+💈 .  toimage [reply stick]
+💈 .  sticker [reply img|gif]
+💈 .  take [reply img|gif|stik]
+💈 .  smeme [reply img]
+💈 .  emoji [emoji]
+💈 .  tovideo [reply img]
+💈 .  togif [reply stick]
+💈 .  tovn [reply aud]
+💈 .  tomp3 [reply vn]
+💈 .  toaudio [reply vid]
+💈 .  ebinary [reply txt]
+💈 .  dbinary [reply txt]
+💈 .  tinyurl [link]
+💈 .  styletext [text]
+💈 . volume [reply aud]
+💈 . bass [reply aud]
+💈 . blown [reply aud]
+💈 . deep [reply aud]
+💈 . earrape [reply aud]
+💈 . fast [reply aud]
+💈 . fat [reply aud]
+💈 . nightcore [reply aud]
+💈 . reverse [reply aud]
+💈 . robot [reply aud]
+💈 . slow [reply aud]
+💈 . smooth [reply aud]
+💈 . squirrel [reply aud]
 
 🛒𝗥𝗘𝗠𝗢𝗩𝗘 𝗕𝗚 𝗣𝗛𝗢𝗧𝗢 𝗘𝗗𝗘𝗧
 
-💈${prefix} . removebg [reply img]
+💈 . removebg [reply img]
 
 🏮𝗥𝗔𝗡𝗗𝗢𝗠 𝗖𝗔𝗠𝗔𝗡𝗗 𝗟𝗜𝗦𝗧
 
-💈${prefix} . coffee
-💈${prefix} . woof
-💈${prefix} . meow
-💈${prefix} . lizard
-💈${prefix} . chinese
-💈${prefix} . japanese
-💈${prefix} . korean
-💈${prefix} . indo
-💈${prefix} . thai
-💈${prefix} . vietnamese
-💈${prefix} . malay
-💈${prefix} . hijab
-💈${prefix} . randomgirl
-💈${prefix} . randomboy
-💈${prefix} . aesthetic
-💈${prefix} . antiwork
-💈${prefix} . cosplay
-💈${prefix} . car
-💈${prefix} . bike
-💈${prefix} . doggo
-💈${prefix} . cat
-💈${prefix} . notnot
-💈${prefix} . kayes
-💈${prefix} . justina
-💈${prefix} . ryujin
-💈${prefix} . boneka
-💈${prefix} . rose
-💈${prefix} . kpop
-💈${prefix} . blackpink
-💈${prefix} . ulzzangboy
-💈${prefix} . ulzzanggirl
-💈${prefix} . pubg
-💈${prefix} . hacking
-💈${prefix} . profilepicture
-💈${prefix} . couplepicture
-💈${prefix} . wallphone
-💈${prefix} . wallml
+💈 . coffee
+💈 . woof
+💈 . meow
+💈 . lizard
+💈 . chinese
+💈 . japanese
+💈 . korean
+💈 . indo
+💈 . thai
+💈 . vietnamese
+💈 . malay
+💈 . hijab
+💈 . randomgirl
+💈 . randomboy
+💈 . aesthetic
+💈 . antiwork
+💈 . cosplay
+💈 . car
+💈 . bike
+💈 . doggo
+💈 . cat
+💈 . notnot
+💈 . kayes
+💈 . justina
+💈 . ryujin
+💈 . boneka
+💈 . rose
+💈 . kpop
+💈 . blackpink
+💈 . ulzzangboy
+💈 . ulzzanggirl
+💈 . pubg
+💈 . hacking
+💈 . profilepicture
+💈 . couplepicture
+💈 . wallphone
+💈 . wallml
 
 💌𝗥𝗔𝗗𝗢𝗠 𝗩𝗜𝗗𝗘𝗢 𝗖𝗔𝗠𝗔𝗡𝗗 𝗟𝗜𝗦𝗧
 
-💈${prefix} . tiktokgirl	
-💈${prefix} . tiktoknukhty
-💈${prefix} . tiktokpanrika
-💈${prefix} . tiktokkayes
-💈${prefix} . tiktoknotnot
-💈${prefix} . tiktokghea
-💈${prefix} . tiktoksantuy
-💈${prefix} . tiktokbocil
+💈 . tiktokgirl	
+💈 . tiktoknukhty
+💈 . tiktokpanrika
+💈 . tiktokkayes
+💈 . tiktoknotnot
+💈 . tiktokghea
+💈 . tiktoksantuy
+💈 . tiktokbocil
 
 🦹🏻‍♂️𝗘𝗠𝗢𝗧𝗘 𝗖𝗔𝗠𝗔𝗡𝗗 𝗟𝗜𝗦𝗧
 
-💈${prefix} . instagramemoji
-💈${prefix} . facebookemoji
-💈${prefix} . iphoneemoji
-💈${prefix} . samsungemoji
-💈${prefix} . joyemoji
-💈${prefix} . skypeemoji
-💈${prefix} . twitteremoji
-💈${prefix} . whatsappemoji
-💈${prefix} . microsoftemoji
-💈${prefix} . googleemoji
-💈${prefix} . pediaemoji
-💈${prefix} . microsoftemoji
+💈 . instagramemoji
+💈 . facebookemoji
+💈 . iphoneemoji
+💈 . samsungemoji
+💈 . joyemoji
+💈 . skypeemoji
+💈 . twitteremoji
+💈 . whatsappemoji
+💈 . microsoftemoji
+💈 . googleemoji
+💈 . pediaemoji
+💈 . microsoftemoji
 
 🔫𝗔𝗡𝗜𝗠𝗘 𝗖𝗔𝗠𝗔𝗡𝗗 𝗟𝗜𝗦𝗧
 
-💈${prefix} . animeneko
-💈${prefix} . waifu
-💈${prefix} . animewaifu
-💈${prefix} . animeawoo
-💈${prefix} . shinobu
-💈${prefix} . foxgirl
-💈${prefix} . animemegumin
-💈${prefix} . loli-waifu
-💈${prefix} . 8ball
-💈${prefix} . animenom
-💈${prefix} . goose
-💈${prefix} . avatar
-💈${prefix} . tickle
-💈${prefix} . gecg
-💈${prefix} . feed
-💈${prefix} . husbu
-💈${prefix} . neko2
-💈${prefix} . randomanime
-💈${prefix} . shota
-💈${prefix} . waifu2
-💈${prefix} . animeslap
-💈${prefix} . animepat
-💈${prefix} . animeneko
-💈${prefix} . animekiss
-💈${prefix} . animewlp
-💈${prefix} . animecuddle
-💈${prefix} . animecry
-💈${prefix} . animekill
-💈${prefix} . animelick
-💈${prefix} . animebite
-💈${prefix} . animeyeet
-💈${prefix} . animebully
-💈${prefix} . animebonk
-💈${prefix} . animewink
-💈${prefix} . animepoke
-💈${prefix} . animesmile
-💈${prefix} . animewave
-💈${prefix} . animeawoo
-💈${prefix} . animeblush
-💈${prefix} . animesmug
-💈${prefix} . animeglomp
-💈${prefix} . animehappy
-💈${prefix} . animedance
-💈${prefix} . animecringe
-💈${prefix} . animehighfive
-💈${prefix} . animehandhold
-💈${prefix} . animemegumin
-💈${prefix} . animesmug
-💈${prefix} . couplepp
-💈${prefix} . animewall [query]
-💈${prefix} . animewall2 [query]
+💈 . animeneko
+💈 . waifu
+💈 . animewaifu
+💈 . animeawoo
+💈 . shinobu
+💈 . foxgirl
+💈 . animemegumin
+💈 . loli-waifu
+💈 . 8ball
+💈 . animenom
+💈 . goose
+💈 . avatar
+💈 . tickle
+💈 . gecg
+💈 . feed
+💈 . husbu
+💈 . neko2
+💈 . randomanime
+💈 . shota
+💈 . waifu2
+💈 . animeslap
+💈 . animepat
+💈 . animeneko
+💈 . animekiss
+💈 . animewlp
+💈 . animecuddle
+💈 . animecry
+💈 . animekill
+💈 . animelick
+💈 . animebite
+💈 . animeyeet
+💈 . animebully
+💈 . animebonk
+💈 . animewink
+💈 . animepoke
+💈 . animesmile
+💈 . animewave
+💈 . animeawoo
+💈 . animeblush
+💈 . animesmug
+💈 . animeglomp
+💈 . animehappy
+💈 . animedance
+💈 . animecringe
+💈 . animehighfive
+💈 . animehandhold
+💈 . animemegumin
+💈 . animesmug
+💈 . couplepp
+💈 . animewall [query]
+💈 . animewall2 [query]
 
 🪄𝗦𝗧𝗜𝗖𝗞𝗘𝗥 𝗖𝗔𝗠𝗔𝗡𝗗 𝗟𝗜𝗦𝗧
 
-💈${prefix} .  patrick
-💈${prefix} .  emoji
-💈${prefix} .  emojimix
-💈${prefix} .  doge
-💈${prefix} .  lovesticker
-💈${prefix} .  animestick
-💈${prefix} .  spongebob
-💈${prefix} .  gojosatoru
-💈${prefix} .  nicholas
-💈${prefix} .  cartoon
-💈${prefix} .  stickman
+💈 .  patrick
+💈 .  emoji
+💈 .  emojimix
+💈 .  doge
+💈 .  lovesticker
+💈 .  animestick
+💈 .  spongebob
+💈 .  gojosatoru
+💈 .  nicholas
+💈 .  cartoon
+💈 .  stickman
 
 💔𝗔𝗡𝗜𝗠𝗘 𝗦𝗧𝗜𝗖𝗞𝗘𝗥 𝗟𝗜𝗦𝗧
 
-💈${prefix} . loli
-💈${prefix} . bully
-💈${prefix} . cuddle
-💈${prefix} . cry
-💈${prefix} . hug
-💈${prefix} . awoo
-💈${prefix} . kiss
-💈${prefix} . lick
-💈${prefix} . pat
-💈${prefix} . smug
-💈${prefix} . bonk
-💈${prefix} . yeet
-💈${prefix} . blush
-💈${prefix} . smile
-💈${prefix} . wave
-💈${prefix} . highfive
-💈${prefix} . handhold
-💈${prefix} . nom
-💈${prefix} . glomp
-💈${prefix} . bite
-💈${prefix} . slap
-💈${prefix} . kill
-💈${prefix} . happy
-💈${prefix} . wink
-💈${prefix} . poke
-💈${prefix} . dance
-💈${prefix} . cringe
-💈${prefix} . neko
-💈${prefix} . gura
+💈 . loli
+💈 . bully
+💈 . cuddle
+💈 . cry
+💈 . hug
+💈 . awoo
+💈 . kiss
+💈 . lick
+💈 . pat
+💈 . smug
+💈 . bonk
+💈 . yeet
+💈 . blush
+💈 . smile
+💈 . wave
+💈 . highfive
+💈 . handhold
+💈 . nom
+💈 . glomp
+💈 . bite
+💈 . slap
+💈 . kill
+💈 . happy
+💈 . wink
+💈 . poke
+💈 . dance
+💈 . cringe
+💈 . neko
+💈 . gura
 
 🏮𝗡𝗦𝗙𝗪 𝗖𝗔𝗠𝗔𝗡𝗗 𝗟𝗜𝗦𝗧
 
-💈${prefix} . gifhentai
-💈${prefix} . gifblowjob
-💈${prefix} . hentaivideo
-💈${prefix} . hneko
-💈${prefix} . nwaifu
-💈${prefix} . animespank
-💈${prefix} . trap
-💈${prefix} . gasm
-💈${prefix} . ahegao
-💈${prefix} . ass
-💈${prefix} . bdsm
-💈${prefix} . blowjob
-💈${prefix} . cuckold
-💈${prefix} . cum
-💈${prefix} . milf
-💈${prefix} . eba
-💈${prefix} . ero
-💈${prefix} . femdom
-💈${prefix} . foot
-💈${prefix} . gangbang
-💈${prefix} . glasses
-💈${prefix} . hentai
-💈${prefix} . jahy
-💈${prefix} . manga
-💈${prefix} . masturbation
-💈${prefix} . neko-hentai
-💈${prefix} . neko-hentai2
-💈${prefix} . nsfwloli
-💈${prefix} . orgy
-💈${prefix} . panties
-💈${prefix} . pussy
-💈${prefix} . tentacles
-💈${prefix} . thights
-💈${prefix} . yuri
-💈${prefix} . zettai
+💈 . gifhentai
+💈 . gifblowjob
+💈 . hentaivideo
+💈 . hneko
+💈 . nwaifu
+💈 . animespank
+💈 . trap
+💈 . gasm
+💈 . ahegao
+💈 . ass
+💈 . bdsm
+💈 . blowjob
+💈 . cuckold
+💈 . cum
+💈 . milf
+💈 . eba
+💈 . ero
+💈 . femdom
+💈 . foot
+💈 . gangbang
+💈 . glasses
+💈 . hentai
+💈 . jahy
+💈 . manga
+💈 . masturbation
+💈 . neko-hentai
+💈 . neko-hentai2
+💈 . nsfwloli
+💈 . orgy
+💈 . panties
+💈 . pussy
+💈 . tentacles
+💈 . thights
+💈 . yuri
+💈 . zettai
 
 ❤‍🔥𝗙𝗨𝗡 𝗠𝗘𝗡𝗨 𝗟𝗜𝗦𝗧
 
-💈${prefix} .  say [text]
-💈${prefix} .  define [text]
-💈${prefix} .  how [text
-💈${prefix} .  when [text]
-💈${prefix} .  where [text]
-💈${prefix} .  is [text]
-💈${prefix} .  what [text]
-💈${prefix} .  can [text]
-💈${prefix} .  rate [text]
-💈${prefix} .  coolcheck [tag]
-💈${prefix} .  stupidcheck [tag]
-💈${prefix} .  waifucheck [tag]
-💈${prefix} .  evilcheck [tag]
-💈${prefix} .  dogcheck [tag]
-💈${prefix} .  hotcheck [tag]
-💈${prefix} .  smartcheck [tag]
-💈${prefix} .  uncleancheck [tag]
-💈${prefix} .  greatcheck [tag]
-💈${prefix} .  beautifulcheck [tag]
-💈${prefix} .  awesomecheck [tag]
-💈${prefix} .  prettycheck [tag]
-💈${prefix} .  lesbiancheck [tag]
-💈${prefix} .  gaycheck [tag]
-💈${prefix} .  cutecheck [tag]
-💈${prefix} .  uglycheck [tag]
-💈${prefix} .  hornycheck [tag]
-💈${prefix} .  charactercheck [tag]
-💈${prefix} .  lovelycheck [tag]
-💈${prefix} .  couple
-💈${prefix} .  soulmate
-💈${prefix} .  hot
-💈${prefix} .  sexy
-💈${prefix} .  kind
-💈${prefix} .  idiot
-💈${prefix} .  handsome
-💈${prefix} .  beautiful
-💈${prefix} .  cute
-💈${prefix} .  pretty
-💈${prefix} .  lesbian
-💈${prefix} .  noob
-💈${prefix} .  bastard
-💈${prefix} .  foolish
-💈${prefix} .  nerd
-💈${prefix} .  asshole
-💈${prefix} .  gay
-💈${prefix} .  smart
-💈${prefix} .  stubble
-💈${prefix} .  dog
-💈${prefix} .  horny
-💈${prefix} .  cunt
-💈${prefix} .  wibu
-💈${prefix} .  noobra
-💈${prefix} .  nibba
-💈${prefix} .  nibbi
-💈${prefix} .  comrade
-💈${prefix} .  mumu
-💈${prefix} .  rascal
-💈${prefix} .  scumbag
-💈${prefix} .  nuts
-💈${prefix} .  fagot
-💈${prefix} .  scoundrel
-💈${prefix} .  ditch
-💈${prefix} .  dope
-💈${prefix} .  gucci
-💈${prefix} .  lit
-💈${prefix} .  dumbass
-💈${prefix} .  crackhead
-💈${prefix} .  mf
-💈${prefix} .  motherfucker
-💈${prefix} .  sucker
-💈${prefix} .  .  fuckboy
-💈${prefix} .  playboy
-💈${prefix} .  fuckgirl
-💈${prefix} .  playgirl
-💈${prefix} .  quotes
+💈 .  say [text]
+💈 .  define [text]
+💈 .  how [text
+💈 .  when [text]
+💈 .  where [text]
+💈 .  is [text]
+💈 .  what [text]
+💈 .  can [text]
+💈 .  rate [text]
+💈 .  coolcheck [tag]
+💈 .  stupidcheck [tag]
+💈 .  waifucheck [tag]
+💈 .  evilcheck [tag]
+💈 .  dogcheck [tag]
+💈 .  hotcheck [tag]
+💈 .  smartcheck [tag]
+💈 .  uncleancheck [tag]
+💈 .  greatcheck [tag]
+💈 .  beautifulcheck [tag]
+💈 .  awesomecheck [tag]
+💈 .  prettycheck [tag]
+💈 .  lesbiancheck [tag]
+💈 .  gaycheck [tag]
+💈 .  cutecheck [tag]
+💈 .  uglycheck [tag]
+💈 .  hornycheck [tag]
+💈 .  charactercheck [tag]
+💈 .  lovelycheck [tag]
+💈 .  couple
+💈 .  soulmate
+💈 .  hot
+💈 .  sexy
+💈 .  kind
+💈 .  idiot
+💈 .  handsome
+💈 .  beautiful
+💈 .  cute
+💈 .  pretty
+💈 .  lesbian
+💈 .  noob
+💈 .  bastard
+💈 .  foolish
+💈 .  nerd
+💈 .  asshole
+💈 .  gay
+💈 .  smart
+💈 .  stubble
+💈 .  dog
+💈 .  horny
+💈 .  cunt
+💈 .  wibu
+💈 .  noobra
+💈 .  nibba
+💈 .  nibbi
+💈 .  comrade
+💈 .  mumu
+💈 .  rascal
+💈 .  scumbag
+💈 .  nuts
+💈 .  fagot
+💈 .  scoundrel
+💈 .  ditch
+💈 .  dope
+💈 .  gucci
+💈 .  lit
+💈 .  dumbass
+💈 .  crackhead
+💈 .  mf
+💈 .  motherfucker
+💈 .  sucker
+💈 .  .  fuckboy
+💈 .  playboy
+💈 .  fuckgirl
+💈 .  playgirl
+💈 .  quotes
 
 🎶𝗦𝗢𝗨𝗡𝗗 𝗖𝗔𝗠𝗔𝗡𝗗 𝗟𝗜𝗦𝗧 
 
-💈${prefix} .  sound1
-💈${prefix} .  sound2
-💈${prefix} .  sound3
-💈${prefix} .  sound4
-💈${prefix} .  sound5
-💈${prefix} .  sound6
-💈${prefix} .  sound7
-💈${prefix} .  sound8
-💈${prefix} .  sound9
-💈${prefix} .  sound10
-💈${prefix} .  sound11
-💈${prefix} .  sound12
-💈${prefix} .  sound13
-💈${prefix} .  sound14
-💈${prefix} .  sound15
-💈${prefix} .  sound16
-💈${prefix} .  sound17
-💈${prefix} .  sound18
-💈${prefix} .  sound19
-💈${prefix} .  sound20
-💈${prefix} .  sound21
-💈${prefix} .  sound22
-💈${prefix} .  sound23
-💈${prefix} .  sound24
-💈${prefix} .  sound25
-💈${prefix} .  sound26
-💈${prefix} .  sound27
-💈${prefix} .  sound28
-💈${prefix} .  sound29
-💈${prefix} .  sound30
-💈${prefix} .  sound31
-💈${prefix} .  sound32
-💈${prefix} .  sound33
-💈${prefix} .  sound34
-💈${prefix} .  sound35
-💈${prefix} .  sound36
-💈${prefix} .  sound37
-💈${prefix} .  sound38
-💈${prefix} .  sound39
-💈${prefix} .  sound40
-💈${prefix} .  sound41
-💈${prefix} .  sound42
-💈${prefix} .  sound43
-💈${prefix} .  sound44
-💈${prefix} .  sound45
-💈${prefix} .  sound46
-💈${prefix} .  sound47
-💈${prefix} .  sound48
-💈${prefix} .  sound49
-💈${prefix} .  sound50
-💈${prefix} .  sound51
-💈${prefix} .  sound52
-💈${prefix} .  sound53
-💈${prefix} .  sound54
-💈${prefix} .  sound55
-💈${prefix} .  sound56
-💈${prefix} .  sound57
-💈${prefix} .  sound58
-💈${prefix} .  sound59
-💈${prefix} .  sound60
-💈${prefix} .  sound61
-💈${prefix} .  sound62
-💈${prefix} .  sound63
-💈${prefix} .  sound64
-💈${prefix} .  sound65
-💈${prefix} .  sound66
-💈${prefix} .  sound67
-💈${prefix} .  sound68
-💈${prefix} .  sound69
-💈${prefix} .  sound70
-💈${prefix} .  sound71
-💈${prefix} .  sound72
-💈${prefix} .  sound73
-💈${prefix} .  sound74
-💈${prefix} .  sound75
-💈${prefix} .  sound76
-💈${prefix} .  sound77
-💈${prefix} .  sound78
-💈${prefix} .  sound79
-💈${prefix} .  sound80
-💈${prefix} .  sound81
-💈${prefix} .  sound82
-💈${prefix} .  sound83
-💈${prefix} .  sound84
-💈${prefix} .  sound85
-💈${prefix} .  sound86
-💈${prefix} .  sound87
-💈${prefix} .  sound88
-💈${prefix} .  sound89
-💈${prefix} .  sound90
-💈${prefix} .  sound91
-💈${prefix} .  sound92
-💈${prefix} .  sound93
-💈${prefix} .  sound94
-💈${prefix} .  sound95
-💈${prefix} .  sound96
-💈${prefix} .  sound97
-💈${prefix} .  sound98
-💈${prefix} .  sound99
-💈${prefix} .  sound100
-💈${prefix} .  sound101
-💈${prefix} .  sound102
-💈${prefix} .  sound103
-💈${prefix} .  sound104
-💈${prefix} .  sound105
-💈${prefix} .  sound106
-💈${prefix} .  sound107
-💈${prefix} .  sound108
-💈${prefix} .  sound109
-💈${prefix} .  sound110
-💈${prefix} .  sound111
-💈${prefix} .  sound112
-💈${prefix} .  sound113
-💈${prefix} .  sound114
-💈${prefix} .  sound115
-💈${prefix} .  sound116
-💈${prefix} .  sound117
-💈${prefix} .  sound118
-💈${prefix} .  sound119
-💈${prefix} .  sound120
-💈${prefix} .  sound121
-💈${prefix} .  sound122
-💈${prefix} .  sound123
-💈${prefix} .  sound124
-💈${prefix} .  sound125
-💈${prefix} .  sound126
-💈${prefix} .  sound127
-💈${prefix} .  sound128
-💈${prefix} .  sound129
-💈${prefix} .  sound130
-💈${prefix} .  sound131
-💈${prefix} .  sound132
-💈${prefix} .  sound133
-💈${prefix} .  sound134
-💈${prefix} .  sound135
-💈${prefix} .  sound136
-💈${prefix} .  sound137
-💈${prefix} .  sound138
-💈${prefix} .  sound139
-💈${prefix} .  sound140
-💈${prefix} .  sound141
-💈${prefix} .  sound142
-💈${prefix} .  sound143
-💈${prefix} .  sound144
-💈${prefix} .  sound145
-💈${prefix} .  sound146
-💈${prefix} .  sound147
-💈${prefix} .  sound148
-💈${prefix} .  sound149
-💈${prefix} .  sound150
-💈${prefix} .  sound151
-💈${prefix} .  sound152
-💈${prefix} .  sound153
-💈${prefix} .  sound154
-💈${prefix} .  sound155
-💈${prefix} .  sound156
-💈${prefix} .  sound157
-💈${prefix} .  sound158
-💈${prefix} .  sound159
-💈${prefix} .  sound160
-💈${prefix} .  sound161
+💈 .  sound1
+💈 .  sound2
+💈 .  sound3
+💈 .  sound4
+💈 .  sound5
+💈 .  sound6
+💈 .  sound7
+💈 .  sound8
+💈 .  sound9
+💈 .  sound10
+💈 .  sound11
+💈 .  sound12
+💈 .  sound13
+💈 .  sound14
+💈 .  sound15
+💈 .  sound16
+💈 .  sound17
+💈 .  sound18
+💈 .  sound19
+💈 .  sound20
+💈 .  sound21
+💈 .  sound22
+💈 .  sound23
+💈 .  sound24
+💈 .  sound25
+💈 .  sound26
+💈 .  sound27
+💈 .  sound28
+💈 .  sound29
+💈 .  sound30
+💈 .  sound31
+💈 .  sound32
+💈 .  sound33
+💈 .  sound34
+💈 .  sound35
+💈 .  sound36
+💈 .  sound37
+💈 .  sound38
+💈 .  sound39
+💈 .  sound40
+💈 .  sound41
+💈 .  sound42
+💈 .  sound43
+💈 .  sound44
+💈 .  sound45
+💈 .  sound46
+💈 .  sound47
+💈 .  sound48
+💈 .  sound49
+💈 .  sound50
+💈 .  sound51
+💈 .  sound52
+💈 .  sound53
+💈 .  sound54
+💈 .  sound55
+💈 .  sound56
+💈 .  sound57
+💈 .  sound58
+💈 .  sound59
+💈 .  sound60
+💈 .  sound61
+💈 .  sound62
+💈 .  sound63
+💈 .  sound64
+💈 .  sound65
+💈 .  sound66
+💈 .  sound67
+💈 .  sound68
+💈 .  sound69
+💈 .  sound70
+💈 .  sound71
+💈 .  sound72
+💈 .  sound73
+💈 .  sound74
+💈 .  sound75
+💈 .  sound76
+💈 .  sound77
+💈 .  sound78
+💈 .  sound79
+💈 .  sound80
+💈 .  sound81
+💈 .  sound82
+💈 .  sound83
+💈 .  sound84
+💈 .  sound85
+💈 .  sound86
+💈 .  sound87
+💈 .  sound88
+💈 .  sound89
+💈 .  sound90
+💈 .  sound91
+💈 .  sound92
+💈 .  sound93
+💈 .  sound94
+💈 .  sound95
+💈 .  sound96
+💈 .  sound97
+💈 .  sound98
+💈 .  sound99
+💈 .  sound100
+💈 .  sound101
+💈 .  sound102
+💈 .  sound103
+💈 .  sound104
+💈 .  sound105
+💈 .  sound106
+💈 .  sound107
+💈 .  sound108
+💈 .  sound109
+💈 .  sound110
+💈 .  sound111
+💈 .  sound112
+💈 .  sound113
+💈 .  sound114
+💈 .  sound115
+💈 .  sound116
+💈 .  sound117
+💈 .  sound118
+💈 .  sound119
+💈 .  sound120
+💈 .  sound121
+💈 .  sound122
+💈 .  sound123
+💈 .  sound124
+💈 .  sound125
+💈 .  sound126
+💈 .  sound127
+💈 .  sound128
+💈 .  sound129
+💈 .  sound130
+💈 .  sound131
+💈 .  sound132
+💈 .  sound133
+💈 .  sound134
+💈 .  sound135
+💈 .  sound136
+💈 .  sound137
+💈 .  sound138
+💈 .  sound139
+💈 .  sound140
+💈 .  sound141
+💈 .  sound142
+💈 .  sound143
+💈 .  sound144
+💈 .  sound145
+💈 .  sound146
+💈 .  sound147
+💈 .  sound148
+💈 .  sound149
+💈 .  sound150
+💈 .  sound151
+💈 .  sound152
+💈 .  sound153
+💈 .  sound154
+💈 .  sound155
+💈 .  sound156
+💈 .  sound157
+💈 .  sound158
+💈 .  sound159
+💈 .  sound160
+💈 .  sound161
 
 🎮𝗚𝗔𝗠𝗘 𝗖𝗔𝗠𝗔𝗡𝗗 𝗟𝗜𝗦𝗧 🎮
 
-💈${prefix} .  truth
-💈${prefix} .  dare
-💈${prefix} .  tictactoe
-💈${prefix} .  delttt
-💈${prefix} .  guess [option]
-💈${prefix} .  math [mode]
-💈${prefix} .  suitpvp [tag]
+💈 .  truth
+💈 .  dare
+💈 .  tictactoe
+💈 .  delttt
+💈 .  guess [option]
+💈 .  math [mode]
+💈 .  suitpvp [tag]
 
 🏹𝗔𝗡𝗢𝗡𝗜𝗠𝗨𝗦 𝗖𝗛𝗔𝗧
 
-💈${prefix} . anonymous
-💈${prefix} . start
-💈${prefix} . next
-💈${prefix} . leave
+💈 . anonymous
+💈 . start
+💈 . next
+💈 . leave
 
 🚧𝗗𝗔𝗧𝗔𝗕𝗔𝗦𝗘 𝗖𝗔𝗠𝗔𝗡𝗗 𝗟𝗜𝗦𝗧 
 
-💈${prefix} .  setcmd
-💈${prefix} .  listcmd
-💈${prefix} .  delcmd
-💈${prefix} .  lockcmd
-💈${prefix} .  addmsg
-💈${prefix} .  listmsg
-💈${prefix} .  getmsg
-💈${prefix} .  delmsg
+💈 .  setcmd
+💈 .  listcmd
+💈 .  delcmd
+💈 .  lockcmd
+💈 .  addmsg
+💈 .  listmsg
+💈 .  getmsg
+💈 .  delmsg
 
 🎡𝗢𝗧𝗛𝗘𝗥 𝗖𝗔𝗠𝗔𝗡𝗗 𝗟𝗜𝗦𝗧
 
-💈${prefix} .  afk
-💈${prefix} .  id
-💈${prefix} .  toqr [link]
-💈${prefix} .  repeat
-💈${prefix} .  readmore [text]
-💈${prefix} .  toviewonce
-💈${prefix} .  fliptext [text]]
-💈${prefix} .  chatinfo
-💈${prefix} .  alive
-💈${prefix} .  script
-💈${prefix} .  ping
-💈${prefix} .  owner
-💈${prefix} .  menu
-💈${prefix} .  delete
-💈${prefix} .  quoted
-💈${prefix} .  listpc
-💈${prefix} .  listgc
-💈${prefix} .  donate
-💈${prefix} .  request
-💈${prefix} .  report [bug]
+💈 .  afk
+💈 .  id
+💈 .  toqr [link]
+💈 .  repeat
+💈 .  readmore [text]
+💈 .  toviewonce
+💈 .  fliptext [text]]
+💈 .  chatinfo
+💈 .  alive
+💈 .  script
+💈 .  ping
+💈 .  owner
+💈 .  menu
+💈 .  delete
+💈 .  quoted
+💈 .  listpc
+💈 .  listgc
+💈 .  donate
+💈 .  request
+💈 .  report [bug]
 
 💥💥𝗕𝗨𝗚 𝗠𝗘𝗡𝗨💥💥
 
 ══════pc attack════
-💈${prefix} . pcbut [number]
-💈${prefix} . pcvn [number]
-💈${prefix} . pcstick [number]
-💈${prefix} . pcfast [number]
-💈${prefix} . pcslow [number]
-💈${prefix} . pcbunny [number]
-💈${prefix} . xcrasher [amount]
-💈${prefix} . pccontact [amount]
-💈${prefix} . virtex5 [amount]
-💈${prefix} . flower [amount]
-💈${prefix} . pollbug [amount]
-💈${prefix} . catalogbug [amount]
-💈${prefix} . trollybug [amount]
-💈${prefix} . trollybug2 [amount]
+💈 . pcbut [number]
+💈 . pcvn [number]
+💈 . pcstick [number]
+💈 . pcfast [number]
+💈 . pcslow [number]
+💈 . pcbunny [number]
+💈 . xcrasher [amount]
+💈 . pccontact [amount]
+💈 . virtex5 [amount]
+💈 . flower [amount]
+💈 . pollbug [amount]
+💈 . catalogbug [amount]
+💈 . trollybug [amount]
+💈 . trollybug2 [amount]
 💈═════gc attack════
-💈${prefix} . gcslow
-💈${prefix} . gcfast
-💈${prefix} . gcbunny
-💈${prefix} . tagallbug
+💈 . gcslow
+💈 . gcfast
+💈 . gcbunny
+💈 . tagallbug
 💈═══════𝗣𝗖 𝗔𝗧𝗧𝗔𝗖𝗞 𝗔𝗡𝗗 𝗙𝗨𝗟𝗟 𝗔𝗧𝗧𝗔𝗖𝗞
-💈${prefix} . vnbug [amount]
-💈${prefix} . docbug [amount]
-💈${prefix} . pcgcslow [number]
-💈${prefix} . pcgcfast [number]
-💈${prefix} . pcgcbunny [number]
-💈${prefix} . textshot
-💈${prefix} . docfuck [amount]
-💈${prefix} . docsoft [amount]
-💈${prefix} . docsoft2 [amount]
+💈 . vnbug [amount]
+💈 . docbug [amount]
+💈 . pcgcslow [number]
+💈 . pcgcfast [number]
+💈 . pcgcbunny [number]
+💈 . textshot
+💈 . docfuck [amount]
+💈 . docsoft [amount]
+💈 . docsoft2 [amount]
 |__________________`,
     footer: `${botname}`,
     buttons: buttons,
