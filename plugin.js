@@ -7488,16 +7488,15 @@ case 'alive': {
     image: { url: `https://telegra.ph/file/e4c0e7eb7441a534e735e.jpg` },
     caption: `
     
-   ┌❖🦹🏻‍♂️CYBORG ROBOT⸙🦹🏻‍♂️
-   │I AM ALIVE 👋   ${pushname} 
-   │BOT INFO 
-   │RUNTIME⏱️ : ${runtime(process.uptime())}
-   │PLATFORM : ${os.platform()}
-   └─ TIME INFO
-   │TIME⏱️ : ${xtime}
-   │DATE 🗓️ : ${xdate}
-   └────────────────┈ ⳹`,
-    footer: `QUEEN X BOT`,
+   👸🏻ＱＵＥＥＮ-Ｘ ＢＯＴ👸🏻
+   I AM ALIVE 👋   ${pushname} 
+   BOT INFO 
+   RUNTIME⏱️ : ${runtime(process.uptime())}
+   PLATFORM : ${os.platform()}
+   *TIME INFO*
+   TIME⏱️ : ${xtime}
+   *DATE 🗓️ : ${xdate}*`,
+    footer: `   👸🏻ＱＵＥＥＮ-Ｘ ＢＯＴ👸🏻`,
     buttons: buttons,
     headerType: 4,
     }
@@ -7506,55 +7505,55 @@ case 'alive': {
     break    
            case 'menu': {
 	const sections = [{
-								"title": "Initial Features Of Bot 🦄",
+								"title": "*QUEEN-X WATSAPP USER BOT",
 								"rows": [
 									{
-										"title": "Other ☕",
+										"title": "OTHER",
 										"description": "Displays The List Of Other Features",
 										"rowId": `${prefix}othermenu`
 									}
 								]
 							},
 							{
-								"title": "Bot Features ❤️",
+								"title": "BOT FETURES OF BOT",
 								"rows": [
 									{
-										"title": "All Menu 🥀",
+										"title": "ALL PANEL",
 										"description": "Displays The List Of All The Features!",
 										"rowId": `${prefix}allmenu`
 									},
 									{
-										"title": "Download Menu ↘️",
+										"title": "DOWNLOAD PANEL️",
 										"description": "Displays The List Of Download Features",
 										"rowId": `${prefix}downloadmenu`
 									},
 									{
-										"title": "Search Menu 🔎",
+										"title": "SERCH PANEL",
 										"description": "Displays The List Of Searching Features",
 										"rowId": `${prefix}searchmenu`
 									},
 									{
-										"title": "War Menu☣️",
+										"title": "SPAM PANEL️",
 										"description": "Displays The List Of War Features",
 										"rowId": `${prefix}warmenu`
 									}
 								]
 							},
 							{
-								"title": "Chat With Fellow Users 🌝",
+								"title": "CHAT WITH FELLOW USER",
 								"rows": [
 									{
-										"title": "Anonymous Chat Menu 🏻‍♂️",
+										"title": "ANONYMUS CHAT MENU",
 										"description": "Displays The List Of Anonymous Chat Features",
 										"rowId": `${prefix}anonymousmenu`
 									}
 								]
 							},
 							{
-								"title": "Credit ©️",
+								"title": "CREDIT️",
 								"rows": [
 									{
-										"title": "Thanks To ❤️",
+										"title": "THANKS TO️",
 										"description": "Displays The List Of Credit Of The Bot !!",
 										"rowId": `${prefix}tqtt`
 									}
