@@ -7492,9 +7492,12 @@ case 'alive': {
 │TIME⏱️ : ${xtime}
 │DATE 🗓️ : ${xdate}
 └────────────────┈ ⳹`
-            let ments = [ownernya, me, ini_mark]        
-            let buttons = [{ buttonId: 'allmenu', buttonText:  { displayText: 'LIST MENU📜' }, type: 1 },{ buttonId: 'sc', buttonText: { displayText: 'SCRIPT 📟' }, type: 1 }]
-            let buttonMessage = {
+let ments = [ownernya, me, ini_mark]        
+let buttons = [{ buttonId: 'ping', buttonText:  { displayText: 'PING ⏱️' }, type: 1 },
+	      { buttonId: 'sc', buttonText: { displayText: 'SCRIPT 📟' }, type: 1 },
+	      { buttonId: 'menu', buttonText: { displayText: 'LIST MENU  📟' }, type: 1 }]
+
+let buttonMessage = {
   document: fs.readFileSync('./XeonMedia/theme/cheems.xlsx'),
   fileName : `${wm}`,
   mimetype: `${docs}`,
