@@ -766,9 +766,9 @@ XeonBotInc.sendMessage(anu.id, buttonMessage, {quoted:unicorndoc})
     return XeonBotInc
 }
 app.get("/", (req, res) => {
-    res.send("📟 Cyber Robot-MD Working successfully!");
+    res.send("Queen-X Bot Working successfully!");
   });
-  app.listen(port, () => console.log(`📟 Cyber Robot-MD Server listening on port http://localhost:${port} 📟`));
+  app.listen(port, () => console.log(`Queen-X Bot Server listening on port http://localhost:${port} 📟`));
   setTimeout(() => {
 startXeonBotInc()
 }, 3000);
