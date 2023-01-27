@@ -7491,15 +7491,13 @@ case 'alive': {
    ┌❖🦹🏻‍♂️CYBORG ROBOT⸙🦹🏻‍♂️
    │I AM ALIVE 👋   ${pushname} 
    │BOT INFO 
-   │SPEED📤 : ${latensie.toFixed(4)} miliseconds
    │RUNTIME⏱️ : ${runtime(process.uptime())}
    │PLATFORM : ${os.platform()}
    └─ TIME INFO
    │TIME⏱️ : ${xtime}
    │DATE 🗓️ : ${xdate}
-   └────────────────┈ ⳹
-    `,
-    footer: `CYBER ROBOT`,
+   └────────────────┈ ⳹`,
+    footer: `QUEEN X BOT`,
     buttons: buttons,
     headerType: 4,
     }
