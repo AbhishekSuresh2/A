@@ -7577,7 +7577,7 @@ break
 var unicorn = await getBuffer(picak+'All Menu')
 
 const buttons = [
-  {buttonId: 'ping', buttonText: {displayText: 'PING BOT'}, type: 1},
+  {buttonId: 'script', buttonText: {displayText: 'GITHUB LINK'}, type: 1},
   {buttonId: 'donate', buttonText: {displayText: 'BOT LINK'}, type: 1},
   {buttonId: 'owner', buttonText: {displayText: 'BOT OWNER'}, type: 1}
 ]
@@ -8352,7 +8352,7 @@ break
       case 'ownermenu':{
 	   var unicorn = await getBuffer(picak+'Owner Menu')
 const buttons = [
-  {buttonId: 'ping', buttonText: {displayText: 'PING BOT'}, type: 1},
+  {buttonId: 'script', buttonText: {displayText: 'GITHUB LINK'}, type: 1},
   {buttonId: 'donate', buttonText: {displayText: 'BOT LINK'}, type: 1},
   {buttonId: 'owner', buttonText: {displayText: 'Owner ??'}, type: 1}
 ]
@@ -8384,7 +8384,7 @@ break
 var unicorn = await getBuffer(picak+'Group Menu')
 
 const buttons = [
-  {buttonId: 'ping', buttonText: {displayText: 'PING BOT'}, type: 1},
+  {buttonId: 'script', buttonText: {displayText: 'GITHUB LINK'}, type: 1},
   {buttonId: 'donate', buttonText: {displayText: 'BOT LINK'}, type: 1},
   {buttonId: 'owner', buttonText: {displayText: 'BOT OWNER'}, type: 1}
 ]
@@ -8429,7 +8429,7 @@ case 'makermenu':{
 var unicorn = await getBuffer(picak+'Maker Menu')
 
 const buttons = [
-  {buttonId: 'ping', buttonText: {displayText: 'PING BOT'}, type: 1},
+  {buttonId: 'script', buttonText: {displayText: 'GITHUB LINK'}, type: 1},
   {buttonId: 'donate', buttonText: {displayText: 'BOT LINK'}, type: 1},
   {buttonId: 'owner', buttonText: {displayText: 'BOT OWNER'}, type: 1}
 ]
@@ -8474,7 +8474,7 @@ break
 var unicorn = await getBuffer(picak+'Download Menu')
 
 const buttons = [
-  {buttonId: 'ping', buttonText: {displayText: 'PING BOT'}, type: 1},
+  {buttonId: 'script', buttonText: {displayText: 'GITHUB LINK'}, type: 1},
   {buttonId: 'donate', buttonText: {displayText: 'BOT LINK'}, type: 1},
   {buttonId: 'owner', buttonText: {displayText: 'BOT OWNER'}, type: 1}
 ]
@@ -8500,7 +8500,7 @@ break
 var unicorn = await getBuffer(picak+'Search Menu')
 
 const buttons = [
-  {buttonId: 'ping', buttonText: {displayText: 'PING BOT'}, type: 1},
+  {buttonId: 'script', buttonText: {displayText: 'GITHUB LINK'}, type: 1},
   {buttonId: 'donate', buttonText: {displayText: 'BOT LINK'}, type: 1},
   {buttonId: 'owner', buttonText: {displayText: 'BOT OWNER'}, type: 1}
 ]
@@ -8545,7 +8545,7 @@ break
 var unicorn = await getBuffer(picak+'Convert Menu')
 
 const buttons = [
-  {buttonId: 'ping', buttonText: {displayText: 'PING BOT'}, type: 1},
+  {buttonId: 'script', buttonText: {displayText: 'GITHUB LINK'}, type: 1},
   {buttonId: 'donate', buttonText: {displayText: 'BOT LINK'}, type: 1},
   {buttonId: 'owner', buttonText: {displayText: 'BOT OWNER'}, type: 1}
 ]
@@ -8590,7 +8590,7 @@ case 'randomimagemenu':{
 var unicorn = await getBuffer(picak+'Random Image Menu')
 
 const buttons = [
-  {buttonId: 'ping', buttonText: {displayText: 'PING BOT'}, type: 1},
+  {buttonId: 'script', buttonText: {displayText: 'GITHUB LINK'}, type: 1},
   {buttonId: 'donate', buttonText: {displayText: 'BOT LINK'}, type: 1},
   {buttonId: 'owner', buttonText: {displayText: 'BOT OWNER'}, type: 1}
 ]
@@ -8635,7 +8635,7 @@ case 'randomvideomenu':{
 var unicorn = await getBuffer(picak+'Random Video Menu')
 
 const buttons = [
-  {buttonId: 'ping', buttonText: {displayText: 'PING BOT'}, type: 1},
+  {buttonId: 'script', buttonText: {displayText: 'GITHUB LINK'}, type: 1},
   {buttonId: 'donate', buttonText: {displayText: 'BOT LINK'}, type: 1},
   {buttonId: 'owner', buttonText: {displayText: 'BOT OWNER'}, type: 1}
 ]
@@ -8680,7 +8680,7 @@ break
 var unicorn = await getBuffer(picak+'Emote Menu')
 
 const buttons = [
-  {buttonId: 'ping', buttonText: {displayText: 'PING BOT'}, type: 1},
+  {buttonId: 'script', buttonText: {displayText: 'GITHUB LINK'}, type: 1},
   {buttonId: 'donate', buttonText: {displayText: 'BOT LINK'}, type: 1},
   {buttonId: 'owner', buttonText: {displayText: 'BOT OWNER'}, type: 1}
 ]
@@ -8725,7 +8725,7 @@ break
 var unicorn = await getBuffer(picak+'Image Effect Menu')
 
 const buttons = [
-  {buttonId: 'ping', buttonText: {displayText: 'PING BOT'}, type: 1},
+  {buttonId: 'script', buttonText: {displayText: 'GITHUB LINK'}, type: 1},
   {buttonId: 'donate', buttonText: {displayText: 'BOT LINK'}, type: 1},
   {buttonId: 'owner', buttonText: {displayText: 'BOT OWNER'}, type: 1}
 ]
@@ -8770,7 +8770,7 @@ case 'animemenu':{
 var unicorn = await getBuffer(picak+'Anime Menu')
 
 const buttons = [
-  {buttonId: 'ping', buttonText: {displayText: 'PING BOT'}, type: 1},
+  {buttonId: 'script', buttonText: {displayText: 'GITHUB LINK'}, type: 1},
   {buttonId: 'donate', buttonText: {displayText: 'BOT LINK'}, type: 1},
   {buttonId: 'owner', buttonText: {displayText: 'BOT OWNER'}, type: 1}
 ]
@@ -8815,7 +8815,7 @@ break
 var unicorn = await getBuffer(picak+'Sticker Menu')
 
 const buttons = [
-  {buttonId: 'ping', buttonText: {displayText: 'PING BOT'}, type: 1},
+  {buttonId: 'script', buttonText: {displayText: 'GITHUB LINK'}, type: 1},
   {buttonId: 'donate', buttonText: {displayText: 'BOT LINK'}, type: 1},
   {buttonId: 'owner', buttonText: {displayText: 'BOT OWNER'}, type: 1}
 ]
@@ -8860,7 +8860,7 @@ case 'animestickermenu':{
 var unicorn = await getBuffer(picak+'Anime Sticker Menu')
 
 const buttons = [
-  {buttonId: 'ping', buttonText: {displayText: 'PING BOT'}, type: 1},
+  {buttonId: 'script', buttonText: {displayText: 'GITHUB LINK'}, type: 1},
   {buttonId: 'donate', buttonText: {displayText: 'BOT LINK'}, type: 1},
   {buttonId: 'owner', buttonText: {displayText: 'BOT OWNER'}, type: 1}
 ]
@@ -8905,7 +8905,7 @@ case 'nsfwmenu':{
 var unicorn = await getBuffer(picak+'Nsfw Menu')
 
 const buttons = [
-  {buttonId: 'ping', buttonText: {displayText: 'PING BOT'}, type: 1},
+  {buttonId: 'script', buttonText: {displayText: 'GITHUB LINK'}, type: 1},
   {buttonId: 'donate', buttonText: {displayText: 'BOT LINK'}, type: 1},
   {buttonId: 'owner', buttonText: {displayText: 'BOT OWNER'}, type: 1}
 ]
@@ -8950,7 +8950,7 @@ case 'funmenu':{
 var unicorn = await getBuffer(picak+'Fun Menu')
 
 const buttons = [
-  {buttonId: 'ping', buttonText: {displayText: 'PING BOT'}, type: 1},
+  {buttonId: 'script', buttonText: {displayText: 'GITHUB LINK'}, type: 1},
   {buttonId: 'donate', buttonText: {displayText: 'BOT LINK'}, type: 1},
   {buttonId: 'owner', buttonText: {displayText: 'BOT OWNER'}, type: 1}
 ]
@@ -8995,7 +8995,7 @@ case 'soundmenu':{
 var unicorn = await getBuffer(picak+'Sound Menu')
 
 const buttons = [
-  {buttonId: 'ping', buttonText: {displayText: 'PING BOT'}, type: 1},
+  {buttonId: 'script', buttonText: {displayText: 'GITHUB LINK'}, type: 1},
   {buttonId: 'donate', buttonText: {displayText: 'BOT LINK'}, type: 1},
   {buttonId: 'owner', buttonText: {displayText: 'BOT OWNER'}, type: 1}
 ]
@@ -9040,7 +9040,7 @@ case 'gamemenu':{
 var unicorn = await getBuffer(picak+'Game Menu')
 
 const buttons = [
-  {buttonId: 'ping', buttonText: {displayText: 'PING BOT'}, type: 1},
+  {buttonId: 'script', buttonText: {displayText: 'GITHUB LINK'}, type: 1},
   {buttonId: 'donate', buttonText: {displayText: 'BOT LINK'}, type: 1},
   {buttonId: 'owner', buttonText: {displayText: 'BOT OWNER'}, type: 1}
 ]
@@ -9066,7 +9066,7 @@ break
 var unicorn = await getBuffer(picak+'Anonymous Menu')
 
 const buttons = [
-  {buttonId: 'ping', buttonText: {displayText: 'PING BOT'}, type: 1},
+  {buttonId: 'script', buttonText: {displayText: 'GITHUB LINK'}, type: 1},
   {buttonId: 'donate', buttonText: {displayText: 'BOT LINK'}, type: 1},
   {buttonId: 'owner', buttonText: {displayText: 'BOT OWNER'}, type: 1}
 ]
@@ -9089,7 +9089,7 @@ case 'databasemenu':{
 var unicorn = await getBuffer(picak+'Database Menu')
 
 const buttons = [
-  {buttonId: 'ping', buttonText: {displayText: 'PING BOT'}, type: 1},
+  {buttonId: 'script', buttonText: {displayText: 'GITHUB LINK'}, type: 1},
   {buttonId: 'donate', buttonText: {displayText: 'BOT LINK'}, type: 1},
   {buttonId: 'owner', buttonText: {displayText: 'BOT OWNER'}, type: 1}
 ]
@@ -9116,7 +9116,7 @@ case 'othermenu':{
 var unicorn = await getBuffer(picak+'Other Menu')
 
 const buttons = [
-  {buttonId: 'ping', buttonText: {displayText: 'PING BOT'}, type: 1},
+  {buttonId: 'script', buttonText: {displayText: 'GITHUB LINK'}, type: 1},
   {buttonId: 'donate', buttonText: {displayText: 'BOT LINK'}, type: 1},
   {buttonId: 'owner', buttonText: {displayText: 'BOT OWNER'}, type: 1}
 ]
