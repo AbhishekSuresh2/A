@@ -7482,7 +7482,7 @@ case 'alive': {
     let buttons = [    
     {buttonId: ` ping `, buttonText: {displayText: 'PING ⏱️'}, type: 1},
     {buttonId: ` sc `, buttonText: {displayText: 'SCRIPT 📟'}, type: 1},
-    {buttonId: ` menu `, buttonText: {displayText: 'LIST MENU  📟'}, type: 1},
+    {buttonId: ` menu `, buttonText: {displayText: 'LIST MENU  📟'}, type: 1}
     ]
     let buttonMessage = {
     image: { url: `https://telegra.ph/file/e4c0e7eb7441a534e735e.jpg` },
