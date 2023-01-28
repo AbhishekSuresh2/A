@@ -7506,55 +7506,55 @@ case 'alive': {
     break    
            case 'menu': {
 	const sections = [{
-								"title": "QUEEN-X WATSAPP USER BOT",
+								"title": "QUEEN-X WATSAPP USER BOT COMMANDS LIST",
 								"rows": [
 									{
-										"title": "OTHER&GROUP CAMANDS MENU",
+										"title": "OTHER COMMANDS MENU",
 										"description": "Displays The List Of Other Features",
 										"rowId": `${prefix}othermenu`
 									}
 								]
 							},
 							{
-								"title": "BOT CAMAND",
+								"title": "_________________________________",
 								"rows": [
 									{
-										"title": "ALL CAMANDS MENU",
+										"title": "ALL COMMANDS MENU 📘",
 										"description": "Displays The List Of All The Features!",
 										"rowId": `${prefix}allmenu`
 									},
 									{
-										"title": "DOWNLORD CAMAND MENU️📥",
+										"title": "DOWNLORD COMMANDS MENU️ 📥",
 										"description": "Displays The List Of Download Features",
 										"rowId": `${prefix}downloadmenu`
 									},
 									{
-										"title": "SEARCH CAMANDS MENU🔎",
+										"title": "SEARCH COMMANDS MENU 🔎",
 										"description": "Displays The List Of Searching Features",
 										"rowId": `${prefix}searchmenu`
 									},
 									{
-										"title": "BUG CAMANDS MENU️",
+										"title": "BUG COMMANDS MENU️",
 										"description": "Displays The List Of War Features",
 										"rowId": `${prefix}warmenu`
 									}
 								]
 							},
 							{
-								"title": "̥    ̥",
+								"title": "_________________________________",
 								"rows": [
 									{
-										"title": "LOGO CAMANDS MENU📘",
+										"title": "LOGO COMMANDS MENU 🦹🏻‍♂️",
 										"description": "Displays The List Of Anonymous Chat Features",
 										"rowId": `${prefix}anonymousmenu`
 									}
 								]
 							},
 							{
-								"title": "THANKS",
+								"title": "_________________________________",
 								"rows": [
 									{
-										"title": "THANKS TO",
+										"title": "💃🏻THANKS TO💃🏻",
 										"description": "Displays The List Of Credit Of The Bot !!",
 										"rowId": `${prefix}tqtt`
 									}
@@ -7562,7 +7562,7 @@ case 'alive': {
 							}
 						]
 const listMessage = {
-  text: "👸🏻ＱＵＥＥＮ-Ｘ ＢＯＴ👸🏻",
+  text: "👸🏻ＱＵＥＥＮ-Ｘ ＢＯＴ👸🏻 ＴＨＥ ＷＡＴＳＡＰＰ ＵＳＥＲ ＢＯＴ  ＣＯＭＭＡＮＤＳ ＰＡＮＥＬ",
   footer: `${botname}\nYOUTUBE: ${websitex}\n✍️SCRIPT: ${websitex}`,
   title: `Hi 👋 ${pushname}`,
   buttonText: "Menu",
@@ -7583,9 +7583,9 @@ const buttonMessage = {
     image: unicorn,
     caption: `
     
-*📘 QUEEN-X CAMAND PANEL 📘*
+*📘 QUEEN-X COMMANDS PANEL 📘*
 
-📥𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗 𝗖𝗔𝗠𝗔𝗡𝗗𝗦 𝗟𝗜𝗦𝗧
+*📥DOWNLOAD COMMANDS*
 
 💈 . tiktok [url]
 💈 . tiktokaudio [url]
@@ -7596,7 +7596,7 @@ const buttonMessage = {
 💈 . ytmp4 [url|quality]
 💈 . gitclone [repo link]
 
-🔎𝗦𝗘𝗔𝗥𝗖𝗛 𝗖𝗔𝗠𝗔𝗡𝗗𝗦 𝗠𝗘𝗡𝗨
+*🔎SEARCH COMMANDS*
 
 💈 . play [query]
 💈 . song [query]
@@ -7617,7 +7617,7 @@ const buttonMessage = {
 💈 . ytsearch [query]
 💈 . ringtone [query]
 
-🧧𝗢𝗧𝗛𝗘𝗥 𝗖𝗔𝗠𝗔𝗡𝗗𝗦 𝗟𝗜𝗦𝗧
+*🧧OTHER COMMANDS*
 
 💈 .  self
 💈 .  public
@@ -7635,8 +7635,7 @@ const buttonMessage = {
 💈 .  block [tag/number]
 💈 .  unblock [tag/number]
 
-📜𝗚𝗥𝗢𝗨𝗣 𝗖𝗔𝗠𝗔𝗡𝗗𝗦 𝗟𝗜𝗦𝗧  
-
+*📚GROUP COMMANDS*
 💈 . grouplink
 💈 . ephemeral [option]
 💈 . setgcpp [image]
@@ -7672,7 +7671,7 @@ const buttonMessage = {
 💈 . checkvote
 💈 . delvote
 
-👥𝗟𝗢𝗚𝗢 𝗖𝗔𝗠𝗔𝗡𝗗𝗦 𝗟𝗜𝗦𝗧
+*🎡 LOGO COMMANDS*
 
 💈 . candy
 💈 . blackpinkneon
@@ -7776,7 +7775,7 @@ const buttonMessage = {
 💈 .  watercolor
 💈 .  classic
 
-📝𝗖𝗢𝗡𝗩𝗘𝗥𝗧 𝗖𝗔𝗠𝗔𝗡𝗗𝗦 𝗟𝗜𝗦𝗧
+*📝CONVETER COMMANDS*
 
 💈 .  toimage [reply stick]
 💈 .  sticker [reply img|gif]
@@ -7806,11 +7805,11 @@ const buttonMessage = {
 💈 . smooth [reply aud]
 💈 . squirrel [reply aud]
 
-🛒𝗥𝗘𝗠𝗢𝗩𝗘 𝗕𝗚 𝗣𝗛𝗢𝗧𝗢 𝗘𝗗𝗘𝗧
+*🛒REMOVE BG PHOTO EDIT*
 
 💈 . removebg [reply img]
 
-🏮𝗥𝗔𝗡𝗗𝗢𝗠 𝗖𝗔𝗠𝗔𝗡𝗗𝗦 𝗟𝗜𝗦𝗧
+*🏮RENDOM COMMANDS*
 
 💈 . coffee
 💈 . woof
@@ -7850,7 +7849,7 @@ const buttonMessage = {
 💈 . wallphone
 💈 . wallml
 
-💌𝗥𝗔𝗗𝗢𝗠 𝗩𝗜𝗗𝗘𝗢 𝗖𝗔𝗠𝗔𝗡𝗗𝗦 𝗟𝗜𝗦𝗧
+*💌VIDEO COMMANDS*
 
 💈 . tiktokgirl	
 💈 . tiktoknukhty
@@ -7861,7 +7860,7 @@ const buttonMessage = {
 💈 . tiktoksantuy
 💈 . tiktokbocil
 
-🦹🏻‍♂️𝗘𝗠𝗢𝗧𝗘 𝗖𝗔𝗠𝗔𝗡𝗗𝗦 𝗟𝗜𝗦𝗧
+*🦹🏻‍♂EMOTE COMMANDS*
 
 💈 . instagramemoji
 💈 . facebookemoji
@@ -7876,7 +7875,7 @@ const buttonMessage = {
 💈 . pediaemoji
 💈 . microsoftemoji
 
-🔫𝗔𝗡𝗜𝗠𝗘 𝗖𝗔𝗠𝗔𝗡𝗗𝗦 𝗟𝗜𝗦𝗧
+*📍ANIME COMMANDS*
 
 💈 . animeneko
 💈 . waifu
@@ -7930,7 +7929,7 @@ const buttonMessage = {
 💈 . animewall [query]
 💈 . animewall2 [query]
 
-🪄𝗦𝗧𝗜𝗖𝗞𝗘𝗥 𝗖𝗔𝗠𝗔𝗡𝗗𝗦 𝗟𝗜𝗦𝗧
+*🪄STECKER COMMANDS*
 
 💈 .  patrick
 💈 .  emoji
@@ -7944,7 +7943,7 @@ const buttonMessage = {
 💈 .  cartoon
 💈 .  stickman
 
-💔𝗔𝗡𝗜𝗠𝗘 𝗦𝗧𝗜𝗖𝗞𝗘𝗥 𝗟𝗜𝗦𝗧
+*𝗦𝗧𝗜𝗖𝗞𝗘𝗥 𝗟𝗜𝗦𝗧*
 
 💈 . loli
 💈 . bully
@@ -7976,7 +7975,7 @@ const buttonMessage = {
 💈 . neko
 💈 . gura
 
-🏮𝗡𝗦𝗙𝗪 𝗖𝗔𝗠𝗔𝗡𝗗𝗦 𝗟𝗜𝗦𝗧
+*🏮NSFW COMANDS*
 
 💈 . gifhentai
 💈 . gifblowjob
@@ -8014,8 +8013,7 @@ const buttonMessage = {
 💈 . yuri
 💈 . zettai
 
-❤‍🔥𝗙𝗨𝗡 𝗠𝗘𝗡𝗨 𝗟𝗜𝗦𝗧
-
+*💔FUN MENU*
 💈 .  say [text]
 💈 .  define [text]
 💈 .  how [text
@@ -8092,8 +8090,7 @@ const buttonMessage = {
 💈 .  playgirl
 💈 .  quotes
 
-🎶𝗦𝗢𝗨𝗡𝗗 𝗖𝗔𝗠𝗔𝗡𝗗𝗦 𝗟𝗜𝗦𝗧 
-
+*SOUND COMMANDS*
 💈 .  sound1
 💈 .  sound2
 💈 .  sound3
@@ -8256,7 +8253,7 @@ const buttonMessage = {
 💈 .  sound160
 💈 .  sound161
 
-🎮𝗚𝗔𝗠𝗘 𝗖𝗔𝗠𝗔𝗡𝗗𝗦 𝗟𝗜𝗦𝗧 🎮
+*🎮GAME COMMANDS*
 
 💈 .  truth
 💈 .  dare
@@ -8266,14 +8263,14 @@ const buttonMessage = {
 💈 .  math [mode]
 💈 .  suitpvp [tag]
 
-🏹𝗔𝗡𝗢𝗡𝗜𝗠𝗨𝗦 𝗖𝗛𝗔𝗧
+🏹 *ANONIMUS CHAT*
 
 💈 . anonymous
 💈 . start
 💈 . next
 💈 . leave
 
-🚧𝗗𝗔𝗧𝗔𝗕𝗔𝗦𝗘 𝗖𝗔𝗠𝗔𝗡𝗗𝗦 𝗟𝗜𝗦𝗧 
+*🚧DATABASE COMMANDS*
 
 💈 .  setcmd
 💈 .  listcmd
@@ -8284,7 +8281,7 @@ const buttonMessage = {
 💈 .  getmsg
 💈 .  delmsg
 
-🎡𝗢𝗧𝗛𝗘𝗥 𝗖𝗔𝗠𝗔𝗡𝗗𝗦 𝗟𝗜𝗦𝗧
+*🎡OTHER COMMANDS*
 
 💈 .  afk
 💈 .  id
@@ -8424,7 +8421,7 @@ const buttons = [
 ]
 const buttonMessage = {
     image: unicorn,
-    caption: `*📘DOWNLOAD CAMANDS MENU📘*
+    caption: `*📘DOWNLOAD COMMANDS  MENU📘*
 🦹🏻‍♂️ tiktokk [url]
 🦹🏻‍♂️ tiktokaudio [url]
 🦹🏻‍♂️ instagram [url]
@@ -8449,7 +8446,7 @@ const buttons = [
 ]
 const buttonMessage = {
     image: unicorn,
-    caption: `*📘SEARCH CAMANDS MENU📘*
+    caption: `*📘SEARCH COMMANDS  MENU📘*
 💈 . play [query]
 💈 . song [query]
 💈 . yts [query]
@@ -8708,7 +8705,7 @@ const buttons = [
 ]
 const buttonMessage = {
     image: unicorn,
-    caption: `*📘 LOGO CAMANDS MENU 📘*
+    caption: `*📘 LOGO COMMANDS  MENU 📘*
 💈 . candy
 💈 . blackpinkneon
 💈 . deepsea
@@ -8875,7 +8872,7 @@ const buttonMessage = {
 🎡 request
 🎡 report [bug]
 
-*🦹🏻‍♂️ GROUP CAMANDS LIST🦹🏻‍♂️ *
+*🦹🏻‍♂️ GROUP COMMANDS  LIST🦹🏻‍♂️ *
 
 💈 grouplink
 💈 ephemeral [option]
@@ -8928,7 +8925,7 @@ const buttons = [
 ]
 const buttonMessage = {
     image: unicorn,
-    caption: `*📘 BUG CAMANDS MENU 📘*
+    caption: `*📘 BUG COMMANDS  MENU 📘*
 🔫 pcut [number]
 🔫 pcvn [number]
 🔫 pcstick [number]
