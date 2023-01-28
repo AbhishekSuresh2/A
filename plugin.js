@@ -7509,7 +7509,7 @@ case 'alive': {
 								"title": "QUEEN-X WATSAPP USER BOT",
 								"rows": [
 									{
-										"title": "OTHER",
+										"title": "OTHER&GROUP CAMANDS MENU",
 										"description": "Displays The List Of Other Features",
 										"rowId": `${prefix}othermenu`
 									}
@@ -7519,22 +7519,22 @@ case 'alive': {
 								"title": "BOT CAMAND",
 								"rows": [
 									{
-										"title": "ALL MENU",
+										"title": "ALL CAMANDS MENU",
 										"description": "Displays The List Of All The Features!",
 										"rowId": `${prefix}allmenu`
 									},
 									{
-										"title": "DOWNLORD MENU️📥",
+										"title": "DOWNLORD CAMAND MENU️📥",
 										"description": "Displays The List Of Download Features",
 										"rowId": `${prefix}downloadmenu`
 									},
 									{
-										"title": "SEARCH MENU🔎",
+										"title": "SEARCH CAMANDS MENU🔎",
 										"description": "Displays The List Of Searching Features",
 										"rowId": `${prefix}searchmenu`
 									},
 									{
-										"title": "BUG MENU️",
+										"title": "BUG CAMANDS MENU️",
 										"description": "Displays The List Of War Features",
 										"rowId": `${prefix}warmenu`
 									}
@@ -7544,7 +7544,7 @@ case 'alive': {
 								"title": "̥    ̥",
 								"rows": [
 									{
-										"title": "ANONYMOUS CHAT MENU📘",
+										"title": "LOGO CAMANDS MENU📘",
 										"description": "Displays The List Of Anonymous Chat Features",
 										"rowId": `${prefix}anonymousmenu`
 									}
@@ -7585,7 +7585,7 @@ const buttonMessage = {
     
 *📘 QUEEN-X CAMAND PANEL 📘*
 
-📥𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗 𝗖𝗔𝗠𝗔𝗡𝗗 𝗟𝗜𝗦𝗧
+📥𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗 𝗖𝗔𝗠𝗔𝗡𝗗𝗦 𝗟𝗜𝗦𝗧
 
 💈 . tiktok [url]
 💈 . tiktokaudio [url]
@@ -7596,7 +7596,7 @@ const buttonMessage = {
 💈 . ytmp4 [url|quality]
 💈 . gitclone [repo link]
 
-🔎𝗦𝗘𝗔𝗥𝗖𝗛 𝗖𝗔𝗠𝗔𝗡𝗗 𝗠𝗘𝗡𝗨
+🔎𝗦𝗘𝗔𝗥𝗖𝗛 𝗖𝗔𝗠𝗔𝗡𝗗𝗦 𝗠𝗘𝗡𝗨
 
 💈 . play [query]
 💈 . song [query]
@@ -7617,7 +7617,7 @@ const buttonMessage = {
 💈 . ytsearch [query]
 💈 . ringtone [query]
 
-🧧𝗢𝗧𝗛𝗘𝗥 𝗖𝗔𝗠𝗔𝗡𝗗 𝗟𝗜𝗦𝗧
+🧧𝗢𝗧𝗛𝗘𝗥 𝗖𝗔𝗠𝗔𝗡𝗗𝗦 𝗟𝗜𝗦𝗧
 
 💈 .  self
 💈 .  public
@@ -7635,7 +7635,7 @@ const buttonMessage = {
 💈 .  block [tag/number]
 💈 .  unblock [tag/number]
 
-📜𝗚𝗥𝗢𝗨𝗣 𝗖𝗔𝗠𝗔𝗡𝗗 𝗟𝗜𝗦𝗧  
+📜𝗚𝗥𝗢𝗨𝗣 𝗖𝗔𝗠𝗔𝗡𝗗𝗦 𝗟𝗜𝗦𝗧  
 
 💈 . grouplink
 💈 . ephemeral [option]
@@ -7672,7 +7672,7 @@ const buttonMessage = {
 💈 . checkvote
 💈 . delvote
 
-👥𝗟𝗢𝗚𝗢 𝗖𝗔𝗠𝗔𝗡𝗗 𝗟𝗜𝗦𝗧
+👥𝗟𝗢𝗚𝗢 𝗖𝗔𝗠𝗔𝗡𝗗𝗦 𝗟𝗜𝗦𝗧
 
 💈 . candy
 💈 . blackpinkneon
@@ -7776,7 +7776,7 @@ const buttonMessage = {
 💈 .  watercolor
 💈 .  classic
 
-📝𝗖𝗢𝗡𝗩𝗘𝗥𝗧 𝗖𝗔𝗠𝗔𝗡𝗗 𝗟𝗜𝗦𝗧
+📝𝗖𝗢𝗡𝗩𝗘𝗥𝗧 𝗖𝗔𝗠𝗔𝗡𝗗𝗦 𝗟𝗜𝗦𝗧
 
 💈 .  toimage [reply stick]
 💈 .  sticker [reply img|gif]
@@ -7810,7 +7810,7 @@ const buttonMessage = {
 
 💈 . removebg [reply img]
 
-🏮𝗥𝗔𝗡𝗗𝗢𝗠 𝗖𝗔𝗠𝗔𝗡𝗗 𝗟𝗜𝗦𝗧
+🏮𝗥𝗔𝗡𝗗𝗢𝗠 𝗖𝗔𝗠𝗔𝗡𝗗𝗦 𝗟𝗜𝗦𝗧
 
 💈 . coffee
 💈 . woof
@@ -7850,7 +7850,7 @@ const buttonMessage = {
 💈 . wallphone
 💈 . wallml
 
-💌𝗥𝗔𝗗𝗢𝗠 𝗩𝗜𝗗𝗘𝗢 𝗖𝗔𝗠𝗔𝗡𝗗 𝗟𝗜𝗦𝗧
+💌𝗥𝗔𝗗𝗢𝗠 𝗩𝗜𝗗𝗘𝗢 𝗖𝗔𝗠𝗔𝗡𝗗𝗦 𝗟𝗜𝗦𝗧
 
 💈 . tiktokgirl	
 💈 . tiktoknukhty
@@ -7861,7 +7861,7 @@ const buttonMessage = {
 💈 . tiktoksantuy
 💈 . tiktokbocil
 
-🦹🏻‍♂️𝗘𝗠𝗢𝗧𝗘 𝗖𝗔𝗠𝗔𝗡𝗗 𝗟𝗜𝗦𝗧
+🦹🏻‍♂️𝗘𝗠𝗢𝗧𝗘 𝗖𝗔𝗠𝗔𝗡𝗗𝗦 𝗟𝗜𝗦𝗧
 
 💈 . instagramemoji
 💈 . facebookemoji
@@ -7876,7 +7876,7 @@ const buttonMessage = {
 💈 . pediaemoji
 💈 . microsoftemoji
 
-🔫𝗔𝗡𝗜𝗠𝗘 𝗖𝗔𝗠𝗔𝗡𝗗 𝗟𝗜𝗦𝗧
+🔫𝗔𝗡𝗜𝗠𝗘 𝗖𝗔𝗠𝗔𝗡𝗗𝗦 𝗟𝗜𝗦𝗧
 
 💈 . animeneko
 💈 . waifu
@@ -7930,7 +7930,7 @@ const buttonMessage = {
 💈 . animewall [query]
 💈 . animewall2 [query]
 
-🪄𝗦𝗧𝗜𝗖𝗞𝗘𝗥 𝗖𝗔𝗠𝗔𝗡𝗗 𝗟𝗜𝗦𝗧
+🪄𝗦𝗧𝗜𝗖𝗞𝗘𝗥 𝗖𝗔𝗠𝗔𝗡𝗗𝗦 𝗟𝗜𝗦𝗧
 
 💈 .  patrick
 💈 .  emoji
@@ -7976,7 +7976,7 @@ const buttonMessage = {
 💈 . neko
 💈 . gura
 
-🏮𝗡𝗦𝗙𝗪 𝗖𝗔𝗠𝗔𝗡𝗗 𝗟𝗜𝗦𝗧
+🏮𝗡𝗦𝗙𝗪 𝗖𝗔𝗠𝗔𝗡𝗗𝗦 𝗟𝗜𝗦𝗧
 
 💈 . gifhentai
 💈 . gifblowjob
@@ -8092,7 +8092,7 @@ const buttonMessage = {
 💈 .  playgirl
 💈 .  quotes
 
-🎶𝗦𝗢𝗨𝗡𝗗 𝗖𝗔𝗠𝗔𝗡𝗗 𝗟𝗜𝗦𝗧 
+🎶𝗦𝗢𝗨𝗡𝗗 𝗖𝗔𝗠𝗔𝗡𝗗𝗦 𝗟𝗜𝗦𝗧 
 
 💈 .  sound1
 💈 .  sound2
@@ -8256,7 +8256,7 @@ const buttonMessage = {
 💈 .  sound160
 💈 .  sound161
 
-🎮𝗚𝗔𝗠𝗘 𝗖𝗔𝗠𝗔𝗡𝗗 𝗟𝗜𝗦𝗧 🎮
+🎮𝗚𝗔𝗠𝗘 𝗖𝗔𝗠𝗔𝗡𝗗𝗦 𝗟𝗜𝗦𝗧 🎮
 
 💈 .  truth
 💈 .  dare
@@ -8273,7 +8273,7 @@ const buttonMessage = {
 💈 . next
 💈 . leave
 
-🚧𝗗𝗔𝗧𝗔𝗕𝗔𝗦𝗘 𝗖𝗔𝗠𝗔𝗡𝗗 𝗟𝗜𝗦𝗧 
+🚧𝗗𝗔𝗧𝗔𝗕𝗔𝗦𝗘 𝗖𝗔𝗠𝗔𝗡𝗗𝗦 𝗟𝗜𝗦𝗧 
 
 💈 .  setcmd
 💈 .  listcmd
@@ -8284,7 +8284,7 @@ const buttonMessage = {
 💈 .  getmsg
 💈 .  delmsg
 
-🎡𝗢𝗧𝗛𝗘𝗥 𝗖𝗔𝗠𝗔𝗡𝗗 𝗟𝗜𝗦𝗧
+🎡𝗢𝗧𝗛𝗘𝗥 𝗖𝗔𝗠𝗔𝗡𝗗𝗦 𝗟𝗜𝗦𝗧
 
 💈 .  afk
 💈 .  id
@@ -8478,15 +8478,14 @@ const buttons = [
 ]
 const buttonMessage = {
     image: unicorn,
-    caption: `╔═══════✪ DOWNLOAD 	
-╠${prefix}tiktokk [url]
-╠${prefix}tiktokaudio [url]
-╠${prefix}instagram [url]
-╠${prefix}spotify [url]
-╠${prefix}mediafire [url]
-╠${prefix}ytmp3 [url|quality]
-╠${prefix}ytmp4 [url|quality]
-╚═════════════✪`,
+    caption: `*📘DOWNLOAD CAMANDS MENU📘*
+🦹🏻‍♂️ tiktokk [url]
+🦹🏻‍♂️ tiktokaudio [url]
+🦹🏻‍♂️ instagram [url]
+🦹🏻‍♂️ spotify [url]
+🦹🏻‍♂️ mediafire [url]
+🦹🏻‍♂️ ytmp3 [url|quality]
+🦹🏻‍♂️ ytmp4 [url|quality]!`,
     footer: `${botname}`,
     buttons: buttons,
     headerType: 4
@@ -8504,35 +8503,25 @@ const buttons = [
 ]
 const buttonMessage = {
     image: unicorn,
-    caption: `╠═════= *DOWNLOAD* 📥 
-╠${prefix}SONG [සින්දුවෙ නම]       
-╠ ${prefix}VIDEO [විඩියෝවෙ නම]
-╠${prefix}TIKTOK [LINK] එම ටික්ටොක් එක ඩව්න්ලොඩ් කර ලබාදෙයි.
-╠${prefix}INSTAGRAM [LINK] INSTAGRAM විඩියො ඩව්න්ලොඩ් කර ලබා දෙයි.
-╠${prefix}MEDIAFIRE [LINK] MEDIAFIRE ලින්ක් එකට අදාල ෆයිල් එක ලබා දෙයි.                ╠═══════✪ *GROUP👥* 	        
-╠${prefix}GROUPLINK ගෘප් ලින්ක් එක ලබා දෙයි.
-╠${prefix}SETGCPP එය Dp එක මාරු කරයි.
-╠${prefix}SETNAME [TEXT] ගෘප් එකෙ නම සාදයි 
-╠${prefix}RESETGROUPLINK ගෘප් ලින්ක් එක මාරු කරයි.
-╠${prefix}ADD [NUMBER] ගෘප් එකට කෙනෙක් එකතු කිරීම.
-╠${prefix}KICK [NUMBER/TAG] ගෘප් එකෙන් කෙනෙක් පන්නා දැමීමට
-╠${prefix}TAGALL @. [text]
-╠${prefix}antilinkgc *[on/off]*
-╠${prefix}antilinktg *[on/off]*
-╠${prefix}antilinktt *[on/off]*
-╠${prefix}antilinkytch *[on/off]*
-╠${prefix}antilinkytvid *[on/off]*
-╠${prefix}antilinkig *[on/off]*
-╠${prefix}antilinkfb *[on/off]*
-╠${prefix}antilinktwit *[on/off]*
-╠${prefix}antilinkall [on/off]*
-╠${prefix}antivirus *[on/off]
-╠${prefix}antitoxic *[on/off]*
-╠${prefix}antiwame *[on/off]*
-╠${prefix}nsfw *[on/off]*
-╠${prefix}PREMOTE [NUMBER/TAG] ඇඩ්මින් ලබා දීම.
-╠${prefix}DEMOTE [NUMBER/TAG] කෙනෙකුගෙ ඇඩ්මින් යිවත් කිරිම.`,
-    footer: `${botname}`,
+    caption: `*📘SEARCH CAMANDS MENU📘*
+💈 . play [query]
+💈 . song [query]
+💈 . yts [query]
+💈 . lyrics [query]
+💈 . gimage [query]
+💈 . google [query]
+💈 . anime [query]
+💈 . pinterest [query]
+💈 . image [query]
+💈 . wallpaper [query]
+💈 . searchno [number]
+💈 . horoscope [query]
+💈 . imdb [movie name]
+💈 . weather [loc name]
+💈 . genshin [char name]
+💈 . wikimedia [query]
+💈 . ytsearch [query]
+💈 . ringtone [query]•`,
     buttons: buttons,
     headerType: 4
 }
@@ -9070,12 +9059,108 @@ const buttons = [
 ]
 const buttonMessage = {
     image: unicorn,
-    caption: `╔═══✪ ANONYMOUS 	
-╠${prefix}anonymous
-╠${prefix}start
-╠${prefix}next
-╠${prefix}leave
-╚═════════════✪`,
+    caption: `*📘 LOGO CAMANDS MENU 📘*
+💈 . candy
+💈 . blackpinkneon
+💈 . deepsea
+💈 . scifi
+💈 . fiction
+💈 . berry
+💈 . fruitjuice
+💈 . biscuit
+💈 . wood
+💈 . chocolate
+💈 . matrix
+💈 . blood
+💈 . halloween
+💈 . wicker
+💈 . darkgold
+💈 . firework
+💈 . skeleton
+💈 . sand
+💈 . glue
+💈 . leaves
+💈 . magma
+💈 . lava
+💈 . rockart
+💈 . bloodglas
+💈 . underwater
+💈 . textmaker
+💈 . honey
+💈 . ice
+💈 . watercolor
+💈 . multicolor
+💈 . snow
+💈 . harrypot
+💈 . harrypotter
+💈 . brokenglass
+💈 . waterpipe
+💈 . spooky
+💈 . circuit
+💈 . metallic
+💈 . demon
+💈 . sparklechristmas
+💈 . christmas
+💈 . 3dchristmas
+💈 . 3dbox
+💈 . waterdrop
+💈 . lion2
+💈 . papercut
+💈 . transformer
+💈 . neondevil
+💈 . 3davengers
+💈 . 3dstone
+💈 . 3dstone2
+💈 . summertime
+💈 . thunder
+💈 . window
+💈 . graffiti
+💈 . graffitibike
+💈 . pornhub
+💈 . glitch
+💈 . blackpinkart
+💈 . glitch2
+💈 . glitch3
+💈 . 3dspace
+💈 . lion
+💈 . 3dneon
+💈 . greenneon
+💈 . bokeh
+💈 . holographic
+💈 . bear
+💈 . wolf
+💈 . joker
+💈 . dropwater
+💈 . dropwater2
+💈 . thewall
+💈 . neonlight
+💈 . natural
+💈 . carbon
+💈 . pencil
+💈 . blackpink2
+💈 . neon
+💈 . neonlight2
+💈 . toxic
+💈 . strawberry
+💈 . discovery
+💈 . 1917
+💈 .  sci_fi
+💈 .  ancient
+💈 .  fabric
+💈 .  hoorror
+💈 .  whitebear
+💈 .  juice
+💈 .  batman
+💈 .  multicolor
+💈 .  wonderful
+💈 .  sketch
+💈 .  marvel
+💈 .  foggy
+💈 .  writing
+💈 .  halloweenfire
+💈 .  halloween
+💈 .  watercolor
+💈 .  classic`,
     footer: `${botname}`,
     buttons: buttons,
     headerType: 4
@@ -9120,7 +9205,7 @@ const buttons = [
 ]
 const buttonMessage = {
     image: unicorn,
-    caption: ` *📘 OTHER CAMAND MENU 📘*
+    caption: ` *📘 OTHER CAMAND&GROUP MENU 📘*
 🎡 afk
 🎡 id
 🎡 toqr [link]
@@ -9139,7 +9224,44 @@ const buttonMessage = {
 🎡 listpc
 🎡 listgc
 🎡 request
-🎡 report [bug]-`,
+🎡 report [bug]
+
+*🦹🏻‍♂️ GROUP CAMANDS LIST🦹🏻‍♂️ *
+
+💈 grouplink
+💈 ephemeral [option]
+💈 setgcpp [image]
+💈 setname [text]
+💈 setdesc [text]
+💈 group 
+💈 resetgrouplink
+💈 editinfo [option]
+💈 menfess [number]
+💈 add [user]
+💈 kick [reply/tag]
+💈 hidetag [text]
+💈 tagall [text]
+💈 antilinkgc [on/off]
+💈 antilinktg [on/off]
+💈 antilinktt [on/off]
+💈 antilinkytch [on/off]
+💈 antilinkytvid [on/off]
+💈 antilinkig [on/off]
+💈 antilinkfb [on/off]
+💈 antilinktwit [on/off]
+💈 antilinkall [on/off]
+💈 antivirus [on/off]
+💈 antitoxic [on/off]
+💈 antiwame [on/off]
+💈 nsfw [on/off]
+💈 promote [reply/tag]
+💈 demote [reply/tag]
+💈 react [reply emoji]
+💈 vote
+💈 devote
+💈 upvote
+💈 checkvote
+💈 delvote`,
     footer: `${botname}`,
     buttons: buttons,
     headerType: 4
