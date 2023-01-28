@@ -6299,7 +6299,7 @@ let buttonMessage = {
 image: {url: `https://telegra.ph/file/4dc726d6896e1c412f4c3.jpg`},
 jpegThumbnail: log0,
 caption: teks,
-footer: `${botname}`,
+footer: `©Qᴜᴇᴇɴ-x \n ᴡᴀᴛꜱᴀᴘᴘ \n ᴜꜱᴇʀ ʙᴏᴛ`,
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
@@ -7562,8 +7562,8 @@ case 'alive': {
 							}
 						]
 const listMessage = {
-  text: "👸🏻ＱＵＥＥＮ-Ｘ ＢＯＴ👸🏻 ＴＨＥ ＷＡＴＳＡＰＰ ＵＳＥＲ ＢＯＴ  ＣＯＭＭＡＮＤＳ ＰＡＮＥＬ",
-  footer: `${botname}\nYOUTUBE: ${websitex}\n✍️SCRIPT: ${websitex}`,
+  text: "👸🏻ＱＵＥＥＮ-Ｘ ＢＯＴ👸🏻 \nＴＨＥ ＷＡＴＳＡＰＰ ＵＳＥＲ ＢＯＴ  ＣＯＭＭＡＮＤＳ ＰＡＮＥＬ",
+  footer: `${botname}\nTIME⏱️ : ${xtime}\nDATE 🗓️ : ${xdate}`,
   title: `Hi 👋 ${pushname}`,
   buttonText: "Menu",
   sections
