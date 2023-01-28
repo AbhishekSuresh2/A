@@ -8388,34 +8388,7 @@ const buttons = [
 ]
 const buttonMessage = {
     image: unicorn,
-    caption: `╠═════= *DOWNLOAD* 📥 
-╠${prefix}SONG [සින්දුවෙ නම]       
-╠ ${prefix}VIDEO [විඩියෝවෙ නම]
-╠${prefix}TIKTOK [LINK] එම ටික්ටොක් එක ඩව්න්ලොඩ් කර ලබාදෙයි.
-╠${prefix}INSTAGRAM [LINK] INSTAGRAM විඩියො ඩව්න්ලොඩ් කර ලබා දෙයි.
-╠${prefix}MEDIAFIRE [LINK] MEDIAFIRE ලින්ක් එකට අදාල ෆයිල් එක ලබා දෙයි.                ╠═══════✪ *GROUP👥* 	        
-╠${prefix}GROUPLINK ගෘප් ලින්ක් එක ලබා දෙයි.
-╠${prefix}SETGCPP එය Dp එක මාරු කරයි.
-╠${prefix}SETNAME [TEXT] ගෘප් එකෙ නම සාදයි 
-╠${prefix}RESETGROUPLINK ගෘප් ලින්ක් එක මාරු කරයි.
-╠${prefix}ADD [NUMBER] ගෘප් එකට කෙනෙක් එකතු කිරීම.
-╠${prefix}KICK [NUMBER/TAG] ගෘප් එකෙන් කෙනෙක් පන්නා දැමීමට
-╠${prefix}TAGALL @. [text]
-╠${prefix}antilinkgc *[on/off]*
-╠${prefix}antilinktg *[on/off]*
-╠${prefix}antilinktt *[on/off]*
-╠${prefix}antilinkytch *[on/off]*
-╠${prefix}antilinkytvid *[on/off]*
-╠${prefix}antilinkig *[on/off]*
-╠${prefix}antilinkfb *[on/off]*
-╠${prefix}antilinktwit *[on/off]*
-╠${prefix}antilinkall [on/off]*
-╠${prefix}antivirus *[on/off]
-╠${prefix}antitoxic *[on/off]*
-╠${prefix}antiwame *[on/off]*
-╠${prefix}nsfw *[on/off]*
-╠${prefix}PREMOTE [NUMBER/TAG] ඇඩ්මින් ලබා දීම.
-╠${prefix}DEMOTE [NUMBER/TAG] කෙනෙකුගෙ ඇඩ්මින් යිවත් කිරිම.`,
+    caption: `NO`,
     footer: `${botname}`,
     buttons: buttons,
     headerType: 4
@@ -8433,34 +8406,7 @@ const buttons = [
 ]
 const buttonMessage = {
     image: unicorn,
-    caption: `╠═════= *DOWNLOAD* 📥 
-╠${prefix}SONG [සින්දුවෙ නම]       
-╠ ${prefix}VIDEO [විඩියෝවෙ නම]
-╠${prefix}TIKTOK [LINK] එම ටික්ටොක් එක ඩව්න්ලොඩ් කර ලබාදෙයි.
-╠${prefix}INSTAGRAM [LINK] INSTAGRAM විඩියො ඩව්න්ලොඩ් කර ලබා දෙයි.
-╠${prefix}MEDIAFIRE [LINK] MEDIAFIRE ලින්ක් එකට අදාල ෆයිල් එක ලබා දෙයි.                ╠═══════✪ *GROUP👥* 	        
-╠${prefix}GROUPLINK ගෘප් ලින්ක් එක ලබා දෙයි.
-╠${prefix}SETGCPP එය Dp එක මාරු කරයි.
-╠${prefix}SETNAME [TEXT] ගෘප් එකෙ නම සාදයි 
-╠${prefix}RESETGROUPLINK ගෘප් ලින්ක් එක මාරු කරයි.
-╠${prefix}ADD [NUMBER] ගෘප් එකට කෙනෙක් එකතු කිරීම.
-╠${prefix}KICK [NUMBER/TAG] ගෘප් එකෙන් කෙනෙක් පන්නා දැමීමට
-╠${prefix}TAGALL @. [text]
-╠${prefix}antilinkgc *[on/off]*
-╠${prefix}antilinktg *[on/off]*
-╠${prefix}antilinktt *[on/off]*
-╠${prefix}antilinkytch *[on/off]*
-╠${prefix}antilinkytvid *[on/off]*
-╠${prefix}antilinkig *[on/off]*
-╠${prefix}antilinkfb *[on/off]*
-╠${prefix}antilinktwit *[on/off]*
-╠${prefix}antilinkall [on/off]*
-╠${prefix}antivirus *[on/off]
-╠${prefix}antitoxic *[on/off]*
-╠${prefix}antiwame *[on/off]*
-╠${prefix}nsfw *[on/off]*
-╠${prefix}PREMOTE [NUMBER/TAG] ඇඩ්මින් ලබා දීම.
-╠${prefix}DEMOTE [NUMBER/TAG] කෙනෙකුගෙ ඇඩ්මින් යිවත් කිරිම.`,
+    caption: `NO`,
     footer: `${botname}`,
     buttons: buttons,
     headerType: 4
@@ -8538,34 +8484,7 @@ const buttons = [
 ]
 const buttonMessage = {
     image: unicorn,
-    caption: `╠═════= *DOWNLOAD* 📥 
-╠${prefix}SONG [සින්දුවෙ නම]       
-╠ ${prefix}VIDEO [විඩියෝවෙ නම]
-╠${prefix}TIKTOK [LINK] එම ටික්ටොක් එක ඩව්න්ලොඩ් කර ලබාදෙයි.
-╠${prefix}INSTAGRAM [LINK] INSTAGRAM විඩියො ඩව්න්ලොඩ් කර ලබා දෙයි.
-╠${prefix}MEDIAFIRE [LINK] MEDIAFIRE ලින්ක් එකට අදාල ෆයිල් එක ලබා දෙයි.                ╠═══════✪ *GROUP👥* 	        
-╠${prefix}GROUPLINK ගෘප් ලින්ක් එක ලබා දෙයි.
-╠${prefix}SETGCPP එය Dp එක මාරු කරයි.
-╠${prefix}SETNAME [TEXT] ගෘප් එකෙ නම සාදයි 
-╠${prefix}RESETGROUPLINK ගෘප් ලින්ක් එක මාරු කරයි.
-╠${prefix}ADD [NUMBER] ගෘප් එකට කෙනෙක් එකතු කිරීම.
-╠${prefix}KICK [NUMBER/TAG] ගෘප් එකෙන් කෙනෙක් පන්නා දැමීමට
-╠${prefix}TAGALL @. [text]
-╠${prefix}antilinkgc *[on/off]*
-╠${prefix}antilinktg *[on/off]*
-╠${prefix}antilinktt *[on/off]*
-╠${prefix}antilinkytch *[on/off]*
-╠${prefix}antilinkytvid *[on/off]*
-╠${prefix}antilinkig *[on/off]*
-╠${prefix}antilinkfb *[on/off]*
-╠${prefix}antilinktwit *[on/off]*
-╠${prefix}antilinkall [on/off]*
-╠${prefix}antivirus *[on/off]
-╠${prefix}antitoxic *[on/off]*
-╠${prefix}antiwame *[on/off]*
-╠${prefix}nsfw *[on/off]*
-╠${prefix}PREMOTE [NUMBER/TAG] ඇඩ්මින් ලබා දීම.
-╠${prefix}DEMOTE [NUMBER/TAG] කෙනෙකුගෙ ඇඩ්මින් යිවත් කිරිම.`,
+    caption: `NO`,
     footer: `${botname}`,
     buttons: buttons,
     headerType: 4
@@ -8583,34 +8502,7 @@ const buttons = [
 ]
 const buttonMessage = {
     image: unicorn,
-    caption: `╠═════= *DOWNLOAD* 📥 
-╠${prefix}SONG [සින්දුවෙ නම]       
-╠ ${prefix}VIDEO [විඩියෝවෙ නම]
-╠${prefix}TIKTOK [LINK] එම ටික්ටොක් එක ඩව්න්ලොඩ් කර ලබාදෙයි.
-╠${prefix}INSTAGRAM [LINK] INSTAGRAM විඩියො ඩව්න්ලොඩ් කර ලබා දෙයි.
-╠${prefix}MEDIAFIRE [LINK] MEDIAFIRE ලින්ක් එකට අදාල ෆයිල් එක ලබා දෙයි.                ╠═══════✪ *GROUP👥* 	        
-╠${prefix}GROUPLINK ගෘප් ලින්ක් එක ලබා දෙයි.
-╠${prefix}SETGCPP එය Dp එක මාරු කරයි.
-╠${prefix}SETNAME [TEXT] ගෘප් එකෙ නම සාදයි 
-╠${prefix}RESETGROUPLINK ගෘප් ලින්ක් එක මාරු කරයි.
-╠${prefix}ADD [NUMBER] ගෘප් එකට කෙනෙක් එකතු කිරීම.
-╠${prefix}KICK [NUMBER/TAG] ගෘප් එකෙන් කෙනෙක් පන්නා දැමීමට
-╠${prefix}TAGALL @. [text]
-╠${prefix}antilinkgc *[on/off]*
-╠${prefix}antilinktg *[on/off]*
-╠${prefix}antilinktt *[on/off]*
-╠${prefix}antilinkytch *[on/off]*
-╠${prefix}antilinkytvid *[on/off]*
-╠${prefix}antilinkig *[on/off]*
-╠${prefix}antilinkfb *[on/off]*
-╠${prefix}antilinktwit *[on/off]*
-╠${prefix}antilinkall [on/off]*
-╠${prefix}antivirus *[on/off]
-╠${prefix}antitoxic *[on/off]*
-╠${prefix}antiwame *[on/off]*
-╠${prefix}nsfw *[on/off]*
-╠${prefix}PREMOTE [NUMBER/TAG] ඇඩ්මින් ලබා දීම.
-╠${prefix}DEMOTE [NUMBER/TAG] කෙනෙකුගෙ ඇඩ්මින් යිවත් කිරිම.`,
+    caption: `NO`,
     footer: `${botname}`,
     buttons: buttons,
     headerType: 4
@@ -8628,34 +8520,7 @@ const buttons = [
 ]
 const buttonMessage = {
     image: unicorn,
-    caption: `╠═════= *DOWNLOAD* 📥 
-╠${prefix}SONG [සින්දුවෙ නම]       
-╠ ${prefix}VIDEO [විඩියෝවෙ නම]
-╠${prefix}TIKTOK [LINK] එම ටික්ටොක් එක ඩව්න්ලොඩ් කර ලබාදෙයි.
-╠${prefix}INSTAGRAM [LINK] INSTAGRAM විඩියො ඩව්න්ලොඩ් කර ලබා දෙයි.
-╠${prefix}MEDIAFIRE [LINK] MEDIAFIRE ලින්ක් එකට අදාල ෆයිල් එක ලබා දෙයි.                ╠═══════✪ *GROUP👥* 	        
-╠${prefix}GROUPLINK ගෘප් ලින්ක් එක ලබා දෙයි.
-╠${prefix}SETGCPP එය Dp එක මාරු කරයි.
-╠${prefix}SETNAME [TEXT] ගෘප් එකෙ නම සාදයි 
-╠${prefix}RESETGROUPLINK ගෘප් ලින්ක් එක මාරු කරයි.
-╠${prefix}ADD [NUMBER] ගෘප් එකට කෙනෙක් එකතු කිරීම.
-╠${prefix}KICK [NUMBER/TAG] ගෘප් එකෙන් කෙනෙක් පන්නා දැමීමට
-╠${prefix}TAGALL @. [text]
-╠${prefix}antilinkgc *[on/off]*
-╠${prefix}antilinktg *[on/off]*
-╠${prefix}antilinktt *[on/off]*
-╠${prefix}antilinkytch *[on/off]*
-╠${prefix}antilinkytvid *[on/off]*
-╠${prefix}antilinkig *[on/off]*
-╠${prefix}antilinkfb *[on/off]*
-╠${prefix}antilinktwit *[on/off]*
-╠${prefix}antilinkall [on/off]*
-╠${prefix}antivirus *[on/off]
-╠${prefix}antitoxic *[on/off]*
-╠${prefix}antiwame *[on/off]*
-╠${prefix}nsfw *[on/off]*
-╠${prefix}PREMOTE [NUMBER/TAG] ඇඩ්මින් ලබා දීම.
-╠${prefix}DEMOTE [NUMBER/TAG] කෙනෙකුගෙ ඇඩ්මින් යිවත් කිරිම.`,
+    caption: `NO`,
     footer: `${botname}`,
     buttons: buttons,
     headerType: 4
@@ -8673,34 +8538,7 @@ const buttons = [
 ]
 const buttonMessage = {
     image: unicorn,
-    caption: `╠═════= *DOWNLOAD* 📥 
-╠${prefix}SONG [සින්දුවෙ නම]       
-╠ ${prefix}VIDEO [විඩියෝවෙ නම]
-╠${prefix}TIKTOK [LINK] එම ටික්ටොක් එක ඩව්න්ලොඩ් කර ලබාදෙයි.
-╠${prefix}INSTAGRAM [LINK] INSTAGRAM විඩියො ඩව්න්ලොඩ් කර ලබා දෙයි.
-╠${prefix}MEDIAFIRE [LINK] MEDIAFIRE ලින්ක් එකට අදාල ෆයිල් එක ලබා දෙයි.                ╠═══════✪ *GROUP👥* 	        
-╠${prefix}GROUPLINK ගෘප් ලින්ක් එක ලබා දෙයි.
-╠${prefix}SETGCPP එය Dp එක මාරු කරයි.
-╠${prefix}SETNAME [TEXT] ගෘප් එකෙ නම සාදයි 
-╠${prefix}RESETGROUPLINK ගෘප් ලින්ක් එක මාරු කරයි.
-╠${prefix}ADD [NUMBER] ගෘප් එකට කෙනෙක් එකතු කිරීම.
-╠${prefix}KICK [NUMBER/TAG] ගෘප් එකෙන් කෙනෙක් පන්නා දැමීමට
-╠${prefix}TAGALL @. [text]
-╠${prefix}antilinkgc *[on/off]*
-╠${prefix}antilinktg *[on/off]*
-╠${prefix}antilinktt *[on/off]*
-╠${prefix}antilinkytch *[on/off]*
-╠${prefix}antilinkytvid *[on/off]*
-╠${prefix}antilinkig *[on/off]*
-╠${prefix}antilinkfb *[on/off]*
-╠${prefix}antilinktwit *[on/off]*
-╠${prefix}antilinkall [on/off]*
-╠${prefix}antivirus *[on/off]
-╠${prefix}antitoxic *[on/off]*
-╠${prefix}antiwame *[on/off]*
-╠${prefix}nsfw *[on/off]*
-╠${prefix}PREMOTE [NUMBER/TAG] ඇඩ්මින් ලබා දීම.
-╠${prefix}DEMOTE [NUMBER/TAG] කෙනෙකුගෙ ඇඩ්මින් යිවත් කිරිම.`,
+    caption: `NO`,
     footer: `${botname}`,
     buttons: buttons,
     headerType: 4
@@ -8718,34 +8556,7 @@ const buttons = [
 ]
 const buttonMessage = {
     image: unicorn,
-    caption: `╠═════= *DOWNLOAD* 📥 
-╠${prefix}SONG [සින්දුවෙ නම]       
-╠ ${prefix}VIDEO [විඩියෝවෙ නම]
-╠${prefix}TIKTOK [LINK] එම ටික්ටොක් එක ඩව්න්ලොඩ් කර ලබාදෙයි.
-╠${prefix}INSTAGRAM [LINK] INSTAGRAM විඩියො ඩව්න්ලොඩ් කර ලබා දෙයි.
-╠${prefix}MEDIAFIRE [LINK] MEDIAFIRE ලින්ක් එකට අදාල ෆයිල් එක ලබා දෙයි.                ╠═══════✪ *GROUP👥* 	        
-╠${prefix}GROUPLINK ගෘප් ලින්ක් එක ලබා දෙයි.
-╠${prefix}SETGCPP එය Dp එක මාරු කරයි.
-╠${prefix}SETNAME [TEXT] ගෘප් එකෙ නම සාදයි 
-╠${prefix}RESETGROUPLINK ගෘප් ලින්ක් එක මාරු කරයි.
-╠${prefix}ADD [NUMBER] ගෘප් එකට කෙනෙක් එකතු කිරීම.
-╠${prefix}KICK [NUMBER/TAG] ගෘප් එකෙන් කෙනෙක් පන්නා දැමීමට
-╠${prefix}TAGALL @. [text]
-╠${prefix}antilinkgc *[on/off]*
-╠${prefix}antilinktg *[on/off]*
-╠${prefix}antilinktt *[on/off]*
-╠${prefix}antilinkytch *[on/off]*
-╠${prefix}antilinkytvid *[on/off]*
-╠${prefix}antilinkig *[on/off]*
-╠${prefix}antilinkfb *[on/off]*
-╠${prefix}antilinktwit *[on/off]*
-╠${prefix}antilinkall [on/off]*
-╠${prefix}antivirus *[on/off]
-╠${prefix}antitoxic *[on/off]*
-╠${prefix}antiwame *[on/off]*
-╠${prefix}nsfw *[on/off]*
-╠${prefix}PREMOTE [NUMBER/TAG] ඇඩ්මින් ලබා දීම.
-╠${prefix}DEMOTE [NUMBER/TAG] කෙනෙකුගෙ ඇඩ්මින් යිවත් කිරිම.`,
+    caption: `NO`,
     footer: `${botname}`,
     buttons: buttons,
     headerType: 4
@@ -8763,34 +8574,7 @@ const buttons = [
 ]
 const buttonMessage = {
     image: unicorn,
-    caption: `╠═════= *DOWNLOAD* 📥 
-╠${prefix}SONG [සින්දුවෙ නම]       
-╠ ${prefix}VIDEO [විඩියෝවෙ නම]
-╠${prefix}TIKTOK [LINK] එම ටික්ටොක් එක ඩව්න්ලොඩ් කර ලබාදෙයි.
-╠${prefix}INSTAGRAM [LINK] INSTAGRAM විඩියො ඩව්න්ලොඩ් කර ලබා දෙයි.
-╠${prefix}MEDIAFIRE [LINK] MEDIAFIRE ලින්ක් එකට අදාල ෆයිල් එක ලබා දෙයි.                ╠═══════✪ *GROUP👥* 	        
-╠${prefix}GROUPLINK ගෘප් ලින්ක් එක ලබා දෙයි.
-╠${prefix}SETGCPP එය Dp එක මාරු කරයි.
-╠${prefix}SETNAME [TEXT] ගෘප් එකෙ නම සාදයි 
-╠${prefix}RESETGROUPLINK ගෘප් ලින්ක් එක මාරු කරයි.
-╠${prefix}ADD [NUMBER] ගෘප් එකට කෙනෙක් එකතු කිරීම.
-╠${prefix}KICK [NUMBER/TAG] ගෘප් එකෙන් කෙනෙක් පන්නා දැමීමට
-╠${prefix}TAGALL @. [text]
-╠${prefix}antilinkgc *[on/off]*
-╠${prefix}antilinktg *[on/off]*
-╠${prefix}antilinktt *[on/off]*
-╠${prefix}antilinkytch *[on/off]*
-╠${prefix}antilinkytvid *[on/off]*
-╠${prefix}antilinkig *[on/off]*
-╠${prefix}antilinkfb *[on/off]*
-╠${prefix}antilinktwit *[on/off]*
-╠${prefix}antilinkall [on/off]*
-╠${prefix}antivirus *[on/off]
-╠${prefix}antitoxic *[on/off]*
-╠${prefix}antiwame *[on/off]*
-╠${prefix}nsfw *[on/off]*
-╠${prefix}PREMOTE [NUMBER/TAG] ඇඩ්මින් ලබා දීම.
-╠${prefix}DEMOTE [NUMBER/TAG] කෙනෙකුගෙ ඇඩ්මින් යිවත් කිරිම.`,
+    caption: `NO`,
     footer: `${botname}`,
     buttons: buttons,
     headerType: 4
@@ -8808,34 +8592,7 @@ const buttons = [
 ]
 const buttonMessage = {
     image: unicorn,
-    caption: `╠═════= *DOWNLOAD* 📥 
-╠${prefix}SONG [සින්දුවෙ නම]       
-╠ ${prefix}VIDEO [විඩියෝවෙ නම]
-╠${prefix}TIKTOK [LINK] එම ටික්ටොක් එක ඩව්න්ලොඩ් කර ලබාදෙයි.
-╠${prefix}INSTAGRAM [LINK] INSTAGRAM විඩියො ඩව්න්ලොඩ් කර ලබා දෙයි.
-╠${prefix}MEDIAFIRE [LINK] MEDIAFIRE ලින්ක් එකට අදාල ෆයිල් එක ලබා දෙයි.                ╠═══════✪ *GROUP👥* 	        
-╠${prefix}GROUPLINK ගෘප් ලින්ක් එක ලබා දෙයි.
-╠${prefix}SETGCPP එය Dp එක මාරු කරයි.
-╠${prefix}SETNAME [TEXT] ගෘප් එකෙ නම සාදයි 
-╠${prefix}RESETGROUPLINK ගෘප් ලින්ක් එක මාරු කරයි.
-╠${prefix}ADD [NUMBER] ගෘප් එකට කෙනෙක් එකතු කිරීම.
-╠${prefix}KICK [NUMBER/TAG] ගෘප් එකෙන් කෙනෙක් පන්නා දැමීමට
-╠${prefix}TAGALL @. [text]
-╠${prefix}antilinkgc *[on/off]*
-╠${prefix}antilinktg *[on/off]*
-╠${prefix}antilinktt *[on/off]*
-╠${prefix}antilinkytch *[on/off]*
-╠${prefix}antilinkytvid *[on/off]*
-╠${prefix}antilinkig *[on/off]*
-╠${prefix}antilinkfb *[on/off]*
-╠${prefix}antilinktwit *[on/off]*
-╠${prefix}antilinkall [on/off]*
-╠${prefix}antivirus *[on/off]
-╠${prefix}antitoxic *[on/off]*
-╠${prefix}antiwame *[on/off]*
-╠${prefix}nsfw *[on/off]*
-╠${prefix}PREMOTE [NUMBER/TAG] ඇඩ්මින් ලබා දීම.
-╠${prefix}DEMOTE [NUMBER/TAG] කෙනෙකුගෙ ඇඩ්මින් යිවත් කිරිම.`,
+    caption: `NO`,
     footer: `${botname}`,
     buttons: buttons,
     headerType: 4
@@ -8853,34 +8610,7 @@ const buttons = [
 ]
 const buttonMessage = {
     image: unicorn,
-    caption: `╠═════= *DOWNLOAD* 📥 
-╠${prefix}SONG [සින්දුවෙ නම]       
-╠ ${prefix}VIDEO [විඩියෝවෙ නම]
-╠${prefix}TIKTOK [LINK] එම ටික්ටොක් එක ඩව්න්ලොඩ් කර ලබාදෙයි.
-╠${prefix}INSTAGRAM [LINK] INSTAGRAM විඩියො ඩව්න්ලොඩ් කර ලබා දෙයි.
-╠${prefix}MEDIAFIRE [LINK] MEDIAFIRE ලින්ක් එකට අදාල ෆයිල් එක ලබා දෙයි.                ╠═══════✪ *GROUP👥* 	        
-╠${prefix}GROUPLINK ගෘප් ලින්ක් එක ලබා දෙයි.
-╠${prefix}SETGCPP එය Dp එක මාරු කරයි.
-╠${prefix}SETNAME [TEXT] ගෘප් එකෙ නම සාදයි 
-╠${prefix}RESETGROUPLINK ගෘප් ලින්ක් එක මාරු කරයි.
-╠${prefix}ADD [NUMBER] ගෘප් එකට කෙනෙක් එකතු කිරීම.
-╠${prefix}KICK [NUMBER/TAG] ගෘප් එකෙන් කෙනෙක් පන්නා දැමීමට
-╠${prefix}TAGALL @. [text]
-╠${prefix}antilinkgc *[on/off]*
-╠${prefix}antilinktg *[on/off]*
-╠${prefix}antilinktt *[on/off]*
-╠${prefix}antilinkytch *[on/off]*
-╠${prefix}antilinkytvid *[on/off]*
-╠${prefix}antilinkig *[on/off]*
-╠${prefix}antilinkfb *[on/off]*
-╠${prefix}antilinktwit *[on/off]*
-╠${prefix}antilinkall [on/off]*
-╠${prefix}antivirus *[on/off]
-╠${prefix}antitoxic *[on/off]*
-╠${prefix}antiwame *[on/off]*
-╠${prefix}nsfw *[on/off]*
-╠${prefix}PREMOTE [NUMBER/TAG] ඇඩ්මින් ලබා දීම.
-╠${prefix}DEMOTE [NUMBER/TAG] කෙනෙකුගෙ ඇඩ්මින් යිවත් කිරිම.`,
+    caption: `NO`,
     footer: `${botname}`,
     buttons: buttons,
     headerType: 4
@@ -8898,34 +8628,7 @@ const buttons = [
 ]
 const buttonMessage = {
     image: unicorn,
-    caption: `╠═════= *DOWNLOAD* 📥 
-╠${prefix}SONG [සින්දුවෙ නම]       
-╠ ${prefix}VIDEO [විඩියෝවෙ නම]
-╠${prefix}TIKTOK [LINK] එම ටික්ටොක් එක ඩව්න්ලොඩ් කර ලබාදෙයි.
-╠${prefix}INSTAGRAM [LINK] INSTAGRAM විඩියො ඩව්න්ලොඩ් කර ලබා දෙයි.
-╠${prefix}MEDIAFIRE [LINK] MEDIAFIRE ලින්ක් එකට අදාල ෆයිල් එක ලබා දෙයි.                ╠═══════✪ *GROUP👥* 	        
-╠${prefix}GROUPLINK ගෘප් ලින්ක් එක ලබා දෙයි.
-╠${prefix}SETGCPP එය Dp එක මාරු කරයි.
-╠${prefix}SETNAME [TEXT] ගෘප් එකෙ නම සාදයි 
-╠${prefix}RESETGROUPLINK ගෘප් ලින්ක් එක මාරු කරයි.
-╠${prefix}ADD [NUMBER] ගෘප් එකට කෙනෙක් එකතු කිරීම.
-╠${prefix}KICK [NUMBER/TAG] ගෘප් එකෙන් කෙනෙක් පන්නා දැමීමට
-╠${prefix}TAGALL @. [text]
-╠${prefix}antilinkgc *[on/off]*
-╠${prefix}antilinktg *[on/off]*
-╠${prefix}antilinktt *[on/off]*
-╠${prefix}antilinkytch *[on/off]*
-╠${prefix}antilinkytvid *[on/off]*
-╠${prefix}antilinkig *[on/off]*
-╠${prefix}antilinkfb *[on/off]*
-╠${prefix}antilinktwit *[on/off]*
-╠${prefix}antilinkall [on/off]*
-╠${prefix}antivirus *[on/off]
-╠${prefix}antitoxic *[on/off]*
-╠${prefix}antiwame *[on/off]*
-╠${prefix}nsfw *[on/off]*
-╠${prefix}PREMOTE [NUMBER/TAG] ඇඩ්මින් ලබා දීම.
-╠${prefix}DEMOTE [NUMBER/TAG] කෙනෙකුගෙ ඇඩ්මින් යිවත් කිරිම.`,
+    caption: `NO`,
     footer: `${botname}`,
     buttons: buttons,
     headerType: 4
@@ -8943,34 +8646,7 @@ const buttons = [
 ]
 const buttonMessage = {
     image: unicorn,
-    caption: `╠═════= *DOWNLOAD* 📥 
-╠${prefix}SONG [සින්දුවෙ නම]       
-╠ ${prefix}VIDEO [විඩියෝවෙ නම]
-╠${prefix}TIKTOK [LINK] එම ටික්ටොක් එක ඩව්න්ලොඩ් කර ලබාදෙයි.
-╠${prefix}INSTAGRAM [LINK] INSTAGRAM විඩියො ඩව්න්ලොඩ් කර ලබා දෙයි.
-╠${prefix}MEDIAFIRE [LINK] MEDIAFIRE ලින්ක් එකට අදාල ෆයිල් එක ලබා දෙයි.                ╠═══════✪ *GROUP👥* 	        
-╠${prefix}GROUPLINK ගෘප් ලින්ක් එක ලබා දෙයි.
-╠${prefix}SETGCPP එය Dp එක මාරු කරයි.
-╠${prefix}SETNAME [TEXT] ගෘප් එකෙ නම සාදයි 
-╠${prefix}RESETGROUPLINK ගෘප් ලින්ක් එක මාරු කරයි.
-╠${prefix}ADD [NUMBER] ගෘප් එකට කෙනෙක් එකතු කිරීම.
-╠${prefix}KICK [NUMBER/TAG] ගෘප් එකෙන් කෙනෙක් පන්නා දැමීමට
-╠${prefix}TAGALL @. [text]
-╠${prefix}antilinkgc *[on/off]*
-╠${prefix}antilinktg *[on/off]*
-╠${prefix}antilinktt *[on/off]*
-╠${prefix}antilinkytch *[on/off]*
-╠${prefix}antilinkytvid *[on/off]*
-╠${prefix}antilinkig *[on/off]*
-╠${prefix}antilinkfb *[on/off]*
-╠${prefix}antilinktwit *[on/off]*
-╠${prefix}antilinkall [on/off]*
-╠${prefix}antivirus *[on/off]
-╠${prefix}antitoxic *[on/off]*
-╠${prefix}antiwame *[on/off]*
-╠${prefix}nsfw *[on/off]*
-╠${prefix}PREMOTE [NUMBER/TAG] ඇඩ්මින් ලබා දීම.
-╠${prefix}DEMOTE [NUMBER/TAG] කෙනෙකුගෙ ඇඩ්මින් යිවත් කිරිම.`,
+    caption: `NO`,
     footer: `${botname}`,
     buttons: buttons,
     headerType: 4
@@ -8988,34 +8664,7 @@ const buttons = [
 ]
 const buttonMessage = {
     image: unicorn,
-    caption: `╠═════= *DOWNLOAD* 📥 
-╠${prefix}SONG [සින්දුවෙ නම]       
-╠ ${prefix}VIDEO [විඩියෝවෙ නම]
-╠${prefix}TIKTOK [LINK] එම ටික්ටොක් එක ඩව්න්ලොඩ් කර ලබාදෙයි.
-╠${prefix}INSTAGRAM [LINK] INSTAGRAM විඩියො ඩව්න්ලොඩ් කර ලබා දෙයි.
-╠${prefix}MEDIAFIRE [LINK] MEDIAFIRE ලින්ක් එකට අදාල ෆයිල් එක ලබා දෙයි.                ╠═══════✪ *GROUP👥* 	        
-╠${prefix}GROUPLINK ගෘප් ලින්ක් එක ලබා දෙයි.
-╠${prefix}SETGCPP එය Dp එක මාරු කරයි.
-╠${prefix}SETNAME [TEXT] ගෘප් එකෙ නම සාදයි 
-╠${prefix}RESETGROUPLINK ගෘප් ලින්ක් එක මාරු කරයි.
-╠${prefix}ADD [NUMBER] ගෘප් එකට කෙනෙක් එකතු කිරීම.
-╠${prefix}KICK [NUMBER/TAG] ගෘප් එකෙන් කෙනෙක් පන්නා දැමීමට
-╠${prefix}TAGALL @. [text]
-╠${prefix}antilinkgc *[on/off]*
-╠${prefix}antilinktg *[on/off]*
-╠${prefix}antilinktt *[on/off]*
-╠${prefix}antilinkytch *[on/off]*
-╠${prefix}antilinkytvid *[on/off]*
-╠${prefix}antilinkig *[on/off]*
-╠${prefix}antilinkfb *[on/off]*
-╠${prefix}antilinktwit *[on/off]*
-╠${prefix}antilinkall [on/off]*
-╠${prefix}antivirus *[on/off]
-╠${prefix}antitoxic *[on/off]*
-╠${prefix}antiwame *[on/off]*
-╠${prefix}nsfw *[on/off]*
-╠${prefix}PREMOTE [NUMBER/TAG] ඇඩ්මින් ලබා දීම.
-╠${prefix}DEMOTE [NUMBER/TAG] කෙනෙකුගෙ ඇඩ්මින් යිවත් කිරිම.`,
+    caption: `NO`,
     footer: `${botname}`,
     buttons: buttons,
     headerType: 4
