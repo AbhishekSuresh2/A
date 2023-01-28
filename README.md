@@ -1,6 +1,6 @@
 <h1 align="center">ꪶQUEEN-Xꫂ<br></h1>
 <p align="center">
-<img src="https://i.pinimg.com/736x/3d/f1/57/3df1576e4eaa6e399a4f76b353e22f50.jpg" alt="animated" width="540" height="280" />
+<img src="https://pps.whatsapp.net/v/t61.24694-24/321181181_168858575856725_862666054410577068_n.jpg?ccb=11-4&oh=01_AdT066V_4JbuGq_E5Pdrf03hnVMDxto71BqS_aThh9WLGw&oe=63E1CB9F" alt="animated" width="540" height="280" />
 </p>
 
 # Setup For Deployment 👇
