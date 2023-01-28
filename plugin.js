@@ -6291,7 +6291,7 @@ const reply = `
     }
     break
 case 'sc': case 'script': case 'donate': case 'donate': case 'cekupdate': case 'updatebot': case 'cekbot': case 'sourcecode': {
-teks = `*「 ${global.botname} Script 」*\n\nYouTube: ${global.websitex}\nGitHub: ${global.botscript}\n\n *Special thanks*                                 ׀THENURA CYBER X                            ׀NIMESH  BLACKREGON`
+teks = `*「 ${global.botname} Script 」*\n\nYouTube: ${global.websitex}\nGitHub: ${global.botscript}\n\n *♻️The full Bot Command Update will be provided in the coming days.The full Bot Command Update will be provided in the coming days.*                                              සම්පූර්ණ Bot Cmand Update එක ඉදිරි දින වලදී ලබා දෙනු ඇත.`
 let buttons = [
 {buttonId: `owner`, buttonText: {displayText: 'OWNER🦹🏻‍♂️'}, type: 1}
 ]
