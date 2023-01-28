@@ -7563,7 +7563,7 @@ case 'alive': {
 						]
 const listMessage = {
   text: "👸🏻ＱＵＥＥＮ-Ｘ ＢＯＴ👸🏻",
-  footer: `${botname}\n📍YouTube: ${websitex}\n✍️Script: ${websitex}`,
+  footer: `${botname}\nYOUTUBE: ${websitex}\n✍️SCRIPT: ${websitex}`,
   title: `Hi 👋 ${pushname}`,
   buttonText: "Menu",
   sections
