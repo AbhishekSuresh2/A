@@ -7550,6 +7550,11 @@ case 'alive': {
 									}
 								]
 							},
+                            {
+										"title": "Game Menu 🎮",
+										"description": "Displays The List Of Game Features",
+										"rowId": `${prefix}gamemenu`
+									},
 							{
 								"title": "_________________________________",
 								"rows": [
@@ -8345,7 +8350,7 @@ const sendMsg = await XeonBotInc.sendMessage(m.chat, buttonMessage)
 }
 break
       case 'ownermenu':{
-	   var unicorn = await getBuffer(picak+'Owner Menu')
+	   var unicorn = await getBuffer(picak+'Queen-X Owner Menu')
 const buttons = [
   {buttonId: 'script', buttonText: {displayText: 'GITHUB LINK'}, type: 1},
   {buttonId: 'donate', buttonText: {displayText: 'SUPPORT LINK'}, type: 1},
@@ -8376,7 +8381,7 @@ const sendMsg = await XeonBotInc.sendMessage(m.chat, buttonMessage)
 }
 break
             case 'groupmenu':{
-var unicorn = await getBuffer(picak+'Group Menu')
+var unicorn = await getBuffer(picak+'Queen-X Group Menu')
 
 const buttons = [
   {buttonId: 'script', buttonText: {displayText: 'GITHUB LINK'}, type: 1},
@@ -8412,7 +8417,7 @@ const sendMsg = await XeonBotInc.sendMessage(m.chat, buttonMessage)
 }
 break
             case 'downloadmenu':{
-var unicorn = await getBuffer(picak+'Download Menu')
+var unicorn = await getBuffer(picak+'Queen-X Download Menu')
 
 const buttons = [
   {buttonId: 'script', buttonText: {displayText: 'GITHUB LINK'}, type: 1},
@@ -8437,7 +8442,7 @@ const sendMsg = await XeonBotInc.sendMessage(m.chat, buttonMessage)
 }
 break
             case 'searchmenu':{
-var unicorn = await getBuffer(picak+'Search Menu')
+var unicorn = await getBuffer(picak+'Queen-X Search Menu')
 
 const buttons = [
   {buttonId: 'script', buttonText: {displayText: 'GITHUB LINK'}, type: 1},
@@ -8490,7 +8495,7 @@ const sendMsg = await XeonBotInc.sendMessage(m.chat, buttonMessage)
 }
 break
 case 'randomimagemenu':{
-var unicorn = await getBuffer(picak+'Random Image Menu')
+var unicorn = await getBuffer(picak+'Queen-X Random Image Menu')
 
 const buttons = [
   {buttonId: 'script', buttonText: {displayText: 'GITHUB LINK'}, type: 1},
@@ -8652,7 +8657,7 @@ const sendMsg = await XeonBotInc.sendMessage(m.chat, buttonMessage)
 }
 break
 case 'soundmenu':{
-var unicorn = await getBuffer(picak+'Sound Menu')
+var unicorn = await getBuffer(picak+'Queen-X Sound Menu')
 
 const buttons = [
   {buttonId: 'script', buttonText: {displayText: 'GITHUB LINK'}, type: 1},
@@ -8670,7 +8675,7 @@ const sendMsg = await XeonBotInc.sendMessage(m.chat, buttonMessage)
 }
 break
 case 'gamemenu':{
-var unicorn = await getBuffer(picak+'Game Menu')
+var unicorn = await getBuffer(picak+'Queen-X Game Menu')
 
 const buttons = [
   {buttonId: 'script', buttonText: {displayText: 'GITHUB LINK'}, type: 1},
@@ -8679,15 +8684,14 @@ const buttons = [
 ]
 const buttonMessage = {
     image: unicorn,
-    caption: `╔═══════✪ GAME 	
-╠ ${prefix}truth
-╠ ${prefix}dare
-╠ ${prefix}tictactoe
-╠ ${prefix}delttt
-╠ ${prefix}guess [option]
-╠ ${prefix}math [mode]
-╠ ${prefix}suitpvp [tag]
-╚═════════════✪`,
+    caption: `*🪀 QUEEN-X GAME COMMANDS 🪀*
+🎮 🎳 truth
+🎮 🎳 dare
+🎮 🎳 tictactoe
+🎮 🎳 delttt
+🎮 🎳 guess [option]
+🎮 🎳 math [mode]
+🎮 🎳 suitpvp [tag]?`,
     footer: `${botname}`,
     buttons: buttons,
     headerType: 4
