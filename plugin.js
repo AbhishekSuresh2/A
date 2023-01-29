@@ -7479,32 +7479,44 @@ https://chat.whatsapp.com/Fd5MPEBn7NQ1aviL4V5fa7`
 break
 			
 case 'alive': {
-    XeonBotInc.sendMessage(from, { react: { text: `🦹🏻‍♂️`, key: m.key }}) 
-    let buttons = [    
-    {buttonId: ` ping `, buttonText: {displayText: 'PING ⏱️'}, type: 1},
-    {buttonId: ` sc `, buttonText: {displayText: 'SCRIPT 📟'}, type: 1},
-    {buttonId: ` menu `, buttonText: {displayText: 'LIST MENU  📟'}, type: 1}
-    ]
-    let buttonMessage = {
-    image: { url: `https://telegra.ph/file/e4c0e7eb7441a534e735e.jpg` },
-    caption: `
-    
-      👸🏻ＱＵＥＥＮ-Ｘ ＢＯＴ👸🏻
-   I AM ALIVE 👋   ${pushname} 
-   BOT INFO 
-   RUNTIME⏱️ : ${runtime(process.uptime())}
-   PLATFORM : ${os.platform()}
-   TIME INFO
-   TIME⏱️ : ${xtime}
-   *DATE 🗓️ : ${xdate}*`,
-    footer: `QUEEN X BOT`,
-    buttons: buttons,
-    headerType: 4,
-    }
-    XeonBotInc.sendMessage(m.chat, buttonMessage, { quoted: m })
-    }
-    break    
+    XeonBotInc.sendMessage(from, { react: { text: `💃🏻`, key: m.key }}) 
+    let buttons = [    
+    {buttonId: ` ping `, buttonText: {displayText: 'PING ⏱️'}, type: 1},
+    {buttonId: ` sc `, buttonText: {displayText: 'SCRIPT 📟'}, type: 1},
+    {buttonId: ` menu `, buttonText: {displayText: 'LIST MENU  📟'}, type: 1}
+    ]
+    let buttonMessage = {
+    image: { url: `https://telegra.ph/file/e4c0e7eb7441a534e735e.jpg` },
+    caption: `
+    
+    ```◈ Queen x Bot is Online ◈```
+
+*( ᴅᴇᴘʟᴏʏ ) ▽* 
+ _https://github.com/yureshkav/Queen-X_
+*( ᴏᴡɴᴇʀ ) ▽* 
+${global.ownername}
+*( ᴘᴜʙʟɪᴄ ɢʀᴏᴜᴘ ) ▽*
+${global.linkz}
+*( ᴠᴇʀsɪᴏɴ ) ▽*
+ _1.0_
+
+*[ ⏱️ ʀᴜɴ ᴛɪᴍᴇ ⏱️] ▽*
+${runtime(process.uptime())}
+
+``` THANKS FOR USING QUEEN X ```
+
+      
+
+     `,
+    footer: `Qᴜᴇᴇɴ x ʙᴏᴛ`,
+    buttons: buttons,
+    headerType: 4,
+    }
+    XeonBotInc.sendMessage(m.chat, buttonMessage, { quoted: m })
+    }
+    break    
            case 'menu': {
+               XeonBotInc.sendMessage(from, { react: { text: `📜`, key: m.key }})
 	const sections = [{
 								"title": "QUEEN-X WATSAPP USER BOT COMMANDS LIST",
 								"rows": [
@@ -8686,7 +8698,7 @@ const buttonMessage = {
 🎮 🎳 delttt
 🎮 🎳 guess [option]
 🎮 🎳 math [mode]
-🎮 🎳 suitpvp [tag]?`,
+🎮 🎳 suitpvp [tag]`,
     footer: `${botname}`,
     buttons: buttons,
     headerType: 4
