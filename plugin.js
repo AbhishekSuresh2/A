@@ -7572,7 +7572,7 @@ const sendMsg = await XeonBotInc.sendMessage(m.chat, listMessage)
 }
 break
             case 'allmenu':{
-var unicorn = await getBuffer(picak+'All Menu')
+var unicorn = await getBuffer(picak+'Queen-X All Menu')
 
 const buttons = [
   {buttonId: 'script', buttonText: {displayText: 'GITHUB LINK'}, type: 1},
