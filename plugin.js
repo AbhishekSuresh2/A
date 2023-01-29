@@ -7479,44 +7479,32 @@ https://chat.whatsapp.com/Fd5MPEBn7NQ1aviL4V5fa7`
 break
 			
 case 'alive': {
-    XeonBotInc.sendMessage(from, { react: { text: `💃🏻`, key: m.key }}) 
-    let buttons = [    
-    {buttonId: ` ping `, buttonText: {displayText: 'PING ⏱️'}, type: 1},
-    {buttonId: ` sc `, buttonText: {displayText: 'SCRIPT 📟'}, type: 1},
-    {buttonId: ` menu `, buttonText: {displayText: 'LIST MENU  📟'}, type: 1}
-    ]
-    let buttonMessage = {
-    image: { url: `https://telegra.ph/file/e4c0e7eb7441a534e735e.jpg` },
-    caption: `
-    
-    ```◈ Queen x Bot is Online ◈```
-
-*( ᴅᴇᴘʟᴏʏ ) ▽* 
- _https://github.com/yureshkav/Queen-X_
-*( ᴏᴡɴᴇʀ ) ▽* 
-${global.ownername}
-*( ᴘᴜʙʟɪᴄ ɢʀᴏᴜᴘ ) ▽*
-${global.linkz}
-*( ᴠᴇʀsɪᴏɴ ) ▽*
- _1.0_
-
-*[ ⏱️ ʀᴜɴ ᴛɪᴍᴇ ⏱️] ▽*
-${runtime(process.uptime())}
-
-``` THANKS FOR USING QUEEN X ```
-
-      
-
-     `,
-    footer: `Qᴜᴇᴇɴ x ʙᴏᴛ`,
-    buttons: buttons,
-    headerType: 4,
-    }
-    XeonBotInc.sendMessage(m.chat, buttonMessage, { quoted: m })
-    }
-    break    
+    XeonBotInc.sendMessage(from, { react: { text: `🦹🏻‍♂️`, key: m.key }}) 
+    let buttons = [    
+    {buttonId: ` ping `, buttonText: {displayText: 'PING ⏱️'}, type: 1},
+    {buttonId: ` sc `, buttonText: {displayText: 'SCRIPT 📟'}, type: 1},
+    {buttonId: ` menu `, buttonText: {displayText: 'LIST MENU  📟'}, type: 1}
+    ]
+    let buttonMessage = {
+    image: { url: `https://telegra.ph/file/e4c0e7eb7441a534e735e.jpg` },
+    caption: `
+    
+      👸🏻ＱＵＥＥＮ-Ｘ ＢＯＴ👸🏻
+   I AM ALIVE 👋   ${pushname} 
+   BOT INFO 
+   RUNTIME⏱️ : ${runtime(process.uptime())}
+   PLATFORM : ${os.platform()}
+   TIME INFO
+   TIME⏱️ : ${xtime}
+   *DATE 🗓️ : ${xdate}*`,
+    footer: `QUEEN X BOT`,
+    buttons: buttons,
+    headerType: 4,
+    }
+    XeonBotInc.sendMessage(m.chat, buttonMessage, { quoted: m })
+    }
+    break    
            case 'menu': {
-               XeonBotInc.sendMessage(from, { react: { text: `📜`, key: m.key }})
 	const sections = [{
 								"title": "QUEEN-X WATSAPP USER BOT COMMANDS LIST",
 								"rows": [
@@ -7584,7 +7572,7 @@ const sendMsg = await XeonBotInc.sendMessage(m.chat, listMessage)
 }
 break
             case 'allmenu':{
-var unicorn = await getBuffer(picak+'Queen-X All Menu')
+var unicorn = await getBuffer(picak+'All Menu')
 
 const buttons = [
   {buttonId: 'script', buttonText: {displayText: 'GITHUB LINK'}, type: 1},
@@ -8357,7 +8345,7 @@ const sendMsg = await XeonBotInc.sendMessage(m.chat, buttonMessage)
 }
 break
       case 'ownermenu':{
-	   var unicorn = await getBuffer(picak+'Queen-X Owner Menu')
+	   var unicorn = await getBuffer(picak+'Owner Menu')
 const buttons = [
   {buttonId: 'script', buttonText: {displayText: 'GITHUB LINK'}, type: 1},
   {buttonId: 'donate', buttonText: {displayText: 'SUPPORT LINK'}, type: 1},
@@ -8388,7 +8376,7 @@ const sendMsg = await XeonBotInc.sendMessage(m.chat, buttonMessage)
 }
 break
             case 'groupmenu':{
-var unicorn = await getBuffer(picak+'Queen-X Group Menu')
+var unicorn = await getBuffer(picak+'Group Menu')
 
 const buttons = [
   {buttonId: 'script', buttonText: {displayText: 'GITHUB LINK'}, type: 1},
@@ -8424,7 +8412,7 @@ const sendMsg = await XeonBotInc.sendMessage(m.chat, buttonMessage)
 }
 break
             case 'downloadmenu':{
-var unicorn = await getBuffer(picak+'Queen-X Download Menu')
+var unicorn = await getBuffer(picak+'Download Menu')
 
 const buttons = [
   {buttonId: 'script', buttonText: {displayText: 'GITHUB LINK'}, type: 1},
@@ -8449,7 +8437,7 @@ const sendMsg = await XeonBotInc.sendMessage(m.chat, buttonMessage)
 }
 break
             case 'searchmenu':{
-var unicorn = await getBuffer(picak+'Queen-X Search Menu')
+var unicorn = await getBuffer(picak+'Search Menu')
 
 const buttons = [
   {buttonId: 'script', buttonText: {displayText: 'GITHUB LINK'}, type: 1},
@@ -8502,7 +8490,7 @@ const sendMsg = await XeonBotInc.sendMessage(m.chat, buttonMessage)
 }
 break
 case 'randomimagemenu':{
-var unicorn = await getBuffer(picak+'Queen-X Random Image Menu')
+var unicorn = await getBuffer(picak+'Random Image Menu')
 
 const buttons = [
   {buttonId: 'script', buttonText: {displayText: 'GITHUB LINK'}, type: 1},
@@ -8664,7 +8652,7 @@ const sendMsg = await XeonBotInc.sendMessage(m.chat, buttonMessage)
 }
 break
 case 'soundmenu':{
-var unicorn = await getBuffer(picak+'Queen-X Sound Menu')
+var unicorn = await getBuffer(picak+'Sound Menu')
 
 const buttons = [
   {buttonId: 'script', buttonText: {displayText: 'GITHUB LINK'}, type: 1},
@@ -8682,7 +8670,7 @@ const sendMsg = await XeonBotInc.sendMessage(m.chat, buttonMessage)
 }
 break
 case 'gamemenu':{
-var unicorn = await getBuffer(picak+'Queen-X Game Menu')
+var unicorn = await getBuffer(picak+'Game Menu')
 
 const buttons = [
   {buttonId: 'script', buttonText: {displayText: 'GITHUB LINK'}, type: 1},
@@ -8691,14 +8679,15 @@ const buttons = [
 ]
 const buttonMessage = {
     image: unicorn,
-    caption: `*🪀 QUEEN-X GAME COMMANDS 🪀*
-🎮 🎳 truth
-🎮 🎳 dare
-🎮 🎳 tictactoe
-🎮 🎳 delttt
-🎮 🎳 guess [option]
-🎮 🎳 math [mode]
-🎮 🎳 suitpvp [tag]`,
+    caption: `╔═══════✪ GAME 	
+╠ ${prefix}truth
+╠ ${prefix}dare
+╠ ${prefix}tictactoe
+╠ ${prefix}delttt
+╠ ${prefix}guess [option]
+╠ ${prefix}math [mode]
+╠ ${prefix}suitpvp [tag]
+╚═════════════✪`,
     footer: `${botname}`,
     buttons: buttons,
     headerType: 4
