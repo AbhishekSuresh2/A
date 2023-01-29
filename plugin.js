@@ -7554,7 +7554,7 @@ case 'alive': {
 										"title": "Game Menu 🎮",
 										"description": "Displays The List Of Game Features",
 										"rowId": `${prefix}gamemenu`
-									},
+                            },
 							{
 								"title": "_________________________________",
 								"rows": [
