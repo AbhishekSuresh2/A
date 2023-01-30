@@ -7487,16 +7487,16 @@ case 'alive': {
     ]
     let buttonMessage = {
     image: { url: `https://telegra.ph/file/e4c0e7eb7441a534e735e.jpg` },
-    caption: `
-    
-      💭QＵＥＥＮ-Ｘ ＷＨＡＴＳＡＰＰ ＢＯＴ💃🏻
-   🤖Runtime: ${runtime(process.uptime())}
+    caption: `💭QＵＥＥＮ-Ｘ ＷＨＡＴＳＡＰＰ ＢＯＴ💃🏻
+   *🤖Runtime: ${runtime(process.uptime())}*
    _👽 Created by Queen-x owner Yuresh_
-   💭Join Bot Support Group 
+   Join Bot Support Group🔧 
    
-   https://chat.whatsapp.com/Fd5MPEBn7NQ1aviL4V5fa7`,
+   https://chat.whatsapp.com/Fd5MPEBn7NQ1aviL4V5fa7
    
-    footer: `Date 🗓️ : ${xdate}`,
+   *® ᴄᴏᴅᴇᴅ ʙʏ Qᴜᴇᴇɴ-x ᴏᴡɴᴇʀ ʏᴜʀᴇꜱʜ*`,
+   
+    footer: `Date 🗓️ : ${xdate}/n${global.botname}`,
     buttons: buttons,
     headerType: 4,
     }
