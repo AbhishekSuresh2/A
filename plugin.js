@@ -7487,14 +7487,19 @@ case 'alive': {
     ]
     let buttonMessage = {
     image: { url: `https://telegra.ph/file/e4c0e7eb7441a534e735e.jpg` },
-    caption: `◈ 𝚀𝚞𝚎𝚎𝚗 -𝚡 𝙱𝚘𝚝 𝚒𝚜 𝙾𝚗𝚕𝚒𝚗𝚎 ◈
-*(ᴏᴡɴᴇʀ)* ▷ ${pushname}
-*(ᴘᴜʙʟɪᴄ ɢʀᴏᴜᴘ)*▷https://chat.whatsapp.com/Fd5MPEBn7NQ1aviL4V5fa7
+    caption: `      ◈ 𝚀𝚞𝚎𝚎𝚗 -𝚡 𝙱𝚘𝚝 𝚒𝚜 𝙾𝚗𝚕𝚒𝚗𝚎 ◈
+
+*(ᴏᴡɴᴇʀ)* ▽
+${global.owner}
+*(ᴘᴜʙʟɪᴄ ɢʀᴏᴜᴘ)*▽
+https://chat.whatsapp.com/Fd5MPEBn7NQ1aviL4V5fa7
 *(ᴠᴇʀꜱɪᴏɴ)* _1.0_
 
-*[ʀᴜɴ ᴛɪᴍᴇ]*▷ $runtime(process.uptime())}
+*[⏱️ʀᴜɴ ᴛɪᴍᴇ⏱️]*▽
+$runtime(process.uptime())}
 
-𝚃𝙷𝙰𝙽𝙺𝚂 𝙵𝙾𝚁 𝚄𝚂𝙸𝙽𝙶 𝚀𝚄𝙴𝙴𝙽 𝚇`,
+𝚃𝙷𝙰𝙽𝙺𝚂 𝙵𝙾𝚁 𝚄𝚂𝙸𝙽𝙶 𝚀𝚄𝙴𝙴𝙽 𝚇
+footer: `${botname}`,
     buttons: buttons,
     headerType: 4,
     }
