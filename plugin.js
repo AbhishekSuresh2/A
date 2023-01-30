@@ -1899,7 +1899,7 @@ if (!text) return m.reply(`Example : ${prefix + command} Stay jb`)
             ]
             const listMessage = {
                 text: teskd,
-                footer: botscript,
+                footer: xdate,
                 title: ``,
                 buttonText: "Song",
                 mentions: parseMention(teskd), sections
