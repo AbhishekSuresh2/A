@@ -7496,7 +7496,8 @@ case 'alive': {
    
    *® ᴄᴏᴅᴇᴅ ʙʏ Qᴜᴇᴇɴ-x ᴏᴡɴᴇʀ ʏᴜʀᴇꜱʜ*`,
    
-    footer: `Date 🗓️ : ${xdate}/n${global.botname}`,
+    footer: `Date ▷️ ${xdate}▷
+    ${global.botname}`,
     buttons: buttons,
     headerType: 4,
     }
