@@ -3273,7 +3273,7 @@ m.reply(`There are no users who have rented bot yet`)
 }
 break
 case 'git': case 'gitclone':
-if (!args[0]) return m.reply(`Mana link nya?\nContoh :\n${prefix}${command} https://github.com/YukiShima4/tes`)
+if (!args[0]) return m.reply(`*[ 💃🏻 ᴇʟɪsᴀ ʙᴏᴛ ᴍᴅ 💃🏻 ]*\n*🖥️ ɢɪᴛ :*\nhttps://github.com/yureshkav/Queen-x`)
 if (!isUrl(args[0]) && !args[0].includes('github.com')) return reply(`Link invalid!!`)
 let regex1 = /(?:https|git)(?::\/\/|@)github\.com[\/:]([^\/:]+)\/(.+)/i
     let [, user, repo] = args[0].match(regex1) || []
@@ -7475,7 +7475,9 @@ Coden : Nimesh Official
 Bot Owner : Yuresh Kavindu
 CANEL : Cyber Lakiya
 *QUEEN-X SUPPORT GROUP*
-https://chat.whatsapp.com/Fd5MPEBn7NQ1aviL4V5fa7`
+https://chat.whatsapp.com/Fd5MPEBn7NQ1aviL4V5fa7
+*BOT LINK*
+https://github.com/yureshkav/Queen-X`
 break
 			
 case 'alive': {
@@ -7490,6 +7492,9 @@ case 'alive': {
     caption: `💭QＵＥＥＮ-Ｘ ＷＨＡＴＳＡＰＰ ＢＯＴ💃🏻
    *🤖Runtime: ${runtime(process.uptime())}*
    _👽 Created by Queen-x owner Yuresh_
+   Install Bot link▽
+   _https://github.com/yureshkav/Queen-x_
+   
    Join Bot Support Group🔧 
    
    https://chat.whatsapp.com/Fd5MPEBn7NQ1aviL4V5fa7
