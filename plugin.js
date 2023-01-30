@@ -1883,8 +1883,7 @@ if (!text) return m.reply(`Example : ${prefix + command} Stay jb`)
             let ytslagu = require("youtube-yts")
             let lagusearch = await ytslagu(text)
             listSerch = []
-            teskd = `*_👽 Created by Queen-x owner Yuresh_
-            🤖Searched Song:* ${text}\n`
+            teskd = `*_👽 Created by Queen-x owner Yuresh_ 🤖Searched Song:* ${text}\n`
             for (let i of lagusearch.all) {
                 listSerch.push({
                     title: i.title,
@@ -1902,7 +1901,7 @@ if (!text) return m.reply(`Example : ${prefix + command} Stay jb`)
                 text: teskd,
                 footer: Date : ${xdate},
                 title: ``,
-                buttonText: "CLICK HERE",
+                buttonText: "Song",
                 mentions: parseMention(teskd), sections
             }
             return XeonBotInc.sendMessage(m.chat, listMessage, {
