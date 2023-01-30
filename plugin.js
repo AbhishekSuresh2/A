@@ -1060,35 +1060,25 @@ Type *surrender* to surrender and admit defeat`
             }
             break
 
-            case 'song': case 'song':{
-                if (!text) throw `Example : ${prefix + command} anime whatsapp status`
-                let yts = require("youtube-yts")
-                let search = await yts(text)
-                let anulay = search.videos[Math.floor(Math.random() * search.videos.length)]
-                let buttons = [
-                    {buttonId: `playmp3 ${anulay.url}`, buttonText: {displayText: '♫ Audio'}, type: 1},
-                    {buttonId: `playmp4 ${anulay.url}`, buttonText: {displayText: '► Video'}, type: 1}
-                ]
-                let buttonMessage = {
-                    image: { url: anulay.thumbnail },
-                    caption: `
-${themeemoji} Title : ${anulay.title}
-${themeemoji} Ext : Search
-${themeemoji} ID : ${anulay.videoId}
-${themeemoji} Duration : ${anulay.timestamp}
-${themeemoji} Viewers : ${anulay.views}
-${themeemoji} Upload At : ${anulay.ago}
-${themeemoji} Author : ${anulay.author.name}
-${themeemoji} Channel : ${anulay.author.url}
-${themeemoji} Description : ${anulay.description}
-${themeemoji} Url : ${anulay.url}`,
-                    footer: botname,
-                    buttons: buttons,
-                    headerType: 4
-                }
-                XeonBotInc.sendMessage(m.chat, buttonMessage, { quoted: m })
-            }
-            break
+            case 'guess': {
+                if (!args.join(" ")) throw `Example : ${prefix + command} song`
+if (args[0] === "song") {
+if (tebaklagu.hasOwnProperty(m.sender.split('@')[0])) throw "There are still unfinished sessions!"
+let anugas = await fetchJson('https://raw.githubusercontent.com/DGXeon/XeonMedia/main/guessSong.json')
+let result = anugas[Math.floor(Math.random() * anugas.length)]
+let msg = await XeonBotInc.sendMessage(m.chat, { audio: { url: result.link_song }, mimetype: 'audio/mpeg' }, { quoted: m })
+XeonBotInc.sendText(m.chat, `What is the name of this song?\n\nArtist : ${result.artist}\nTime : 60s`, msg).then(() => {
+tebaklagu[m.sender.split('@')[0]] = result.jawaban.toLowerCase()
+})
+await sleep(60000)
+if (tebaklagu.hasOwnProperty(m.sender.split('@')[0])) {
+console.log("Answer: " + result.jawaban)
+XeonBotInc.sendButtonText(m.chat, [{ buttonId: 'guess song', buttonText: { displayText: 'Guess the song' }, type: 1 }], `Time has run out\nAnswer:  ${tebaklagu[m.sender.split('@')[0]]}\n\nWant to play? press the button below`, `${global.botname}`, m)
+delete tebaklagu[m.sender.split('@')[0]]
+}
+}
+}
+break
             case 'matchquiz': case 'math': {
                 if (kuismath.hasOwnProperty(m.sender.split('@')[0])) throw "There are still unfinished sessions!"
                 let { genMath, modes } = require('./lib/math')
