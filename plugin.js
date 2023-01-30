@@ -7494,9 +7494,9 @@ case 'alive': {
    _👽 Created by Queen-x owner Yuresh_
    💭Join Bot Support Group 
    
-   https://chat.whatsapp.com/Fd5MPEBn7NQ1aviL4V5fa7 `
+   https://chat.whatsapp.com/Fd5MPEBn7NQ1aviL4V5fa7`,
    
-    footer: `Date 🗓️ : ${xdate}()}`,
+    footer: `Date 🗓️ : ${xdate}`,
     buttons: buttons,
     headerType: 4,
     }
