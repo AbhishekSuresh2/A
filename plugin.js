@@ -7496,7 +7496,7 @@ case 'alive': {
    
    https://chat.whatsapp.com/Fd5MPEBn7NQ1aviL4V5fa7
    
-    footer: `Date 🗓️ : ${xdate}/n ${global.botname}`,
+    footer: `Date 🗓️ : ${xdate}`,
     buttons: buttons,
     headerType: 4,
     }
