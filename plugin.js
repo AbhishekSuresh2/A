@@ -3430,7 +3430,7 @@ View list of Messages With ${prefix}listmsg`)
             }
 	    break
 case 'developer': case 'dev': {
-reply(`•QUEEN-X⸙💃️⸙▷DEVELOPER•\n\n\n   ©2022.\n\nYURESH OWNER\nPm: wa.me/94719225807`)
+reply(`•QUEEN-X⸙💃️⸙📚DEVELOPER•\n\n\n   ©2022.\n\nYURESH OWNER\nPm: wa.me/94719225807`)
 }
             break
 case 'owner': case 'creator': case 'moderator': case 'mod': {
@@ -7501,7 +7501,7 @@ case 'alive': {
    
    ® ᴄᴏᴅᴇᴅ ʙʏ Qᴜᴇᴇɴ-x ᴏᴡɴᴇʀ ʏᴜʀᴇꜱʜ`,
    
-    footer: `Date ▷️ ${xdate}▷
+    footer: `Date 📚️ ${xdate}📚
     ${global.botname}`,
     buttons: buttons,
     headerType: 4,
@@ -7514,7 +7514,7 @@ case 'alive': {
 								"title": "QUEEN-X WATSAPP USER BOT COMMANDS LIST",
 								"rows": [
 									{
-										"title": "◁ OTHER COMMANDS MENU ▷",
+										"title": "📚 OTHER COMMANDS MENU 📚",
 										"description": "Displays The List Of Other Features",
 										"rowId": `${prefix}othermenu`
 									}
@@ -7524,22 +7524,22 @@ case 'alive': {
 								"title": "_________________________________",
 								"rows": [
 									{
-										"title": "◁ ALL COMMANDS MENU ▷",
+										"title": "📚 ALL COMMANDS MENU 📚",
 										"description": "Displays The List Of All The Features!",
 										"rowId": `${prefix}allmenu`
 									},
 									{
-										"title": "◁ DOWNLORD COMMANDS MENU️ ▷",
+										"title": "📚 DOWNLORD COMMANDS MENU️ 📚",
 										"description": "Displays The List Of Download Features",
 										"rowId": `${prefix}downloadmenu`
 									},
 									{
-										"title": "◁ SEARCH COMMANDS MENU ▷",
+										"title": "📚 SEARCH COMMANDS MENU 📚",
 										"description": "Displays The List Of Searching Features",
 										"rowId": `${prefix}searchmenu`
 									},
 									{
-										"title": "◁ BUG COMMANDS MENU️ ▷",
+										"title": "📚 BUG COMMANDS MENU️ 📚",
 										"description": "Displays The List Of War Features",
 										"rowId": `${prefix}warmenu`
 									}
@@ -7549,7 +7549,7 @@ case 'alive': {
 								"title": "_________________________________",
 								"rows": [
 									{
-										"title": "◁ LOGO COMMANDS MENU ▷️",
+										"title": "📚 LOGO COMMANDS MENU 📚️",
 										"description": "Displays The List Of Anonymous Chat Features",
 										"rowId": `${prefix}anonymousmenu`
 									}
@@ -7559,7 +7559,7 @@ case 'alive': {
 								"title": "_________________________________",
 								"rows": [
 									{
-										"title": "◁ THANKS TO ▷",
+										"title": "📚 THANKS TO 📚",
 										"description": "Displays The List Of Credit Of The Bot !!",
 										"rowId": `${prefix}tqtt`
 									}
@@ -7568,7 +7568,7 @@ case 'alive': {
 						]
 const listMessage = {
   text: "💃🏻ＱＵＥＥＮ-Ｘ ＢＯＴ💃 \nTHE WHATSAPP USER BOT PANEL",
-  footer: `©Qᴜᴇᴇɴ-x ᴡᴀᴛꜱᴀᴘᴘ ᴜꜱᴇʀ ʙᴏᴛ\nTIME ️ : ${xtime}\nDATE : ${xdate}`,
+  footer: `©Queen-x watsapp user bot\nTIME ️ : ${xtime}\nDATE : ${xdate}`,
   title: `Hi 👋 ${pushname}`,
   buttonText: "Menu",
   sections
@@ -7590,7 +7590,7 @@ const buttonMessage = {
     
 *📘 QUEEN-X COMMANDS PANEL 📘*
 
-*◁ DOWNLOAD COMMANDS ▷*
+*📚 DOWNLOAD COMMANDS 📚*
 
 💈 . tiktok [url]
 💈 . tiktokaudio [url]
@@ -7601,7 +7601,7 @@ const buttonMessage = {
 💈 . ytmp4 [url|quality]
 💈 . gitclone [repo link]
 
-*◁ SEARCH COMMANDS ▷*
+*📚 SEARCH COMMANDS 📚*
 
 💈 . play [query]
 💈 . song [query]
@@ -7622,7 +7622,7 @@ const buttonMessage = {
 💈 . ytsearch [query]
 💈 . ringtone [query]
 
-*◁ OTHER COMMANDS ▷*
+*📚 OTHER COMMANDS 📚*
 
 💈 .  self
 💈 .  public
@@ -7640,7 +7640,7 @@ const buttonMessage = {
 💈 .  block [tag/number]
 💈 .  unblock [tag/number]
 
-*◁ GROUP COMMANDS ▷*
+*📚 GROUP COMMANDS 📚*
 💈 . grouplink
 💈 . ephemeral [option]
 💈 . setgcpp [image]
@@ -7676,7 +7676,7 @@ const buttonMessage = {
 💈 . checkvote
 💈 . delvote
 
-*◁ LOGO COMMANDS ▷*
+*📚 LOGO COMMANDS 📚*
 
 💈 . candy
 💈 . blackpinkneon
@@ -7780,7 +7780,7 @@ const buttonMessage = {
 💈 .  watercolor
 💈 .  classic
 
-*◁ CONVETER COMMANDS ▷*
+*📚 CONVETER COMMANDS 📚*
 
 💈 .  toimage [reply stick]
 💈 .  sticker [reply img|gif]
@@ -7810,11 +7810,11 @@ const buttonMessage = {
 💈 . smooth [reply aud]
 💈 . squirrel [reply aud]
 
-*◁ REMOVE BG PHOTO EDIT ▷*
+*📚 REMOVE BG PHOTO EDIT 📚*
 
 💈 . removebg [reply img]
 
-*◁ RENDOM COMMANDS ▷*
+*📚 RENDOM COMMANDS 📚*
 
 💈 . coffee
 💈 . woof
@@ -7854,7 +7854,7 @@ const buttonMessage = {
 💈 . wallphone
 💈 . wallml
 
-*◁ VIDEO COMMANDS ▷*
+*📚 VIDEO COMMANDS 📚*
 
 💈 . tiktokgirl	
 💈 . tiktoknukhty
@@ -7865,7 +7865,7 @@ const buttonMessage = {
 💈 . tiktoksantuy
 💈 . tiktokbocil
 
-*◁ EMOTE COMMANDS ▷*
+*📚 EMOTE COMMANDS 📚*
 
 💈 . instagramemoji
 💈 . facebookemoji
@@ -7880,7 +7880,7 @@ const buttonMessage = {
 💈 . pediaemoji
 💈 . microsoftemoji
 
-*◁ ANIME COMMANDS ▷*
+*📚 ANIME COMMANDS 📚*
 
 💈 . animeneko
 💈 . waifu
@@ -7934,7 +7934,7 @@ const buttonMessage = {
 💈 . animewall [query]
 💈 . animewall2 [query]
 
-*◁ STECKER COMMANDS ▷*
+*📚 STECKER COMMANDS 📚*
 
 💈 .  patrick
 💈 .  emoji
@@ -7948,7 +7948,7 @@ const buttonMessage = {
 💈 .  cartoon
 💈 .  stickman
 
-*◁ STICKER COMMNDS ▷*
+*📚 STICKER COMMNDS 📚*
 
 💈 . loli
 💈 . bully
@@ -7980,7 +7980,7 @@ const buttonMessage = {
 💈 . neko
 💈 . gura
 
-*◁ NSFW COMMANDS ▷*
+*📚 NSFW COMMANDS 📚*
 
 💈 . gifhentai
 💈 . gifblowjob
@@ -8018,7 +8018,7 @@ const buttonMessage = {
 💈 . yuri
 💈 . zettai
 
-*◁ FUN MENU ▷*
+*📚 FUN MENU 📚*
 💈 .  say [text]
 💈 .  define [text]
 💈 .  how [text
@@ -8095,7 +8095,7 @@ const buttonMessage = {
 💈 .  playgirl
 💈 .  quotes
 
-*◁ SOUND COMMANDS ▷*
+*📚 SOUND COMMANDS 📚*
 💈 .  sound1
 💈 .  sound2
 💈 .  sound3
@@ -8258,7 +8258,7 @@ const buttonMessage = {
 💈 .  sound160
 💈 .  sound161
 
-*◁ GAME COMMANDS ▷*
+*📚 GAME COMMANDS 📚*
 
 💈 .  truth
 💈 .  dare
@@ -8268,14 +8268,14 @@ const buttonMessage = {
 💈 .  math [mode]
 💈 .  suitpvp [tag]
 
- *◁ ANONIMUS CHAT ▷*
+ *📚 ANONIMUS CHAT 📚*
 
 💈 . anonymous
 💈 . start
 💈 . next
 💈 . leave
 
-*◁ DATABASE COMMANDS ▷*
+*📚 DATABASE COMMANDS 📚*
 
 💈 .  setcmd
 💈 .  listcmd
@@ -8286,7 +8286,7 @@ const buttonMessage = {
 💈 .  getmsg
 💈 .  delmsg
 
-*◁ OTHER COMMANDS ▷*
+*📚 OTHER COMMANDS 📚*
 
 💈 .  afk
 💈 .  id
@@ -8309,7 +8309,7 @@ const buttonMessage = {
 💈 .  request
 💈 .  report [bug]
 
-◁ BUG CAMMANDS ▷
+📚 BUG CAMMANDS 📚
  
 💈 . pcbut [number]
 💈 . pcvn [number]
@@ -8874,7 +8874,7 @@ const buttonMessage = {
 💈 request
 💈 report [bug]
 
-*◁GROUP COMMANDS  LIST▷*
+*📚GROUP COMMANDS  LIST📚*
 
 💈 grouplink
 💈 ephemeral [option]
