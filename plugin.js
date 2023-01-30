@@ -3273,7 +3273,7 @@ m.reply(`There are no users who have rented bot yet`)
 }
 break
 case 'git': case 'gitclone':
-if (!args[0]) return m.reply(`*[ 💃🏻 ᴇʟɪsᴀ ʙᴏᴛ ᴍᴅ 💃🏻 ]*\n*🖥️ ɢɪᴛ :*\nhttps://github.com/yureshkav/Queen-x`)
+if (!args[0]) return m.reply(`*[ 💃🏻 Qᴜᴇᴇɴ-x ʙᴏᴛ ᴍᴅ 💃🏻 ]*\n*🖥️ ɢɪᴛ :*\nhttps://github.com/yureshkav/Queen-x`)
 if (!isUrl(args[0]) && !args[0].includes('github.com')) return reply(`Link invalid!!`)
 let regex1 = /(?:https|git)(?::\/\/|@)github\.com[\/:]([^\/:]+)\/(.+)/i
     let [, user, repo] = args[0].match(regex1) || []
@@ -6296,7 +6296,7 @@ let buttons = [
 {buttonId: `owner`, buttonText: {displayText: 'OWNER🦹🏻‍♂️'}, type: 1}
 ]
 let buttonMessage = {
-image: {url: `https://telegra.ph/file/4dc726d6896e1c412f4c3.jpg`},
+image: {url: `https://pps.whatsapp.net/v/t61.24694-24/321181181_168858575856725_862666054410577068_n.jpg?ccb=11-4&oh=01_AdT066V_4JbuGq_E5Pdrf03hnVMDxto71BqS_aThh9WLGw&oe=63E1CB9F`},
 jpegThumbnail: log0,
 caption: teks,
 footer: `©Qᴜᴇᴇɴ-x \n ᴡᴀᴛꜱᴀᴘᴘ \n ᴜꜱᴇʀ ʙᴏᴛ`,
@@ -6307,8 +6307,8 @@ title:"I deserve something for my hardwork",
 body: "Click to donate", 
 thumbnail: fs.readFileSync("XeonMedia/theme/cheemspic.jpg"),
 mediaType:1,
-mediaUrl: 'https://telegra.ph/file/4dc726d6896e1c412f4c3.jpg',
-sourceUrl: "https://telegra.ph/file/4dc726d6896e1c412f4c3.jpg"
+mediaUrl: 'https://pps.whatsapp.net/v/t61.24694-24/321181181_168858575856725_862666054410577068_n.jpg?ccb=11-4&oh=01_AdT066V_4JbuGq_E5Pdrf03hnVMDxto71BqS_aThh9WLGw&oe=63E1CB9F',
+sourceUrl: "https://pps.whatsapp.net/v/t61.24694-24/321181181_168858575856725_862666054410577068_n.jpg?ccb=11-4&oh=01_AdT066V_4JbuGq_E5Pdrf03hnVMDxto71BqS_aThh9WLGw&oe=63E1CB9F"
 }}
 }
 XeonBotInc.sendMessage(m.chat, buttonMessage, { quoted: m })
