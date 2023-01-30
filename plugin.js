@@ -1910,7 +1910,7 @@ if (!text) return m.reply(`Example : ${prefix + command} Stay jb`)
             }
             break
         
-    case 'play': case 'ytplay':{
+    case 'song': case 'ytplay':{
                 if (!text) throw `Example : ${prefix + command} anime whatsapp status`
                 let yts = require("youtube-yts")
                 let search = await yts(text)
