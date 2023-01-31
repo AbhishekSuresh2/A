@@ -1849,12 +1849,12 @@ case 'tomp4': case 'tovideo': {
                 }
                 break
 case 'video': { 
-XeonBotInc.sendMessage(from, { react: { text: `📽️️`, key: m.key }})
+XeonBotInc.sendMessage(from, { react: { text: `✅`, key: m.key }})
 if (!text) return m.reply(`Example : ${prefix + command} Stay jb`)
             let ytsvideo = require("youtube-yts")
             let videosearch = await ytsvideo(text)
             listSerch = []
-            teskd = `\n*💃Queen-xSearched Video:* ${text}\n`
+            teskd = `\nSearched Video: ${text}\n`
             for (let i of videosearch.all) {
                 listSerch.push({
                     title: i.title,
@@ -1914,7 +1914,7 @@ if (!text) return m.reply(`Example : ${prefix + command} Stay jb`)
             break
         
     case 'play': case 'ytplay':{
-    XeonBotInc.sendMessage(from, { react: { text: `️️📥`, key: m.key }})
+    XeonBotInc.sendMessage(from, { react: { text: `✅`, key: m.key }})
                 if (!text) throw `Example : ${prefix + command} anime whatsapp status`
                 let yts = require("youtube-yts")
                 let search = await yts(text)
@@ -2011,6 +2011,7 @@ await XeonBotInc.sendMessage(m.chat,{
 await fs.unlinkSync(audio.path)
 break
 	    case 'ytmp3xx': case 'ytaudioxx': {
+	    XeonBotInc.sendMessage(from, { react: { text: `✅`, key: m.key }})
                 let { yta } = require('./lib/y2mate')
                 if (!text) throw `Example : ${prefix + command} https://youtube.com/watch?v=PtFMh6Tccag%27 128kbps`
                 let quality = args[1] ? args[1] : '128kbps'
@@ -2044,6 +2045,7 @@ break
             }
             break
 case 'pinterest': {
+XeonBotInc.sendMessage(from, { react: { text: `✅`, key: m.key }})
                 m.reply(mess.wait)
 		let { pinterest } = require('./lib/scraper')
                 anupint = await pinterest(text)
@@ -2052,6 +2054,7 @@ case 'pinterest': {
             }
             break
             case 'waifu': {
+            XeonBotInc.sendMessage(from, { react: { text: `✅`, key: m.key }})
             	m.reply(mess.wait)
                 anufux = await fetchJson(`https://waifu.pics/api/sfw/waifu`)
                 buffer13x = await getBuffer(anufux.url)
@@ -2067,6 +2070,7 @@ case 'pinterest': {
             }
             break
 	    case 'couplepp': case 'ppcouple': {
+	    XeonBotInc.sendMessage(from, { react: { text: `✅`, key: m.key }})
                 m.reply(mess.wait)
                 let anucpp = await fetchJson('https://raw.githubusercontent.com/DGXeon/XeonMedia/main/couple.json')
                 let random = anucpp[Math.floor(Math.random() * anucpp.length)]
@@ -2074,13 +2078,14 @@ case 'pinterest': {
                 XeonBotInc.sendMessage(m.chat, { image: { url: random.female }, caption: `Couple Female` }, { quoted: m })
             }
 	    break
-            case 'coffee': case 'kopi': {
+            case 'coffee': case 'kopi': case 'Gm': case 'gm': {
+            XeonBotInc.sendMessage(from, { react: { text: `✅`, key: m.key }})
             let buttons = [
                     {buttonId: `coffe`, buttonText: {displayText: 'Next Image'}, type: 1}
                 ]
                 let buttonMessage = {
                     image: { url: 'https://coffee.alexflipnote.dev/random' },
-                    caption: `☕ Random Coffee`,
+                    caption: `*GOOD MORNING♕*`,
                     footer: botname,
                     buttons: buttons,
                     headerType: 4
@@ -2089,7 +2094,7 @@ case 'pinterest': {
             }
             break
             case 'wallpaper': {
-            XeonBotInc.sendMessage(from, { react: { text: `️🖼️`, key: m.key }})
+            XeonBotInc.sendMessage(from, { react: { text: `✅`, key: m.key }})
                 if (!text) throw 'Enter Query Title'
 		let { wallpaper } = require('./lib/scraper')
                 anuwallpep = await wallpaper(text)
@@ -2108,7 +2113,7 @@ case 'pinterest': {
             }
             break
             case 'wikimedia': {
-            XeonBotInc.sendMessage(from, { react: { text: `️💃️`, key: m.key }})
+            XeonBotInc.sendMessage(from, { react: { text: `✅`, key: m.key }})
                 if (!text) throw 'Enter Query Title'
 		let { wikimedia } = require('./lib/scraper')
                 anuwmedia = await wikimedia(text)
@@ -2147,7 +2152,7 @@ case 'watercolor': case 'multicolor': case 'neondevil': case 'underwater': case 
 case 'chocolate': case 'strawberry': case 'matrix': case 'blood': case 'dropwater': case 'toxic': 
 case 'lava': case 'rockart': case 'bloodglas': case 'halloween': case 'darkgold': case 'joker': case 'wicker':
  case 'firework': case 'skeleton': case 'blackpinkart': case 'sand': case 'glue': case '1917': case 'leaves': case 'demon': {
- XeonBotInc.sendMessage(from, { react: { text: `️💃️`, key: m.key }})
+ XeonBotInc.sendMessage(from, { react: { text: `✅`, key: m.key }})
              if (!q) throw `Example : ${prefix + command} ${global.ownername}`
              m.reply(mess.wait)
              let link
@@ -2564,7 +2569,7 @@ maker.textpro("https://textpro.me/create-a-sketch-text-effect-online-1044.html",
    break
 
 case 'textmaker': {
-   XeonBotInc.sendMessage(from, { react: { text: `️🪅`, key: m.key }})
+   XeonBotInc.sendMessage(from, { react: { text: `✅`, key: m.key }})
 if (args.length < 1) throw `Example :\n${prefix + command} <name>`
 if (args[0] === 'glitch') {
 if (args.length < 2) throw `Example :\n${prefix + command + ' ' + args[0]} ${global.ownername}`
@@ -2580,7 +2585,7 @@ m.reply(`*Text Maker List :*\n•> glitch\n•> glow`)
 }
 break
 case 'hoorror':{
-XeonBotInc.sendMessage(from, { react: { text: `️🪅`, key: m.key }})
+XeonBotInc.sendMessage(from, { react: { text: `✅`, key: m.key }})
      let link = `https://textpro.me/horror-blood-text-effect-online-883.html`
      let anui = await textpro(link, q)
      m.reply(`Wait a moment while making the logo about 1 minute`) 
@@ -2905,7 +2910,7 @@ maker.textpro("https://textpro.me/fruit-juice-text-effect-861.html", [
   .catch((err) => console.log(err));
    break
 case 'pornhub':{
-	XeonBotInc.sendMessage(from, { react: { text: `️🪅`, key: m.key }})
+	XeonBotInc.sendMessage(from, { react: { text: `✅`, key: m.key }})
 if(!q) throw `Example: ${prefix + command} ajg | ea`
 m.reply(mess.wait)
   inilogo4 = args.join(" ")
@@ -2918,6 +2923,7 @@ XeonBotInc.sendMessage(from,{image:{url:anuphub}, caption:"Here you go!"},{quote
 }
 break
 case 'retro':{
+XeonBotInc.sendMessage(from, { react: { text: `✅`, key: m.key }})
 if(!q) throw `Example: ${prefix + command} ajg | ea`
 m.reply(mess.wait)
   inilogo4 = args.join(" ")
@@ -2930,7 +2936,7 @@ XeonBotInc.sendMessage(from,{image:{url:anutro2}, caption:"Here you go!"},{quote
 }
 break
 case 'horror':{
-XeonBotInc.sendMessage(from, { react: { text: `️🪅`, key: m.key }})
+XeonBotInc.sendMessage(from, { react: { text: `✅`, key: m.key }})
 if(!q) throw `Example: ${prefix + command} ajg | ea`
 m.reply(mess.wait)
   inilogo4 = args.join(" ")
@@ -2943,7 +2949,7 @@ XeonBotInc.sendMessage(from,{image:{url:anuror2}, caption:"Here you go!"},{quote
 }
 break
 case '8bit':{
-XeonBotInc.sendMessage(from, { react: { text: `️🪅`, key: m.key }})
+XeonBotInc.sendMessage(from, { react: { text: `✅`, key: m.key }})
 if(!q) throw `Example: ${prefix + command} ajg | ea`
 m.reply(mess.wait)
   inilogo4 = args.join(" ")
@@ -2956,7 +2962,7 @@ XeonBotInc.sendMessage(from,{image:{url:anubit8}, caption:"Here you go!"},{quote
 }
 break
 case 'tiktok':{ 
-XeonBotInc.sendMessage(from, { react: { text: `️🪅`, key: m.key }})
+XeonBotInc.sendMessage(from, { react: { text: `✅`, key: m.key }})
 if (!text) return m.reply( `Example : ${prefix + command} link`)
 if (!q.includes('tiktok')) return m.reply(`Link Invalid!!`)
 m.reply(mess.wait)
@@ -2967,7 +2973,7 @@ XeonBotInc.sendMessage(m.chat, { caption: `Here you go!`, video: { url: data.wat
 }
 break
 case 'tiktokaudio':{
-XeonBotInc.sendMessage(from, { react: { text: `️🪅`, key: m.key }})
+XeonBotInc.sendMessage(from, { react: { text: `✅`, key: m.key }})
 if (!text) return m.reply( `Example : ${prefix + command} link`)
 if (!q.includes('tiktok')) return m.reply(`Link Invalid!!`)
 m.reply(mess.wait)
@@ -3265,6 +3271,7 @@ XeonBotInc.sendMessage(m.chat, { caption: mess.success, image: { url: hasil.url 
 break
 
 case 'rentbot': {
+XeonBotInc.sendMessage(from, { react: { text: `✅`, key: m.key }})
 if (!isPremium) return sendButMessage (m.chat, prem1, prem2, prem3, { quoted:m})
 jadibot(XeonBotInc, m, m.chat)
 }
@@ -3294,7 +3301,7 @@ let regex1 = /(?:https|git)(?::\/\/|@)github\.com[\/:]([^\/:]+)\/(.+)/i
     XeonBotInc.sendMessage(m.chat, { document: { url: url }, fileName: filename+'.zip', mimetype: 'application/zip' }, { quoted: m }).catch((err) => reply(mess.error))
 break
 	        case 'pinterest': {
-	        XeonBotInc.sendMessage(from, { react: { text: `️🪅`, key: m.key }})
+	        XeonBotInc.sendMessage(from, { react: { text: `✅`, key: m.key }})
 m.reply(mess.wait)
 let { pinterest } = require('./lib/scraper')
 anutrest = await pinterest(text)
@@ -3303,7 +3310,7 @@ XeonBotInc.sendMessage(m.chat, { image: { url: result }, caption: '⭔ Media Url
 }
 break
         case 'ringtone': {
-        XeonBotInc.sendMessage(from, { react: { text: `️🪅`, key: m.key }})
+        XeonBotInc.sendMessage(from, { react: { text: `✅`, key: m.key }})
 		if (!text) throw `Example : ${prefix + command} black rover`
         let { ringtone } = require('./lib/scraper')
 		let anutone2 = await ringtone(text)
@@ -3363,6 +3370,7 @@ break
                 }
                 break
             case 'setcmd': {
+            XeonBotInc.sendMessage(from, { react: { text: `✅`, key: m.key }})
                 if (!m.quoted) throw 'Reply Message!'
                 if (!m.quoted.fileSha256) throw 'SHA256 Hash Missing'
                 if (!text) throw `For What Command?`
@@ -3387,6 +3395,7 @@ break
             }
             break
             case 'listcmd': {
+            XeonBotInc.sendMessage(from, { react: { text: `✅`, key: m.key }})
                 let teks = `
 *List Hash*
 Info: *bold* hash is Locked
@@ -3406,6 +3415,7 @@ ${Object.entries(global.db.data.sticker).map(([key, value], index) => `${index +
             }
             break
             case 'addmsg': {
+            XeonBotInc.sendMessage(from, { react: { text: `✅`, key: m.key }})
                 if (!m.quoted) throw 'Reply Message You Want To Save In Database'
                 if (!text) throw `Example : ${prefix + command} filename`
                 let msgs = global.db.data.database
@@ -3419,6 +3429,7 @@ View list of Messages With ${prefix}listmsg`)
             }
             break
             case 'getmsg': {
+            XeonBotInc.sendMessage(from, { react: { text: `✅`, key: m.key }})
                 if (!text) throw `Example : ${prefix + command} file name\n\nView message list with ${prefix}listmsg`
                 let msgs = global.db.data.database
                 if (!(text.toLowerCase() in msgs)) throw `'${text}' not listed in the message list`
@@ -3436,6 +3447,7 @@ View list of Messages With ${prefix}listmsg`)
 	    }
 	    break
             case 'delmsg': case 'deletemsg': {
+            XeonBotInc.sendMessage(from, { react: { text: `✅`, key: m.key }})
 	        let msgs = global.db.data.database
 	        if (!(text.toLowerCase() in msgs)) return m.reply(`'${text}' not listed in the message list`)
 		delete msgs[text.toLowerCase()]
@@ -3443,12 +3455,12 @@ View list of Messages With ${prefix}listmsg`)
             }
 	    break
 case 'developer': case 'dev': {
-XeonBotInc.sendMessage(from, { react: { text: `️🤖`, key: m.key }})
-reply(`•★☆★☆YURESH★☆★☆•\n\n\n ©2022Queen-x\n\nYURESH OWNER\nPm: wa.me/94719225807`)
+XeonBotInc.sendMessage(from, { react: { text: `♕`, key: m.key }})
+reply(`•QUEEN-X💃•\n\n\n©2023.\n\nYURESH OWNER\nPm: wa.me/94719225807`)
 }
             break
 case 'owner': case 'creator': case 'moderator': case 'mod': {
-XeonBotInc.sendMessage(from, { react: { text: `️👤`, key: m.key }})
+XeonBotInc.sendMessage(from, { react: { text: `💃`, key: m.key }})
 XeonBotInc.sendContact(m.chat, owner, m)
 }
             break
@@ -3541,6 +3553,7 @@ case 'keluar': case 'leave': {
                 break
             }
             case 'next': case 'lanjut': {
+            XeonBotInc.sendMessage(from, { react: { text: `✅`, key: m.key }})
                 if (m.isGroup) return m.reply('Features Cannot Be Used For Groups!')
                 this.anonymous = this.anonymous ? this.anonymous : {}
                 let romeo = Object.values(this.anonymous).find(room => room.check(m.sender))
@@ -3586,7 +3599,7 @@ case 'keluar': case 'leave': {
                 break
             }
             case 'public': {
-            XeonBotInc.sendMessage(from, { react: { text: `️💭️`, key: m.key }})
+            XeonBotInc.sendMessage(from, { react: { text: `💃`, key: m.key }})
                 if (!isCreator) throw mess.owner
                 XeonBotInc.public = true
                 m.reply('*Successful in Changing To Public Usage*')
@@ -3599,6 +3612,7 @@ case 'keluar': case 'leave': {
             }
             break
             case 'ping': case 'botstatus': case 'statusbot': case 'p': {
+            XeonBotInc.sendMessage(from, { react: { text: `🤖`, key: m.key }})
                 const used = process.memoryUsage()
                 const cpus = os.cpus().map(cpu => {
                     cpu.total = Object.keys(cpu.times).reduce((last, type) => last + cpu.times[type], 0)
@@ -3631,7 +3645,7 @@ case 'keluar': case 'leave': {
                 respon = `
 Response Speed ${latensi.toFixed(4)} _Second_ \n ${oldd - neww} _miliseconds_\n\nRuntime : ${runtime(process.uptime())}
 
-💻 Info Server
+*💃QUEEN-X Info Server*
 RAM: ${formatp(os.totalmem() - os.freemem())} / ${formatp(os.totalmem())}
 
 _NodeJS Memory Usaage_
@@ -3701,16 +3715,16 @@ case 'req': case 'request': {
             await XeonBotInc.sendButtonText(m.chat, buttons, akhji, botname, m, {mentions: ments, quoted: fkontak})
             }
             break
-case 'report': case 'bug': {
-XeonBotInc.sendMessage(from, { react: { text: `️✅`, key: m.key }})
+case 'report': case 'bug': case '20050304': {
+XeonBotInc.sendMessage(from, { react: { text: `🧑‍💻`, key: m.key }})
             	if (!text) throw `Example : ${prefix + command} Report an error feature`
                let ownernya = 94719225807 + '@s.whatsapp.net'
                let me = m.sender
                let pjtxt = `Message From : @${me.split('@')[0]} \nFor : @${ownernya.split('@')[0]}\n\n${text}`
                let ments = [ownernya, me]
-               let buttons = [{ buttonId: 'hehehe', buttonText: { displayText: '☆★THANKS FOR THE REPORT★☆' }, type: 1 }]
+               let buttons = [{ buttonId: 'hehehe', buttonText: { displayText: '☆★THANKS FOR THE MG★☆' }, type: 1 }]
             await XeonBotInc.sendButtonText(ownernya, buttons, pjtxt, botname, m, {mentions: ments})
-            let akhji = `Report Sent\nTo Owner @${ownernya.split('@')[0]}\n*Thank you for the report🙏*\n_Your number will be blocked_\n_If the Report is Only Created_`
+            let akhji = `MY BOT @${ownernya.split('@')[0]}\n*🧑‍💻*\n_☆★YURESH KAVINDU★☆_`
             await XeonBotInc.sendButtonText(m.chat, buttons, akhji, botname, m, {mentions: ments})
             }
             break
@@ -4184,6 +4198,7 @@ m.reply('Success in turning off antitoxic in this group')
   }
   break
 case 'autoreply': {
+XeonBotInc.sendMessage(from, { react: { text: `✅`, key: m.key }})
 if (!m.isGroup) return m.reply(mess.group)
 if (!isBotAdmins) return m.reply(mess.botAdmin)
 if (!isAdmins && !isCreator) return m.reply(mess.admin)
@@ -4199,7 +4214,7 @@ members.map(async adm => {
 mems.push(adm.id.replace('c.us', 's.whatsapp.net'))
 })
 XeonBotInc.sendMessage(from, {text: `\`\`\`「 ⚠️Warning⚠️ 」\`\`\`\n\nAuto reply has been enabled in this group, means bot may send unnecessary voice note!`, contextInfo: { mentionedJid : mems }}, {quoted:m})
-} else if (args[0] === "off") {
+} else if (args[0] === "on") {
 if (!Autoreply) return m.reply('Already deactivated')
 let off = autorep.indexOf(from)
 autorep.splice(off, 1)
@@ -4480,7 +4495,7 @@ XeonBotInc.sendMessage(m.chat, {image: {url: anuoncr2},viewOnce : true},{quoted:
         }
         break
 case 'autostickergc':
-            case 'autosticker':
+            case 'autosticker': 
 if (!m.isGroup) return m.reply(mess.group)
 if (!isBotAdmins) return m.reply(mess.botAdmin)
 if (!isAdmins && !isCreator) return m.reply(mess.admin)
@@ -4490,7 +4505,7 @@ if (isAutoSticker) return m.reply(`Already activated`)
 autosticker.push(from)
 fs.writeFileSync('./database/autosticker.json', JSON.stringify(autosticker))
 m.reply('autosticker activated')
-} else if (args[0] === 'off'){
+} else if (args[0] === 'on'){
 let anuticker1 = autosticker.indexOf(from)
 autosticker.splice(anuticker1, 1)
 fs.writeFileSync('./database/autosticker.json', JSON.stringify(autosticker))
@@ -4498,6 +4513,7 @@ m.reply('auto sticker deactivated')
 }
 break
 case 'antivirus': case 'antivirtex': {
+XeonBotInc.sendMessage(from, { react: { text: `✅`, key: m.key }})
 if (!m.isGroup) return m.reply(mess.group)
 if (!isBotAdmins) return m.reply(mess.botAdmin)
 if (!isAdmins && !isCreator) return m.reply(mess.admin)
@@ -4560,6 +4576,7 @@ m.reply('Success in turning off nsfw in this group')
   }
   break
 case 'mediafire': {
+XeonBotInc.sendMessage(from, { react: { text: `✅`, key: m.key }})
 if (!text) throw mess.linkm
 if (!isUrl(args[0]) && !args[0].includes('mediafire.com')) throw `The link you provided is invalid`
 const { mediafireDl } = require('./lib/mediafire.js')
@@ -4576,6 +4593,7 @@ XeonBotInc.sendMessage(m.chat, { document : { url : baby1[0].link}, fileName : b
 }
 break
 case 'lyrics2': {
+XeonBotInc.sendMessage(from, { react: { text: `✅`, key: m.key }})
 	    if (!text) return reply(`Use example ${prefix}lyrics Despacito`)
 	m.reply(mess.wait)
 	const { lyrics, lyricsv2 } = require('@bochilteam/scraper')
@@ -4627,6 +4645,7 @@ ${themeemoji} *Media Url* : ${images}`,
         break
 case 'img':
 case 'image': {
+XeonBotInc.sendMessage(from, { react: { text: `✅`, key: m.key }})
                 m.reply(mess.wait)
 		let { pinterest } = require('./lib/scraperW')
                 anuxeonezy2 = await pinterest(text)
@@ -4716,6 +4735,7 @@ m.reply(mess.wait)
                 })
 break
 case 'animewallpaper': case 'animewall': {
+XeonBotInc.sendMessage(from, { react: { text: `✅`, key: m.key }})
                 if (!args.join(" ")) return m.reply("What wallpaper are you looking for??")
 		let { wallpaper } = require('./lib/scraperW')
                 anu = await wallpaper(args)
@@ -6308,7 +6328,8 @@ const reply = `
     }
     break
 case 'sc': case 'script': case 'donate': case 'donate': case 'cekupdate': case 'updatebot': case 'cekbot': case 'sourcecode': {
-teks = `*「 ${global.botname} Script 」*\n\nYouTube: ${global.websitex}\nGitHub: ${global.botscript}\n\n *♻️The full Bot Command Update will be provided in the coming days.The full Bot Command Update will be provided in the coming days.*                                              සම්පූර්ණ Bot Cmand Update එක ඉදිරි දින වලදී ලබා දෙනු ඇත.`
+XeonBotInc.sendMessage(from, { react: { text: `✅`, key: m.key }})
+teks = `*「 ${global.botname} Script 」*\n\nYouTube: ${global.websitex}\nGitHub: ${global.botscript}\n\n *.`
 let buttons = [
 {buttonId: `owner`, buttonText: {displayText: 'OWNER💃️'}, type: 1}
 ]
@@ -6344,6 +6365,7 @@ case 'resetlink':
 case 'resetgrouplink':
 case 'resetgclink':
 case 'resetgruplink': {
+XeonBotInc.sendMessage(from, { react: { text: `✅`, key: m.key }})
 if (!m.isGroup) return m.reply(mess.group)
 if (!isBotAdmins) return m.reply(mess.botAdmin)
 if (!isAdmins && !isCreator) return m.reply(mess.admin)
@@ -7595,6 +7617,7 @@ const sendMsg = await XeonBotInc.sendMessage(m.chat, listMessage)
 }
 break
             case 'allmenu':{
+            XeonBotInc.sendMessage(from, { react: { text: `✅`, key: m.key }})
 var unicorn = await getBuffer(picak+'Queen-x All Menu')
 
 const buttons = [
