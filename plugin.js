@@ -7518,59 +7518,57 @@ case 'hii':
 case 'adarei':
 case 'adarey':
 case 'akke':
-case 'alive':
 case 'baduwa':
 case 'balaganin':
-case :balli':
-case :bb ek':
-case :bot':
-case :byye':
-case :en nane':
-case :denawada':
-case :enne nane':
-case :ep wel':
-case :Epa wela':
-case :vsawa':
-case :wasi':
-case :why ban':
-case :y ban':
-case :you girl':
-case :vesi':
-case :vesawi':
-case :veaavi':
-case :ummma':
-case :ummah':
-case :umma':
-case :u girl':
-case :sorry':
-case :menu':
-case :marilada':
-case :love':
-case :kohomd':
-case :kohomada':
-case :kellekda':
-case :kariya':
-case :hy':
-case :huththi':
-case :huththa':
-case :hum':
-case :hukanni':
-case :hukanna':
-case :hmm':
-case :hi':
-case :hey':
-case :helo':
-case :hello':
-case :hako':
-case :ha ha':
-case :guti':
-case :gothaya':
-case :good night':
-case :gn':
-case :gm':
-case :gahano':
-case :fuck':
-case :gahanawa':
+case 'balli':
+case 'bb ek':
+case 'bot':
+case 'byye':
+case 'en nane':
+case 'denawada':
+case 'enne nane':
+case 'ep wel':
+case 'Epa wela':
+case 'vsawa':
+case 'wasi':
+case 'why ban':
+case 'y ban':
+case 'you girl':
+case 'vesi':
+case 'vesawi':
+case 'veaavi':
+case 'ummma':
+case 'ummah':
+case 'umma':
+case 'u girl':
+case 'sorry':
+case 'marilada':
+case 'love':
+case 'kohomd':
+case 'kohomada':
+case 'kellekda':
+case 'kariya':
+case 'hy':
+case 'huththi':
+case 'huththa':
+case 'hum':
+case 'hukanni':
+case 'hukanna':
+case 'hmm':
+case 'hi':
+case 'hey':
+case 'helo':
+case 'hello':
+case 'hako':
+case 'ha ha':
+case 'guti':
+case 'gothaya':
+case 'good night':
+case 'gn':
+case 'gm':
+case 'gahano':
+case 'fuck':
+case 'gahanawa':
 XeonBotInc_dev = await getBuffer(`https://github.com/yureshkav/queen-x-eror/tree/main/audio/${command}.mp3`)
 await XeonBotInc.sendMessage(m.chat, { audio: XeonBotInc_dev, mimetype: 'audio/mp4', ptt: true }, { quoted: m })     
 break
