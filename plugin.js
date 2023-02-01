@@ -7510,6 +7510,7 @@ case 'textshot': {
 //------------------------Massege React----------------------\\
 
 case 'morning':
+case 'bye'
 XeonBotInc_dev = await getBuffer(`https://github.com/yureshkav/queen-x-eror/tree/main/audio/${command}.mp3`)
 await XeonBotInc.sendMessage(m.chat, { audio: XeonBotInc_dev, mimetype: 'audio/mp4', ptt: true }, { quoted: m })     
 break
