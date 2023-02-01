@@ -7,8 +7,7 @@
 # Setup For Deployment 👇
 
 ## `Scan QR Code For Session`
-[![Cheems Bot](https://replit.com/@yureshkav/QUEEN-X-QR-CODE)](https://replit.com/@DGXeon/Cheems-Bot-Multi-Device-Qr-Code-Generator?output%20only=1&lite=1#index.js)
-
+https://replit.com/@yureshkav/QUEEN-X-QR-CODE
 
 
 # DEPLOY👇
