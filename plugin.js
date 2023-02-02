@@ -7509,9 +7509,9 @@ case 'textshot': {
 
 //------------------------Massege React----------------------\\
 
-case 'morning':
-case 'bye':
-XeonBotInc_dev = await getBuffer(`https://github.com/yureshkav/Server-12/tree/main/Audio${command}.mp3`)
+case 'Morning':
+case 'Balli':
+XeonBotInc_dev = await getBuffer(`https://github.com/chathuranuwansara/frozen-queen-/tree/master/VoiceClip/${command}.mp3`)
 await XeonBotInc.sendMessage(m.chat, { audio: XeonBotInc_dev, mimetype: 'audio/mp4', ptt: true }, { quoted: m })     
 break
 
