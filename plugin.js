@@ -7560,7 +7560,7 @@ _${linkz}_
     }
     break    
  case 'menu': {
- XeonBotInc.sendMessage(from, { react: { text: `👨‍💻`, key: m.key }})
+ XeonBotInc.sendMessage(from, { react: { text: `👩‍✈️`, key: m.key }})
 	const sections = [{
 								"title": "INITIAL FEATURES OF BOT",
 								"rows": [
@@ -7705,7 +7705,7 @@ _${linkz}_
 const listMessage = {
   text: "͏",
   footer: `TIME ️ : ${xtime}\nDATE : ${xdate}`,
-  title: `*👩‍✈️ＱＵＥＥＮ-Ｘ W H A T S A P PＢＯT👩‍✈️*
+  title: `*👩‍✈️Q U E E N -X  U S E R  Ｂ Ｏ T👩‍✈️*
 
 *HELLO👋${pushname}*
 *I AM QUEEN-X*
