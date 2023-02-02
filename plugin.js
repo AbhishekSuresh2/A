@@ -7705,7 +7705,16 @@ _${linkz}_
 const listMessage = {
   text: "͏",
   footer: `TIME ️ : ${xtime}\nDATE : ${xdate}`,
-  title: `*👩‍✈️ＱＵＥＥＮ-Ｘ W H A T S A P P ＢＯT👩\n‍*HELLO👋${pushname}*\n*I AM QUEEN-X*\n*RUNTIME :${runtime(process.uptime())}*\n*RAM :${formatp(os.totalmem() - os.freemem())} / ${formatp(os.totalmem())}*\n*PLATFORM :linux*\n_*COMMANDS MENU QUEEN-X*_️`,
+  title: `*👩‍✈️ＱＵＥＥＮ-Ｘ W H A T S A P PＢＯT👩‍✈️*
+
+*HELLO👋${pushname}*
+*I AM QUEEN-X*
+
+*RUNTIME :${runtime(process.uptime())}*
+*RAM :${formatp(os.totalmem() - os.freemem())} / ${formatp(os.totalmem())}*
+*PLATFORM :linux*
+
+_*COMMANDS MENU QUEEN-X*_`,
   buttonText: "Menu",
   sections
 }
