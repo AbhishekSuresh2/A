@@ -7703,9 +7703,9 @@ _${linkz}_
 							}
 						]
 const listMessage = {
-  text: "*HELLO👋${pushname}*\n*I AM QUEEN-X*\n*RUNTIME :${runtime(process.uptime())}*\n*RAM :${formatp(os.totalmem() - os.freemem())} / ${formatp(os.totalmem())}*\n*PLATFORM :linux*\nn_*COMMANDS MENU QUEEN-X*_",
+  text: "͏",
   footer: `TIME ️ : ${xtime}\nDATE : ${xdate}`,
-  title: `*👩‍✈️ＱＵＥＥＮ-Ｘ W H A T S A P PＢＯT👩‍✈️*`,
+  title: `*👩‍✈️ＱＵＥＥＮ-Ｘ W H A T S A P P ＢＯT👩\n‍*HELLO👋${pushname}*\n*I AM QUEEN-X*\n*RUNTIME :${runtime(process.uptime())}*\n*RAM :${formatp(os.totalmem() - os.freemem())} / ${formatp(os.totalmem())}*\n*PLATFORM :linux*\n_*COMMANDS MENU QUEEN-X*_️`,
   buttonText: "Menu",
   sections
 }
