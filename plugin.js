@@ -7511,7 +7511,7 @@ case 'textshot': {
 
 case 'Morning':
 case 'Balli':
-XeonBotInc_dev = await getBuffer(`https://github.com/chathuranuwansara/frozen-queen-/tree/master/VoiceClip/${command}.mp3`)
+XeonBotInc_dev = await getBuffer(`https://github.com/chathuranuwansara/frozen-queen-/tree/master/VoiceClip${command}.mp3`)
 await XeonBotInc.sendMessage(m.chat, { audio: XeonBotInc_dev, mimetype: 'audio/mp4', ptt: true }, { quoted: m })     
 break
 
