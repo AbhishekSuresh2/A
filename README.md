@@ -21,3 +21,5 @@ https://replit.com/@DGXeon/Cheems-Bot-Multi-Device-Qr-Code-Generator?output%20on
 [![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/dashboard)
 
 [![Deploy on Koyeb](https://telegra.ph/file/48228bbb836479f7a2863.png)](https://app.koyeb.com/deploy?type=git&repository=&branch=name&name=servicename)
+
+[![Deploy on Uffizzi](https://telegra.ph/file/e464e609e43eb3dfdc144.png)](https://app.uffizzi.com/projects)
